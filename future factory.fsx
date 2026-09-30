@@ -2,7 +2,7 @@
 <flexsim-tree version="4" treetype="model">
 <node f="10000043" dt="4"><name>model</name><data>
  <node f="40"><name></name></node>
- <node f="42" dt="2"><name>flh</name><data storagetype="hexadecimal">0065647520547565205365702032392031313a33383a343220323032360a65647520547565205365702032392031313a34383a353220323032360a65647520547565205365702032392031313a35383a353220323032360a65647520547565205365702032392031323a30303a323920323032360a65647520547565205365702032392031323a31333a343720323032360a65647520547565205365702032392031323a31363a353520323032360a65647520547565205365702032392031323a32363a353520323032360a65647520547565205365702032392031323a33363a353520323032360a65647520547565205365702032392031323a34353a323920323032360a65647520547565205365702032392031323a35353a323920323032360a65647520547565205365702032392031333a30353a313520323032360a65647520547565205365702032392031333a31353a313520323032360a65647520547565205365702032392031333a32323a313020323032360a65647520547565205365702032392031333a33303a353620323032360a65647520576564205365702033302030393a30303a313320323032360a65647520576564205365702033302030393a31303a313320323032360a65647520576564205365702033302030393a31383a333620323032360a65647520576564205365702033302030393a32383a333620323032360a65647520576564205365702033302030393a33383a333620323032360a65647520576564205365702033302030393a34383a333620323032360a65647520576564205365702033302030393a35383a333620323032360a65647520576564205365702033302031303a30383a333620323032360a65647520576564205365702033302031303a31383a333620323032360a65647520576564205365702033302031303a32383a333620323032360a65647520576564205365702033302031303a33363a353520323032360a65647520576564205365702033302031303a33363a353820323032360a65647520576564205365702033302031303a34363a353820323032360a65647520576564205365702033302031303a35363a353820323032360a65647520576564205365702033302031303a35373a323120323032360a65647520576564205365702033302031313a30373a343220323032360a65647520576564205365702033302031313a31323a323520323032360a65647520576564205365702033302031313a31353a343520323032360a65647520576564205365702033302031313a31363a353420323032360a65647520576564205365702033302031313a31363a353820323032360a65647520576564205365702033302031313a31373a303520323032360a65647520576564205365702033302031313a31373a313020323032360a65647520576564205365702033302031313a32323a333320323032360a65647520576564205365702033302031313a33303a333520323032360a65647520576564205365702033302031313a33373a313720323032360a65647520576564205365702033302031313a33373a323020323032360a65647520576564205365702033302031313a34353a353820323032360a65647520576564205365702033302031313a34373a303120323032360a00</data></node>
+ <node f="42" dt="2"><name>flh</name><data storagetype="hexadecimal">0065647520547565205365702032392031313a33383a343220323032360a65647520547565205365702032392031313a34383a353220323032360a65647520547565205365702032392031313a35383a353220323032360a65647520547565205365702032392031323a30303a323920323032360a65647520547565205365702032392031323a31333a343720323032360a65647520547565205365702032392031323a31363a353520323032360a65647520547565205365702032392031323a32363a353520323032360a65647520547565205365702032392031323a33363a353520323032360a65647520547565205365702032392031323a34353a323920323032360a65647520547565205365702032392031323a35353a323920323032360a65647520547565205365702032392031333a30353a313520323032360a65647520547565205365702032392031333a31353a313520323032360a65647520547565205365702032392031333a32323a313020323032360a65647520547565205365702032392031333a33303a353620323032360a65647520576564205365702033302030393a30303a313320323032360a65647520576564205365702033302030393a31303a313320323032360a65647520576564205365702033302030393a31383a333620323032360a65647520576564205365702033302030393a32383a333620323032360a65647520576564205365702033302030393a33383a333620323032360a65647520576564205365702033302030393a34383a333620323032360a65647520576564205365702033302030393a35383a333620323032360a65647520576564205365702033302031303a30383a333620323032360a65647520576564205365702033302031303a31383a333620323032360a65647520576564205365702033302031303a32383a333620323032360a65647520576564205365702033302031303a33363a353520323032360a65647520576564205365702033302031303a33363a353820323032360a65647520576564205365702033302031303a34363a353820323032360a65647520576564205365702033302031303a35363a353820323032360a65647520576564205365702033302031303a35373a323120323032360a65647520576564205365702033302031313a30373a343220323032360a65647520576564205365702033302031313a31323a323520323032360a65647520576564205365702033302031313a31353a343520323032360a65647520576564205365702033302031313a31363a353420323032360a65647520576564205365702033302031313a31363a353820323032360a65647520576564205365702033302031313a31373a303520323032360a65647520576564205365702033302031313a31373a313020323032360a65647520576564205365702033302031313a32323a333320323032360a65647520576564205365702033302031313a33303a333520323032360a65647520576564205365702033302031313a33373a313720323032360a65647520576564205365702033302031313a33373a323020323032360a65647520576564205365702033302031313a34353a353820323032360a65647520576564205365702033302031313a34373a303120323032360a65647520576564205365702033302031313a35303a343920323032360a00</data></node>
  <node f="42" dt="1"><name>packedmedia</name><data>000000003ff00000</data>
   <node f="40"><name></name></node>
   <node f="42"><name>C:/Users/vanop/Documents/Inventor/Factory Assets</name>
@@ -16008,8 +16008,8 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
          <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
 else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
         </node>
-        <node f="42" dt="1"><name>viewpointx</name><data>1c7b8d87404b5607</data></node>
-        <node f="42" dt="1"><name>viewpointy</name><data>286bebeec023edb2</data></node>
+        <node f="42" dt="1"><name>viewpointx</name><data>4ce335bc404b57aa</data></node>
+        <node f="42" dt="1"><name>viewpointy</name><data>847d4009c023daac</data></node>
         <node f="42" dt="1"><name>viewpointrx</name><data>000000004071c000</data></node>
         <node f="42" dt="1"><name>viewpointrz</name><data>0000000040a2d600</data></node>
         <node f="42" dt="1"><name>viewpointradius</name><data>fa1e29f94030281c</data>
@@ -29457,6 +29457,7 @@ return taskSequence.priority;</data></node>
     <node f="10000042" dt="3"><name>_9</name><data><coupling>/Operator1&gt;variables/navigator/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_10</name><data><coupling>/Operator2&gt;variables/navigator/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_11</name><data><coupling>/Transporter3&gt;variables/navigator/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_12</name><data><coupling>/Transporter4&gt;variables/navigator/1</coupling></data></node>
    </node>
    <node f="42"><name>activetravelmembers</name></node>
    <node f="42" dt="1"><name>lastupdatetime</name><data>0000000000000000</data></node>
@@ -45220,8 +45221,7 @@ for (int index = 1; index &lt;= theObject.taskSequences.length &amp;&amp; ! retu
 	if (gettotalnroftasks(curts) == getnroftasks(curts))
 		returnts = curts;
 }
-return returnts;</data>
-    <node f="40"><name></name></node></node>
+return returnts;</data></node>
    <node f="42" dt="1"><name>modifyrotation</name><data>000000003ff00000</data></node>
    <node f="42" dt="1"><name>useoffsets</name><data>000000003ff00000</data></node>
    <node f="42" dt="1"><name>offsettingnow</name><data>0000000000000000</data></node>
@@ -45279,14 +45279,12 @@ TaskExecuter thisobject = current;
 Dispatcher current = ownerobject(c);
 /**First Available*/
 return 0;
-</data>
-    <node f="40"><name></name></node></node>
+</data></node>
    <node f="8000000442" dt="2"><name>queuestrategy</name><data>TaskSequence taskSequence = param(1);
 Dispatcher current = ownerobject(c);
 /**Sort by TaskSequence Priority*/
 
-return taskSequence.priority;</data>
-    <node f="40"><name></name></node></node>
+return taskSequence.priority;</data></node>
    <node f="42"><name>timetables</name></node>
    <node f="42"><name>networknodes</name></node>
    <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
@@ -46023,6 +46021,975 @@ return taskSequence.priority;</data>
    <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name>spatialry</name><data>0000000080000000</data></node>
    <node f="42" dt="1"><name>spatialrz</name><data>0000000040668000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Transporter</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>travel loaded</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>offset travel empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>offset travel loaded</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>loading</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>utilize</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>lastPickPlaceOffsetResult</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>Output: 0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>Status: other</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="100042" dt="4"><name>Transporter4</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Transporter</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>TaskExecuter</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>forkspeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>forkinitialheight</name><data>000000003fe80000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>forkdestheight</name><data>000000003fe80000</data></node>
+   <node f="42" dt="1"><name>forkbegintime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>forktravel</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>loadtime</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>unloadtime</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>maxspeed</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>acceleration</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>deceleration</name><data>000000003ff00000</data></node>
+   <node f="42"><name>navigator</name>
+    <node f="40"><name></name></node>
+    <node f="810000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_12</coupling></data></node>
+   </node>
+   <node f="8000000442" dt="2"><name>breakto</name><data>TaskSequence activeTaskSequence = param(1);
+TaskExecuter current = ownerobject(c);
+/***popup:BreakToSame*/
+/**New Tasksequences Only*/
+/** Only break to task sequences that have not been started already.*/
+/** Object queueing the tasksequences: */
+Dispatcher theObject = /***tag:dispatcher*//**/current/**/;
+
+TaskSequence returnts = NULL;
+for (int index = 1; index &lt;= theObject.taskSequences.length &amp;&amp; ! returnts; index++) {
+	TaskSequence curts = theObject.taskSequences[index];
+	if (gettotalnroftasks(curts) == getnroftasks(curts))
+		returnts = curts;
+}
+return returnts;</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>modifyrotation</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>useoffsets</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsettingnow</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetbegintime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsettotaltime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>loadedspeed</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>emptyspeed</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>curloadunloadtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lastupdatedspeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>travelvstart</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>travelvend</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lastspeedupdatetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>collisiontrigger</name><data>TaskExecuter current = ownerobject(c);
+TaskExecuter otherobject = param(1);
+treenode thissphere = param(2);
+treenode othersphere = param(3);
+TaskExecuter thisobject = current;
+</data></node>
+   <node f="42" dt="1"><name>collcheckinterval</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>drawcollspheres</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>incollision</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>collcheckstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="7"><name>totaltraveldist</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="2"><name>kinematics</name><data></data></node>
+   <node f="42" dt="1"><name>flipthreshold</name><data>0000000040668000</data></node>
+   <node f="42" dt="1"><name>availableonstart</name><data>000000003ff00000</data></node>
+   <node f="42"><name>activetasksequence</name></node>
+   <node f="42" dt="1"><name>resetposition</name><data>000000003ff00000</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>00000000404c0000</data></node>
+    <node f="42" dt="1"><name></name><data>00000000c02e0000</data></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name></name><data>9de1bfc640030688</data></node>
+    <node f="42" dt="1"><name></name><data>b22d0e563ff5ef9d</data></node>
+    <node f="42" dt="1"><name></name><data>d916872b4003f7ce</data></node>
+    <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+   </node>
+   <node f="42"><name>tasksequencequeue</name></node>
+   <node f="42"><name>coordinatedtasks</name></node>
+   <node f="42" dt="1"><name>passimmediately</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="8000000442" dt="2"><name>passto</name><data>TaskSequence taskSequence = param(1);
+Dispatcher current = ownerobject(c);
+/**First Available*/
+return 0;
+</data>
+    <node f="40"><name></name></node></node>
+   <node f="8000000442" dt="2"><name>queuestrategy</name><data>TaskSequence taskSequence = param(1);
+Dispatcher current = ownerobject(c);
+/**Sort by TaskSequence Priority*/
+
+return taskSequence.priority;</data>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>cccccccd3feccccc</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333feb3333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\warehousepickerpicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42"><name>drawsurrogate</name>
+    <node f="40"><name></name></node>
+    <node f="10000072" dt="4"><name>Truck</name><data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>visual</name>
+      <node f="40"><name></name></node>
+      <node f="42"><name>color</name></node>
+      <node f="42" dt="2"><name>shape</name><data>fs3d\Forklift\ForkTruck\ForkTruck.3ds</data></node>
+      <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+      <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+      <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+      <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+      <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+     </node>
+     <node f="42"><name>spatial</name>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>spatialx</name><data>d00000003e48a40c</data></node>
+      <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>spatialsx</name><data>5aaa6a984001b9f5</data></node>
+      <node f="42" dt="1"><name>spatialsy</name><data>e8dd89903ff61638</data></node>
+      <node f="42" dt="1"><name>spatialsz</name><data>1eb851ec4007eb85</data></node>
+      <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+      </node>
+      <node f="42" dt="1"><name>offsetx</name><data>600000003fe01a45</data></node>
+      <node f="42" dt="1"><name>offsety</name><data>c00000003fdfffff</data></node>
+      <node f="42" dt="1"><name>offsetz</name><data>000000003fe00000</data></node>
+      <node f="42" dt="1"><name>offsetsx</name><data>800000003fdca183</data></node>
+      <node f="42" dt="1"><name>offsetsy</name><data>200000003fedeef6</data></node>
+      <node f="42" dt="1"><name>offsetsz</name><data>800000003fdae0da</data></node>
+      <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+     </node>
+     <node f="42"><name>special</name>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+     </node>
+     <node f="42"><name>labels</name></node>
+    </data>
+     <node f="40"><name></name></node>
+     <node f="10000072" dt="4"><name>Forks</name><data>
+      <node f="40"><name></name></node>
+      <node f="42"><name>visual</name>
+       <node f="40"><name></name></node>
+       <node f="42"><name>color</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>red</name><data>9999999a3fd99999</data></node>
+        <node f="42" dt="1"><name>green</name><data>5d5d5d5d3fdd5d5d</data></node>
+        <node f="42" dt="1"><name>blue</name><data>9999999a3fe99999</data></node>
+       </node>
+       <node f="42" dt="2"><name>shape</name><data>fs3d\Forklift\ForkTruck\ForkTruckForks.3ds</data></node>
+       <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+      </node>
+      <node f="42"><name>spatial</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>spatialx</name><data>09b4924840006478</data></node>
+       <node f="42" dt="1"><name>spatialy</name><data>e81c5670bfaba9a8</data></node>
+       <node f="42" dt="1"><name>spatialz</name><data>000000003fe80000</data></node>
+       <node f="42" dt="1"><name>spatialsx</name><data>d9a2b5243ff4ace5</data></node>
+       <node f="42" dt="1"><name>spatialsy</name><data>e50c13fe3ff45faf</data></node>
+       <node f="42" dt="1"><name>spatialsz</name><data>91f559933ff5ac88</data></node>
+       <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       </node>
+       <node f="42" dt="1"><name>offsetx</name><data>c00000003fe158ee</data></node>
+       <node f="42" dt="1"><name>offsety</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsetz</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsetsx</name><data>a00000003fe787e0</data></node>
+       <node f="42" dt="1"><name>offsetsy</name><data>400000003fec4b07</data></node>
+       <node f="42" dt="1"><name>offsetsz</name><data>200000003fe99ad5</data></node>
+       <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>special</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+      </node>
+      <node f="42"><name>labels</name></node>
+     </data>
+      <node f="40"><name></name></node>
+      <node f="10000072" dt="4"><name>DrawContents</name><data>
+       <node f="40"><name></name></node>
+       <node f="42"><name>visual</name>
+        <node f="40"><name></name></node>
+        <node f="42"><name>color</name>
+         <node f="40"><name></name></node>
+         <node f="42" dt="1"><name>red</name><data>9999999a3fd99999</data></node>
+         <node f="42" dt="1"><name>green</name><data>5d5d5d5d3fdd5d5d</data></node>
+         <node f="42" dt="1"><name>blue</name><data>9999999a3fe99999</data></node>
+        </node>
+        <node f="42" dt="2"><name>shape</name><data></data></node>
+        <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+        <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+        <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+        <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+        <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+        <node f="42" dt="2"><name>drawsurrogate</name><data>~/../../../~</data></node>
+        <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+       </node>
+       <node f="42"><name>spatial</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>spatialx</name><data>09b2f96ac0006478</data></node>
+        <node f="42" dt="1"><name>spatialy</name><data>e838857a3faba9a8</data></node>
+        <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fb99999</data></node>
+        <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fb99999</data></node>
+        <node f="42" dt="1"><name>spatialsz</name><data>9999999a3fb99999</data></node>
+        <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+         <node f="40"><name></name></node>
+         <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+         <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+         <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        </node>
+       </node>
+       <node f="42"><name>special</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+       </node>
+       <node f="42"><name>labels</name></node>
+       <node f="42" dt="1"><name>offsetx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsety</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetsx</name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name>offsetsy</name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name>offsetsz</name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+       <node f="42"><name>variables</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>surrogate</name><data>00000000bff00000</data></node>
+       </node>
+      </data></node>
+     </node>
+     <node f="10000072" dt="4"><name>Extender</name><data>
+      <node f="40"><name></name></node>
+      <node f="42"><name>visual</name>
+       <node f="40"><name></name></node>
+       <node f="42"><name>color</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>red</name><data>9999999a3fd99999</data></node>
+        <node f="42" dt="1"><name>green</name><data>5d5d5d5d3fdd5d5d</data></node>
+        <node f="42" dt="1"><name>blue</name><data>9999999a3fe99999</data></node>
+       </node>
+       <node f="42" dt="2"><name>shape</name><data>fs3d\Forklift\ForkTruck\ForkTruckLift.3ds</data></node>
+       <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+       <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>spatial</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>spatialx</name><data>61a335394000de25</data></node>
+       <node f="42" dt="1"><name>spatialy</name><data>3c17bdeabfdc2fb5</data></node>
+       <node f="42" dt="1"><name>spatialz</name><data>60871cb43fd680a5</data></node>
+       <node f="42" dt="1"><name>spatialsx</name><data>d18102293fb76aaf</data></node>
+       <node f="42" dt="1"><name>spatialsy</name><data>4716ecfd3fdf9fb3</data></node>
+       <node f="42" dt="1"><name>spatialsz</name><data>f0d8e59d3ff1361a</data></node>
+       <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       </node>
+       <node f="42" dt="1"><name>offsetx</name><data>400000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsety</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsetz</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsetsx</name><data>a000000040112958</data></node>
+       <node f="42" dt="1"><name>offsetsy</name><data>600000003ffc6550</data></node>
+       <node f="42" dt="1"><name>offsetsz</name><data>c00000003feffb09</data></node>
+       <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>special</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+      </node>
+      <node f="42"><name>labels</name></node>
+     </data></node>
+     <node f="10000072" dt="4"><name>BackWheels</name><data>
+      <node f="40"><name></name></node>
+      <node f="42"><name>visual</name>
+       <node f="40"><name></name></node>
+       <node f="42"><name>color</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>red</name><data>9999999a3fd99999</data></node>
+        <node f="42" dt="1"><name>green</name><data>5d5d5d5d3fdd5d5d</data></node>
+        <node f="42" dt="1"><name>blue</name><data>9999999a3fe99999</data></node>
+       </node>
+       <node f="42" dt="2"><name>shape</name><data>fs3d\Forklift\ForkTruck\ForkTruckFrontWheels.3ds</data></node>
+       <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+       <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>spatial</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>spatialx</name><data>48fa9f183fac7213</data></node>
+       <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialsx</name><data>147ae1483fe147ae</data></node>
+       <node f="42" dt="1"><name>spatialsy</name><data>1eb851ec3ff5eb85</data></node>
+       <node f="42" dt="1"><name>spatialsz</name><data>147ae1483fe147ae</data></node>
+       <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       </node>
+       <node f="42" dt="1"><name>offsetx</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsety</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsetz</name><data>c00000003fdfffff</data></node>
+       <node f="42" dt="1"><name>offsetsx</name><data>0000000040000000</data></node>
+       <node f="42" dt="1"><name>offsetsy</name><data>000000003fef4b8c</data></node>
+       <node f="42" dt="1"><name>offsetsz</name><data>6000000040006d04</data></node>
+       <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>special</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+      </node>
+      <node f="42"><name>labels</name></node>
+     </data></node>
+     <node f="10000072" dt="4"><name>FrontWheels</name><data>
+      <node f="40"><name></name></node>
+      <node f="42"><name>visual</name>
+       <node f="40"><name></name></node>
+       <node f="42"><name>color</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>red</name><data>9999999a3fd99999</data></node>
+        <node f="42" dt="1"><name>green</name><data>5d5d5d5d3fdd5d5d</data></node>
+        <node f="42" dt="1"><name>blue</name><data>9999999a3fe99999</data></node>
+       </node>
+       <node f="42" dt="2"><name>shape</name><data>fs3d\Forklift\ForkTruck\ForkTruckFrontWheels.3ds</data></node>
+       <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+       <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>spatial</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>spatialx</name><data>cccccc583ff8cccc</data></node>
+       <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialsx</name><data>e147ae143fe6147a</data></node>
+       <node f="42" dt="1"><name>spatialsy</name><data>ae8287c33ff5f27a</data></node>
+       <node f="42" dt="1"><name>spatialsz</name><data>e147ae143fe6147a</data></node>
+       <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       </node>
+       <node f="42" dt="1"><name>offsetx</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsety</name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name>offsetz</name><data>c00000003fdfffff</data></node>
+       <node f="42" dt="1"><name>offsetsx</name><data>e000000040002d22</data></node>
+       <node f="42" dt="1"><name>offsetsy</name><data>000000003fef4b8c</data></node>
+       <node f="42" dt="1"><name>offsetsz</name><data>6000000040006d04</data></node>
+       <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>special</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+      </node>
+      <node f="42"><name>labels</name></node>
+     </data></node>
+     <node f="10000072" dt="4"><name>Man</name><data>
+      <node f="40"><name></name></node>
+      <node f="42"><name>visual</name>
+       <node f="40"><name></name></node>
+       <node f="42"><name>color</name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name>red</name><data>9999999a3fd99999</data></node>
+        <node f="42" dt="1"><name>green</name><data>5d5d5d5d3fdd5d5d</data></node>
+        <node f="42" dt="1"><name>blue</name><data>9999999a3fe99999</data></node>
+       </node>
+       <node f="42" dt="2"><name>shape</name><data>fs3d\Operator\OperatorMale_LowRes\OperatorMaleSitting.fbx</data></node>
+       <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+       <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>drawflags</name><data>0000000040980000</data></node>
+       <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+      </node>
+      <node f="42"><name>spatial</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>spatialx</name><data>a3d70a3c3fea3d70</data></node>
+       <node f="42" dt="1"><name>spatialy</name><data>00000000bfd00000</data></node>
+       <node f="42" dt="1"><name>spatialz</name><data>70a3d70a3fe70a3d</data></node>
+       <node f="42" dt="1"><name>spatialsx</name><data>400000003febd70a</data></node>
+       <node f="42" dt="1"><name>spatialsy</name><data>c00000003ff0cccc</data></node>
+       <node f="42" dt="1"><name>spatialsz</name><data>200000003ff947ae</data></node>
+       <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+        <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       </node>
+      </node>
+      <node f="42"><name>special</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/pages/FlowItemParameters</data></node>
+      </node>
+      <node f="42"><name>labels</name></node>
+      <node f="42" dt="1"><name>offsetx</name><data>400000003fd47ae1</data></node>
+      <node f="42" dt="1"><name>offsety</name><data>c00000003fdb851e</data></node>
+      <node f="42" dt="1"><name>offsetz</name><data>000000003fdf5c29</data></node>
+      <node f="42" dt="1"><name>offsetsx</name><data>600000003ff26666</data></node>
+      <node f="42" dt="1"><name>offsetsy</name><data>400000003ff47ae1</data></node>
+      <node f="42" dt="1"><name>offsetsz</name><data>000000003fe75c29</data></node>
+      <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+     </data></node>
+    </node>
+   </node>
+   <node f="42"><name>resizeinfo</name>
+    <node f="40"><name></name></node>
+    <node f="42"><name>basesize</name>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>x</name><data>9de1bfc640030688</data></node>
+     <node f="42" dt="1"><name>y</name><data>b22d0e563ff5ef9d</data></node>
+     <node f="42" dt="1"><name>z</name><data>d916872b4003f7ce</data></node>
+    </node>
+    <node f="42"><name>bodies</name>
+     <node f="40"><name></name></node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>5dbeec323ff1b9f5</data></node>
+      <node f="42" dt="1"><name>y</name><data>e8dd8990bfe61638</data></node>
+      <node f="42" dt="1"><name>z</name><data>1eb851ec3ff7eb85</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>5aaa6a984001b9f5</data></node>
+      <node f="42" dt="1"><name>sy</name><data>e8dd89903ff61638</data></node>
+      <node f="42" dt="1"><name>sz</name><data>1eb851ec4007eb85</data></node>
+      <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck/Forks</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>801d3f9140058fb1</data></node>
+      <node f="42" dt="1"><name>y</name><data>738dd965bfe61a4a</data></node>
+      <node f="42" dt="1"><name>z</name><data>2b8ef32c3fef4622</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>d9a2b5243ff4ace5</data></node>
+      <node f="42" dt="1"><name>sy</name><data>e50c13fe3ff45faf</data></node>
+      <node f="42" dt="1"><name>sz</name><data>91f559933ff5ac88</data></node>
+      <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck/Forks/DrawContents</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>46992607bffffc23</data></node>
+      <node f="42" dt="1"><name>y</name><data>74f75f003f70807a</data></node>
+      <node f="42" dt="1"><name>z</name><data>9999999a3fa99999</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>9999999a3fb99999</data></node>
+      <node f="42" dt="1"><name>sy</name><data>9999999a3fb99999</data></node>
+      <node f="42" dt="1"><name>sz</name><data>9999999a3fb99999</data></node>
+      <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck/Extender</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>20e9394240013bd0</data></node>
+      <node f="42" dt="1"><name>y</name><data>6fd19a34bfe5ffc7</data></node>
+      <node f="42" dt="1"><name>z</name><data>6de940c33fe5433a</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>d18102293fb76aaf</data></node>
+      <node f="42" dt="1"><name>sy</name><data>4716ecfd3fdf9fb3</data></node>
+      <node f="42" dt="1"><name>sz</name><data>7b4b64d23fe405cf</data></node>
+      <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck/BackWheels</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>7d9a352b3fd4d5f0</data></node>
+      <node f="42" dt="1"><name>y</name><data>1eb851ecbfe5eb85</data></node>
+      <node f="42" dt="1"><name>z</name><data>147ae1483fd147ae</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>147ae1483fe147ae</data></node>
+      <node f="42" dt="1"><name>sy</name><data>1eb851ec3ff5eb85</data></node>
+      <node f="42" dt="1"><name>sz</name><data>147ae1483fe147ae</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck/FrontWheels</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>851eb7dd3ffe51eb</data></node>
+      <node f="42" dt="1"><name>y</name><data>ae8287c3bfe5f27a</data></node>
+      <node f="42" dt="1"><name>z</name><data>e147ae143fd6147a</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>e147ae143fe6147a</data></node>
+      <node f="42" dt="1"><name>sy</name><data>ae8287c33ff5f27a</data></node>
+      <node f="42" dt="1"><name>sz</name><data>e147ae143fe6147a</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+     <node f="42" dt="2"><name></name><data>../../../drawsurrogate/Truck/Man</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>x</name><data>e1eb851e3ff4147a</data></node>
+      <node f="42" dt="1"><name>y</name><data>c0000000bfe8cccc</data></node>
+      <node f="42" dt="1"><name>z</name><data>c851eb853ff828f5</data></node>
+      <node f="42" dt="1"><name>rx</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>ry</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>rz</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>sx</name><data>400000003febd70a</data></node>
+      <node f="42" dt="1"><name>sy</name><data>c00000003ff0cccc</data></node>
+      <node f="42" dt="1"><name>sz</name><data>200000003ff947ae</data></node>
+      <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000040080000</data></node>
+     </node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>animationinfo</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="42"><name>bodies</name>
+     <node f="40"><name></name></node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+     </node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck/Forks</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+     </node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck/Forks/DrawContents</coupling></data></node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck/Extender</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+     </node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck/BackWheels</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+     </node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck/FrontWheels</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+     </node>
+     <node f="42" dt="3"><name></name><data><coupling>/Transporter4&gt;visual/drawsurrogate/Truck/Man</coupling></data></node>
+    </node>
+    <node f="42"><name>animations</name>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>Drive</name><data>0000000000000000</data>
+      <node f="40"><name></name></node>
+      <node f="42"><name>keyframes</name>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>8653b6063fb1855a</data>
+        <node f="40"><name></name></node>
+        <node f="42"><name>bodies</name>
+         <node f="40"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name>
+          <node f="40"><name></name></node>
+          <node f="42" dt="1"><name></name><data>48fa9f183fac7213</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>147ae1483fe147ae</data></node>
+          <node f="42" dt="1"><name></name><data>1eb851ec3ff5eb85</data></node>
+          <node f="42" dt="1"><name></name><data>147ae1483fe147ae</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+         </node>
+         <node f="42"><name></name>
+          <node f="40"><name></name></node>
+          <node f="42" dt="1"><name></name><data>cccccccc3ff8cccc</data></node>
+          <node f="42" dt="1"><name></name><data>080000003e56d80d</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>e147ae143fe6147a</data></node>
+          <node f="42" dt="1"><name></name><data>ae8287c33ff5f27a</data></node>
+          <node f="42" dt="1"><name></name><data>e147ae143fe6147a</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+         </node>
+         <node f="42"><name></name></node>
+        </node>
+        <node f="42"><name></name></node>
+       </node>
+       <node f="42" dt="1"><name></name><data>64577a39402034be</data>
+        <node f="40"><name></name></node>
+        <node f="42"><name>bodies</name>
+         <node f="40"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name></node>
+         <node f="42"><name></name>
+          <node f="40"><name></name></node>
+          <node f="42" dt="1"><name></name><data>eb851eb83faeb851</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>147ae1483fe147ae</data></node>
+          <node f="42" dt="1"><name></name><data>1eb851ec3ff5eb85</data></node>
+          <node f="42" dt="1"><name></name><data>147ae1483fe147ae</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>00000000409d0800</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+         </node>
+         <node f="42"><name></name>
+          <node f="40"><name></name></node>
+          <node f="42" dt="1"><name></name><data>cccccccc3ff8cccc</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>e147ae143fe6147a</data></node>
+          <node f="42" dt="1"><name></name><data>1eb851ec3ff5eb85</data></node>
+          <node f="42" dt="1"><name></name><data>e147ae143fe6147a</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000040968000</data></node>
+          <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+         </node>
+         <node f="42"><name></name></node>
+        </node>
+        <node f="42"><name></name></node>
+       </node>
+      </node>
+      <node f="42" dt="1"><name>repeattype</name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name>repeatvalue</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>timetype</name><data>0000000040000000</data></node>
+      <node f="42"><name>startstate</name>
+       <node f="40"><name></name></node>
+       <node f="42"><name></name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       </node>
+       <node f="42"><name></name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       </node>
+       <node f="42"><name></name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       </node>
+       <node f="42"><name></name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       </node>
+       <node f="42"><name></name>
+        <node f="40"><name></name></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+        <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       </node>
+      </node>
+      <node f="42" dt="1"><name>starttime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>timescale</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>currepeattype</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>currepeatvalue</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>lastupdatetime</name><data>00000000bff00000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="42"><name></name></node>
+   </node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Object</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>A forklift TaskExecuter, simulating fork lift speeds, etc.</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>00000000404c0000</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>00000000c02e0000</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9de1bfc640030688</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>b22d0e563ff5ef9d</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>d916872b4003f7ce</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name>offsetx</name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name>offsety</name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name>offsetz</name><data>0000000000000000</data></node>
