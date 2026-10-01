@@ -2,7 +2,11 @@
 <flexsim-tree version="4" treetype="model">
 <node f="43" dt="4"><name>model</name><data>
  <node f="40"><name></name></node>
+<<<<<<< Updated upstream
  <node f="42" dt="2"><name>flh</name><data storagetype="hexadecimal">0065647520547565205365702032392031313a33383a343220323032360a65647520547565205365702032392031313a34383a353220323032360a65647520547565205365702032392031313a35383a353220323032360a65647520547565205365702032392031323a30303a323920323032360a65647520547565205365702032392031323a31333a343720323032360a65647520547565205365702032392031323a31363a353520323032360a65647520547565205365702032392031323a32363a353520323032360a65647520547565205365702032392031323a33363a353520323032360a65647520547565205365702032392031323a34353a323920323032360a65647520547565205365702032392031323a35353a323920323032360a65647520547565205365702032392031333a30353a313520323032360a65647520547565205365702032392031333a31353a313520323032360a65647520547565205365702032392031333a32323a313020323032360a65647520547565205365702032392031333a33303a353620323032360a65647520576564205365702033302030393a30303a313320323032360a65647520576564205365702033302030393a31303a313320323032360a65647520576564205365702033302030393a31383a333620323032360a65647520576564205365702033302030393a32383a333620323032360a65647520576564205365702033302030393a33383a333620323032360a65647520576564205365702033302030393a34383a333620323032360a65647520576564205365702033302030393a35383a333620323032360a65647520576564205365702033302031303a30383a333620323032360a65647520576564205365702033302031303a31383a333620323032360a65647520576564205365702033302031303a32383a333620323032360a65647520576564205365702033302031303a33363a353520323032360a65647520576564205365702033302031303a33363a353820323032360a65647520576564205365702033302031303a34363a353820323032360a65647520576564205365702033302031303a35363a353820323032360a65647520576564205365702033302031303a35373a323120323032360a65647520576564205365702033302031313a30373a343220323032360a65647520576564205365702033302031313a31323a323520323032360a65647520576564205365702033302031313a31353a343520323032360a65647520576564205365702033302031313a31363a353420323032360a65647520576564205365702033302031313a31363a353820323032360a65647520576564205365702033302031313a31373a303520323032360a65647520576564205365702033302031313a31373a313020323032360a65647520576564205365702033302031313a32323a333320323032360a65647520576564205365702033302031313a33303a333520323032360a65647520576564205365702033302031313a33373a313720323032360a65647520576564205365702033302031313a33373a323020323032360a65647520576564205365702033302031313a34353a353820323032360a65647520576564205365702033302031313a34373a303120323032360a65647520576564205365702033302031313a35303a333320323032360a65647520576564205365702033302031323a30303a333720323032360a65647520576564205365702033302031323a30323a303520323032360a65647520576564205365702033302031323a30323a303820323032360a65647520576564205365702033302031323a30353a303420323032360a65647520576564205365702033302031323a30373a353120323032360a65647520576564205365702033302031323a31343a343420323032360a65647520576564205365702033302031323a32343a343420323032360a65647520576564205365702033302031323a34343a343420323032360a65647520576564205365702033302031333a30313a353620323032360a65647520576564205365702033302031333a30373a313820323032360a65647520576564205365702033302031333a31373a343320323032360a65647520576564205365702033302031333a35363a343520323032360a65647520576564205365702033302031343a30373a333220323032360a65647520576564205365702033302031343a31363a303420323032360a65647520576564205365702033302031343a31373a323720323032360a65647520576564205365702033302031343a32313a333220323032360a65647520576564205365702033302031343a32353a303020323032360a00</data></node>
+=======
+ <node f="42" dt="2"><name>flh</name><data storagetype="hexadecimal">0065647520547565205365702032392031313a33383a343220323032360a65647520547565205365702032392031313a34383a353220323032360a65647520547565205365702032392031313a35383a353220323032360a65647520547565205365702032392031323a30303a323920323032360a65647520547565205365702032392031323a31333a343720323032360a65647520547565205365702032392031323a31363a353520323032360a65647520547565205365702032392031323a32363a353520323032360a65647520547565205365702032392031323a33363a353520323032360a65647520547565205365702032392031323a34353a323920323032360a65647520547565205365702032392031323a35353a323920323032360a65647520547565205365702032392031333a30353a313520323032360a65647520547565205365702032392031333a31353a313520323032360a65647520547565205365702032392031333a32323a313020323032360a65647520547565205365702032392031333a33303a353620323032360a65647520576564205365702033302030393a30303a313320323032360a65647520576564205365702033302030393a31303a313320323032360a65647520576564205365702033302030393a31383a333620323032360a65647520576564205365702033302030393a32383a333620323032360a65647520576564205365702033302030393a33383a333620323032360a65647520576564205365702033302030393a34383a333620323032360a65647520576564205365702033302030393a35383a333620323032360a65647520576564205365702033302031303a30383a333620323032360a65647520576564205365702033302031303a31383a333620323032360a65647520576564205365702033302031303a32383a333620323032360a65647520576564205365702033302031303a33363a353520323032360a65647520576564205365702033302031303a33363a353820323032360a65647520576564205365702033302031303a34363a353820323032360a65647520576564205365702033302031303a35363a353820323032360a65647520576564205365702033302031303a35373a323120323032360a65647520576564205365702033302031313a30373a343220323032360a65647520576564205365702033302031313a31323a323520323032360a65647520576564205365702033302031313a31353a343520323032360a65647520576564205365702033302031313a31363a353420323032360a65647520576564205365702033302031313a31363a353820323032360a65647520576564205365702033302031313a31373a303520323032360a65647520576564205365702033302031313a31373a313020323032360a65647520576564205365702033302031313a32323a333320323032360a65647520576564205365702033302031313a33303a333520323032360a65647520576564205365702033302031313a33373a313720323032360a65647520576564205365702033302031313a33373a323020323032360a65647520576564205365702033302031313a34353a353820323032360a65647520576564205365702033302031313a34373a303120323032360a65647520576564205365702033302031313a35303a333320323032360a65647520576564205365702033302031323a30303a333720323032360a65647520576564205365702033302031323a30323a303520323032360a65647520576564205365702033302031323a30323a303820323032360a65647520576564205365702033302031323a30353a303420323032360a65647520576564205365702033302031323a30373a353120323032360a65647520576564205365702033302031323a31343a343420323032360a65647520576564205365702033302031323a32343a343420323032360a65647520576564205365702033302031323a34343a343420323032360a65647520576564205365702033302031333a30313a353620323032360a65647520576564205365702033302031333a30373a313820323032360a65647520576564205365702033302031333a31373a343320323032360a65647520576564205365702033302031333a35363a343520323032360a65647520576564205365702033302031343a30373a333220323032360a65647520576564205365702033302031343a31363a303420323032360a65647520576564205365702033302031343a31373a323720323032360a65647520576564205365702033302031343a32313a333220323032360a65647520576564205365702033302031343a32353a303020323032360a65647520576564205365702033302031343a33313a323820323032360a65647520576564205365702033302031343a33373a333120323032360a65647520546875204f63742020312030383a35343a303620323032360a65647520546875204f63742020312030393a30343a303620323032360a65647520546875204f63742020312030393a31343a303620323032360a65647520546875204f63742020312030393a32323a323620323032360a65647520546875204f63742020312030393a33323a353320323032360a65647520546875204f63742020312030393a33353a353620323032360a00</data></node>
+>>>>>>> Stashed changes
  <node f="42" dt="1"><name>packedmedia</name><data>000000003ff00000</data>
   <node f="40"><name></name></node>
   <node f="42"><name>C:/Users/vanop/Documents/Inventor/Factory Assets</name>
@@ -8323,9 +8327,15 @@ treenode ts = param(1);
     <node f="40"><name></name></node>
     <node f="10000042" dt="3"><name>_1</name><data><coupling>/StraightConveyor1&gt;Groups/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_2</name><data><coupling>/StraightConveyor2&gt;Groups/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_3</name><data><coupling>/StraightConveyor3&gt;Groups/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_4</name><data><coupling>/StraightConveyor4&gt;Groups/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_5</name><data><coupling>/CurvedConveyor1&gt;Groups/1</coupling></data></node>
+<<<<<<< Updated upstream
+=======
+    <node f="10000042" dt="3"><name>_6</name><data><coupling>/StraightConveyor5&gt;Groups/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_7</name><data><coupling>/CurvedConveyor2&gt;Groups/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_8</name><data><coupling>/StraightConveyor6&gt;Groups/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_9</name><data><coupling>/StraightConveyor7&gt;Groups/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_10</name><data><coupling>/StraightConveyor8&gt;Groups/1</coupling></data></node>
+>>>>>>> Stashed changes
    </node>
    <node f="42" dt="4"><name>EntryTransfers</name><data>
     <node f="40"><name></name></node>
@@ -8347,8 +8357,6 @@ treenode ts = param(1);
    </data>
     <node f="40"><name></name></node>
     <node f="10000042" dt="3"><name>_2</name><data><coupling>/EntryTransfer2&gt;Groups/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_3</name><data><coupling>/EntryTransfer3&gt;Groups/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_4</name><data><coupling>/EntryTransfer4&gt;Groups/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_5</name><data><coupling>/EntryTransfer5&gt;Groups/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_6</name><data><coupling>/EntryTransfer6&gt;Groups/1</coupling></data></node>
    </node>
@@ -16030,11 +16038,19 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
          <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
 else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
         </node>
+<<<<<<< Updated upstream
         <node f="42" dt="1"><name>viewpointx</name><data>623e1395404acecf</data></node>
         <node f="42" dt="1"><name>viewpointy</name><data>6f5c15084011e8c9</data></node>
         <node f="42" dt="1"><name>viewpointrx</name><data>0000000040739000</data></node>
         <node f="42" dt="1"><name>viewpointrz</name><data>00000000409b5000</data></node>
         <node f="42" dt="1"><name>viewpointradius</name><data>a95fde89402024eb</data>
+=======
+        <node f="42" dt="1"><name>viewpointx</name><data>9b342075403af9a7</data></node>
+        <node f="42" dt="1"><name>viewpointy</name><data>c48ba5ec3ff94fc8</data></node>
+        <node f="42" dt="1"><name>viewpointrx</name><data>00000000c0478000</data></node>
+        <node f="42" dt="1"><name>viewpointrz</name><data>0000000040666000</data></node>
+        <node f="42" dt="1"><name>viewpointradius</name><data>1a87cce5401aff9c</data>
+>>>>>>> Stashed changes
          <node f="40"><name></name></node>
          <node f="42" dt="1"><name>eye</name><data>0000000000000000</data></node>
          <node f="42" dt="1"><name>focus</name><data>9999999a3fa99999</data></node>
@@ -16043,8 +16059,13 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
         </node>
         <node f="42" dt="1"><name>gridx</name><data>a00000003fb99999</data></node>
         <node f="42" dt="1"><name>gridy</name><data>a00000003fb99999</data></node>
+<<<<<<< Updated upstream
         <node f="42" dt="1"><name>viewnear</name><data>77f980073fbc776f</data></node>
         <node f="42" dt="1"><name>viewfar</name><data>db29a72b405bcca2</data></node>
+=======
+        <node f="42" dt="1"><name>viewnear</name><data>38d3ad533fb7cd80</data></node>
+        <node f="42" dt="1"><name>viewfar</name><data>377eb74540573eaf</data></node>
+>>>>>>> Stashed changes
         <node f="42" dt="2"><name>bitmap</name><data>buttons\view_persp.ico</data></node>
        </data></node>
        <node f="42" dt="4"><name>FlowItemBin</name><data>
@@ -22036,21 +22057,41 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
     <node f="40"><name></name></node>
     <node f="10000042" dt="3"><name>_1</name><data><coupling>/StraightConveyor1&gt;variables/system/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_2</name><data><coupling>/StraightConveyor2&gt;variables/system/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_4</name><data><coupling>/StraightConveyor3&gt;variables/system/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_5</name><data><coupling>/StraightConveyor4&gt;variables/system/1</coupling></data></node>
     <node f="10000042" dt="3"><name>_6</name><data><coupling>/CurvedConveyor1&gt;variables/system/1</coupling></data></node>
+<<<<<<< Updated upstream
+=======
+    <node f="10000042" dt="3"><name>_7</name><data><coupling>/StraightConveyor5&gt;variables/system/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_8</name><data><coupling>/CurvedConveyor2&gt;variables/system/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_9</name><data><coupling>/StraightConveyor6&gt;variables/system/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_10</name><data><coupling>/StraightConveyor7&gt;variables/system/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_11</name><data><coupling>/StraightConveyor8&gt;variables/system/1</coupling></data></node>
+>>>>>>> Stashed changes
    </node>
    <node f="42"><name>conveyorPoints</name>
     <node f="40"><name></name></node>
     <node f="10000042" dt="3"><name>_5</name><data><coupling>/StraightConveyor1&gt;variables/conveyorPoints/1/system</coupling></data></node>
-    <node f="10000042" dt="3"><name>_6</name><data><coupling>/StraightConveyor3&gt;variables/conveyorPoints/1/system</coupling></data></node>
-    <node f="10000042" dt="3"><name>_7</name><data><coupling>/StraightConveyor4&gt;variables/conveyorPoints/1/system</coupling></data></node>
     <node f="10000042" dt="3"><name>_4</name><data><coupling>/StraightConveyor2&gt;variables/conveyorPoints/_1/system</coupling></data></node>
     <node f="10000042" dt="3"><name>_8</name><data><coupling>/StraightConveyor2&gt;variables/conveyorPoints/_2/system</coupling></data></node>
     <node f="10000042" dt="3"><name>_9</name><data><coupling>/StraightConveyor2&gt;variables/conveyorPoints/_3/system</coupling></data></node>
     <node f="10000042" dt="3"><name>_10</name><data><coupling>/CurvedConveyor1&gt;variables/conveyorPoints/_1/system</coupling></data></node>
     <node f="10000042" dt="3"><name>_11</name><data><coupling>/CurvedConveyor1&gt;variables/conveyorPoints/_2/system</coupling></data></node>
     <node f="10000042" dt="3"><name>_12</name><data><coupling>/CurvedConveyor1&gt;variables/conveyorPoints/_3/system</coupling></data></node>
+<<<<<<< Updated upstream
+=======
+    <node f="10000042" dt="3"><name>_13</name><data><coupling>/StraightConveyor2&gt;variables/conveyorPoints/_4/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_14</name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_1/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_15</name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_2/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_16</name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_4/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_17</name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_1/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_18</name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_4/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_19</name><data><coupling>/StraightConveyor6&gt;variables/conveyorPoints/_1/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_20</name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_2/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_21</name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_3/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_22</name><data><coupling>/StraightConveyor6&gt;variables/conveyorPoints/_2/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_23</name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_3/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_24</name><data><coupling>/StraightConveyor7&gt;variables/conveyorPoints/1/system</coupling></data></node>
+    <node f="10000042" dt="3"><name>_25</name><data><coupling>/StraightConveyor8&gt;variables/conveyorPoints/1/system</coupling></data></node>
+>>>>>>> Stashed changes
    </node>
    <node f="42"><name>items</name></node>
    <node f="42"><name>decisionPoints</name></node>
@@ -48737,6 +48778,7 @@ return taskSequence.priority;</data></node>
   <node f="42"><name>stored</name></node>
  </data>
   <node f="40"><name></name></node></node>
+<<<<<<< Updated upstream
  <node f="62" dt="4"><name>StraightConveyor3</name><data>
   <node f="40"><name></name></node>
   <node f="42"><name>superclasses</name>
@@ -49322,6 +49364,8 @@ return 1;
     <node f="40"><name></name></node></node>
   </node>
  </data></node>
+=======
+>>>>>>> Stashed changes
  <node f="42" dt="4"><name>Dispatcher1</name><data>
   <node f="40"><name></name></node>
   <node f="42"><name>classes</name>
@@ -50836,6 +50880,7 @@ return taskSequence.priority;</data></node>
   </node>
   <node f="42"><name>stored</name></node>
  </data></node>
+<<<<<<< Updated upstream
  <node f="42" dt="4"><name>Separator2</name><data>
   <node f="40"><name></name></node>
   <node f="42"><name>classes</name>
@@ -51168,6 +51213,8 @@ return /**/current.centerObjects[/**/
   </node>
   <node f="42"><name>stored</name></node>
  </data></node>
+=======
+>>>>>>> Stashed changes
  <node f="62" dt="4"><name>EntryTransfer2</name><data>
   <node f="40"><name></name></node>
   <node f="42"><name>classes</name>
@@ -51407,13 +51454,7 @@ return /**/current.centerObjects[/**/
   <node f="42"><name>connections</name>
    <node f="40"><name></name></node>
    <node f="42"><name>connectionsin</name>
-    <node f="40"><name></name></node>
-    <node f="10000042" dt="3"><name></name><data><coupling>/Separator2&gt;connections/connectionsout/_1</coupling></data>
-     <node f="40"><name></name></node>
-     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
-     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
-    </node>
-   </node>
+    <node f="40"><name></name></node></node>
    <node f="42"><name>connectionsout</name>
     <node f="40"><name></name></node></node>
    <node f="42"><name>connectionscenter</name>
@@ -51432,6 +51473,7 @@ return /**/current.centerObjects[/**/
    <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_2</coupling></data></node>
   </node>
  </data></node>
+<<<<<<< Updated upstream
  <node f="62" dt="4"><name>EntryTransfer3</name><data>
   <node f="40"><name></name></node>
   <node f="42"><name>classes</name>
@@ -51960,6 +52002,8 @@ return /**/current.centerObjects[/**/
    <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_4</coupling></data></node>
   </node>
  </data></node>
+=======
+>>>>>>> Stashed changes
  <node f="62" dt="4"><name>EntryTransfer5</name><data>
   <node f="40"><name></name></node>
   <node f="42"><name>classes</name>
@@ -53369,4 +53413,5277 @@ return /**/current.centerObjects[/**/
    <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/ExitTransfers/_2</coupling></data></node>
   </node>
  </data></node>
+<<<<<<< Updated upstream
+=======
+ <node f="62" dt="4"><name>EntryTransfer7</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::EntryTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="442" dt="2"><name>entryOrientation</name><data>Object current = ownerobject(c);
+Conveyor conveyor = param(1);
+Object item = param(2);
+Conveyor.Item conveyorItem = conveyor.itemData[item];
+
+/***popup:Conveyor_FixedOrientation*/
+/***tag:description*//**Forward: X+, Up: Z+*/
+/** \nForward: *//***tag:forwardAxis*//**X+*/
+/** \nUp: *//***tag:upAxis*//**Z+*/
+return /** \nOrientation: *//***tag:orientation*//**/CONV_ITEM_X_BY_Y/**/;
+</data></node>
+   <node f="42" dt="1"><name>itemInsertionMode</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>holdTransports</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>maxTransportsIn</name><data>0000000000000000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor2&gt;variables/conveyorPoints/_4</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+   <node f="42" dt="7"><name>blockedUpstreamTraversalMap</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::EntryTransfer::BlockedUpstreamTraversalMap</data>
+     <node f="40"><name></name></node></node>
+   </node>
+   <node f="42" dt="1"><name>pullFromPort</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullRequirement</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>EntryTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>5acb4a84404cb033</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>31485c5dbff1ff9d</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>2730829440568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>8753dbff406631d6</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>8753dbff406631d6</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>receivePort</name><data>00000000c0000000</data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/Separator1&gt;connections/connectionsout/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_7</coupling></data></node>
+  </node>
+ </data></node>
+ <node f="10000042" dt="4"><name>Pusher Sorter</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Container</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FlexSimObject</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>editInPlace</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>connectContents</name><data>000000003ff00000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>green</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>blue</name><data>000000003ff00000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>C:/Users/vanop/Documents/Inventor/Factory Assets/Pusher Sorter_247742109F58E4CA2CFAB596E964CEEB.ipt</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\ContainerPictureSmall.png</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>drawflags</name><data>0000000040e00000</data></node>
+   <node f="42" dt="3"><name>drawsurrogate</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Container</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>84475e0c40466fbb</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>f6424bd14020cdc4</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>aa25aefe3fdf8542</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>bd7f51ef3fed42c2</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>e147ae153fee147a</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000080000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>b96875b03fde1bd4</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>031993fc3feaae41</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>e56b693b3fed3095</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>48f339d43ff17f71</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>620ae4c43ff10572</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>a38e6cca40003e4d</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>00000006c0568000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000080000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000640568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>0000000040000000</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>b96875b03fde1bd4</data></node>
+    <node f="42" dt="1"><name></name><data>031993fb3feaae41</data></node>
+    <node f="42" dt="1"><name></name><data>0000000080000000</data></node>
+   </node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Container</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name>com.autodesk.flexsim.NWMFactory.Instance</name><data><coupling>/Tools/FactoryDataManager&gt;LayoutData/FactoryAssetInstanceModel/e4c83a7b-985f-4dc0-b198-ce91ea447175</coupling></data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>xml</name><data>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;FactoryAssetInstanceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;EntityId&gt;e4c83a7b-985f-4dc0-b198-ce91ea447175&lt;/EntityId&gt;&lt;InstanceName&gt;Pusher Sorter&lt;/InstanceName&gt;&lt;Status&gt;Normal&lt;/Status&gt;&lt;VariantID /&gt;&lt;Recipe&gt;&lt;AssetID&gt;f843e657-9bc5-4dbb-a94a-23f666756440&lt;/AssetID&gt;&lt;Version&gt;5955d5f2-df8c-4cef-8bba-1f569359ee2f&lt;/Version&gt;&lt;FamilyName&gt;Pusher Sorter&lt;/FamilyName&gt;&lt;/Recipe&gt;&lt;LayerName&gt;0&lt;/LayerName&gt;&lt;Position&gt;&lt;M11&gt;1&lt;/M11&gt;&lt;M12&gt;0&lt;/M12&gt;&lt;M13&gt;0&lt;/M13&gt;&lt;M14&gt;0&lt;/M14&gt;&lt;M21&gt;0&lt;/M21&gt;&lt;M22&gt;1&lt;/M22&gt;&lt;M23&gt;0&lt;/M23&gt;&lt;M24&gt;0&lt;/M24&gt;&lt;M31&gt;0&lt;/M31&gt;&lt;M32&gt;0&lt;/M32&gt;&lt;M33&gt;1&lt;/M33&gt;&lt;M34&gt;0&lt;/M34&gt;&lt;OffsetX&gt;4510.461005596862&lt;/OffsetX&gt;&lt;OffsetY&gt;763.9493325417321&lt;/OffsetY&gt;&lt;OffsetZ&gt;0&lt;/OffsetZ&gt;&lt;M44&gt;1&lt;/M44&gt;&lt;/Position&gt;&lt;BoundingBox&gt;&lt;Location&gt;&lt;X&gt;-15.199949999999998&lt;/X&gt;&lt;Y&gt;-85.745&lt;/Y&gt;&lt;Z&gt;-23.17&lt;/Z&gt;&lt;/Location&gt;&lt;Size&gt;&lt;X&gt;91.43995&lt;/X&gt;&lt;Y&gt;94&lt;/Y&gt;&lt;Z&gt;49.250856986940036&lt;/Z&gt;&lt;/Size&gt;&lt;SizeX&gt;91.43995&lt;/SizeX&gt;&lt;SizeY&gt;94&lt;/SizeY&gt;&lt;SizeZ&gt;49.250856986940036&lt;/SizeZ&gt;&lt;X&gt;-15.199949999999998&lt;/X&gt;&lt;Y&gt;-85.745&lt;/Y&gt;&lt;Z&gt;-23.17&lt;/Z&gt;&lt;/BoundingBox&gt;&lt;Pivot&gt;&lt;M11&gt;-0&lt;/M11&gt;&lt;M12&gt;-0&lt;/M12&gt;&lt;M13&gt;1&lt;/M13&gt;&lt;M14&gt;0&lt;/M14&gt;&lt;M21&gt;1&lt;/M21&gt;&lt;M22&gt;0&lt;/M22&gt;&lt;M23&gt;0&lt;/M23&gt;&lt;M24&gt;0&lt;/M24&gt;&lt;M31&gt;-0&lt;/M31&gt;&lt;M32&gt;1&lt;/M32&gt;&lt;M33&gt;0&lt;/M33&gt;&lt;M34&gt;0&lt;/M34&gt;&lt;OffsetX&gt;0&lt;/OffsetX&gt;&lt;OffsetY&gt;-85.745&lt;/OffsetY&gt;&lt;OffsetZ&gt;-0&lt;/OffsetZ&gt;&lt;M44&gt;1&lt;/M44&gt;&lt;/Pivot&gt;&lt;KeyParameterList&gt;&lt;AssetKeyParameter&gt;&lt;Name&gt;Height&lt;/Name&gt;&lt;Value&gt;94&lt;/Value&gt;&lt;UnitsType&gt;Length&lt;/UnitsType&gt;&lt;Expression&gt;940 mm&lt;/Expression&gt;&lt;Values /&gt;&lt;/AssetKeyParameter&gt;&lt;AssetKeyParameter&gt;&lt;Name&gt;NominalConveyorWidth&lt;/Name&gt;&lt;Value&gt;61&lt;/Value&gt;&lt;UnitsType&gt;Length&lt;/UnitsType&gt;&lt;Expression&gt;610 mm&lt;/Expression&gt;&lt;Values&gt;&lt;string&gt;61&lt;/string&gt;&lt;string&gt;76.2&lt;/string&gt;&lt;string&gt;91.4&lt;/string&gt;&lt;/Values&gt;&lt;/AssetKeyParameter&gt;&lt;AssetKeyParameter&gt;&lt;Name&gt;PushingDistance&lt;/Name&gt;&lt;Value&gt;15.2&lt;/Value&gt;&lt;UnitsType&gt;Length&lt;/UnitsType&gt;&lt;Expression&gt;152 mm&lt;/Expression&gt;&lt;Values /&gt;&lt;/AssetKeyParameter&gt;&lt;AssetKeyParameter&gt;&lt;Name&gt;Width&lt;/Name&gt;&lt;Value&gt;43.8&lt;/Value&gt;&lt;UnitsType&gt;Length&lt;/UnitsType&gt;&lt;Expression&gt;438 mm&lt;/Expression&gt;&lt;Values&gt;&lt;string&gt;33.7&lt;/string&gt;&lt;string&gt;38.7&lt;/string&gt;&lt;string&gt;43.8&lt;/string&gt;&lt;string&gt;48.9&lt;/string&gt;&lt;/Values&gt;&lt;/AssetKeyParameter&gt;&lt;/KeyParameterList&gt;&lt;NonKeyParameterList /&gt;&lt;InstanceProperties&gt;&lt;InstancePropertyGroups&gt;&lt;PropertyGroup InvariantName="AssetTag" PropertySetEditable="false"&gt;&lt;Properties&gt;&lt;Property InvariantName="Asset Tag" ValueEditable="true" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value /&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;Property InvariantName="Extended Asset Tag" ValueEditable="true" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value /&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/PropertyGroup&gt;&lt;PropertyGroup InvariantName="Project" PropertySetEditable="false"&gt;&lt;Properties&gt;&lt;Property InvariantName="CreateDate" ValueEditable="false" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value&gt;07/12/2012&lt;/Value&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;Property InvariantName="EstimatedCost" ValueEditable="false" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value&gt;0&lt;/Value&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;Property InvariantName="FileSubtype" ValueEditable="false" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value&gt;Modeling&lt;/Value&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;Property InvariantName="PartNumber" ValueEditable="false" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value&gt;Pusher Sorter_610x438x940&lt;/Value&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/PropertyGroup&gt;&lt;PropertyGroup InvariantName="Summary" PropertySetEditable="false"&gt;&lt;Properties&gt;&lt;Property InvariantName="Author" ValueEditable="false" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value&gt;Autodesk, Inc.&lt;/Value&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;Property InvariantName="Title" ValueEditable="false" DisplayInCAD="false" DataType="String" Category=""&gt;&lt;Value&gt;Pusher Sorter&lt;/Value&gt;&lt;ValueCollection /&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/PropertyGroup&gt;&lt;/InstancePropertyGroups&gt;&lt;/InstanceProperties&gt;&lt;/FactoryAssetInstanceModel&gt;</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>FDU::IUnknownWrapper</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="2"><name>cSharpDllName</name><data>Autodesk.Factory.Core.Data, Version=31.0.0.4, Culture=neutral, PublicKeyToken=null</data></node>
+     <node f="42" dt="2"><name>cSharpClassName</name><data>Autodesk.Factory.Core.Data.FactoryDataModel.FactoryAssetInstanceModel</data></node>
+    </node>
+   </node>
+  </node>
+  <node f="210000442" dt="2"><name>OnPreDraw</name><data>inheritcode();</data>
+   <node f="40"><name></name></node>
+   <node f="200000042" dt="3"><name></name><data><coupling>/Pusher Sorter</coupling></data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>FDU::AssetPreDrawListener</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>involved</name><data><coupling>/Pusher Sorter&gt;OnPreDraw</coupling></data></node>
+     <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+     <node f="42" dt="1"><name>spatialsCache.size.x</name><data>aa25aefe3fdf8542</data></node>
+     <node f="42" dt="1"><name>spatialsCache.size.y</name><data>bd7f51ef3fed42c2</data></node>
+     <node f="42" dt="1"><name>spatialsCache.size.z</name><data>e147ae153fee147a</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetPosition.x</name><data>b96875b03fde1bd4</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetPosition.y</name><data>031993fc3feaae41</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetPosition.z</name><data>e56b693b3fed3095</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetRotation.x</name><data>00000006c0568000</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetRotation.y</name><data>0000000080000000</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetRotation.z</name><data>0000000640568000</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetSize.x</name><data>48f339d43ff17f71</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetSize.y</name><data>620ae4c43ff10572</data></node>
+     <node f="42" dt="1"><name>spatialsCache.offsetSize.z</name><data>a38e6cca40003e4d</data></node>
+     <node f="42" dt="3"><name>assetDataNode</name><data><coupling>/Pusher Sorter&gt;stored/com.autodesk.flexsim.NWMFactory.Instance</coupling></data></node>
+    </node>
+   </node>
+  </node>
+ </data></node>
+ <node f="62" dt="4"><name>StraightConveyor5</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::Conveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::StraightConveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>mergeController</name></node>
+   <node f="42"><name>traversals</name></node>
+   <node f="42" dt="1"><name>accumType</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>acceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>deceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stopSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>stopSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>moveSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>moveSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>entrySpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>entrySpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>restartDelay</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useFixedIntervalMovement</name><data>0000000000000000</data></node>
+   <node f="42"><name>fixedIntervalPattern</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+   </node>
+   <node f="42" dt="1"><name>fixedIntervalItemEdge</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>useCatchCondition</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>catchCondition</name><data>Conveyor current = ownerobject(c);
+Object item = param(1);
+int dogNum = param(2);
+int groupNum = param(3);
+int groupMemberNum = param(4);
+
+/**Always Catch*/
+return 1;
+</data></node>
+   <node f="42" dt="1"><name>isSlugBuilder</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByFillPercent</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>slugFillPercent</name><data>0000000040540000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugReadyTime</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>slugReleaseSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>hasSlugMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugMaxItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>length</name><data>04be50f44025f2d4</data></node>
+   <node f="42" dt="1"><name>rise</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useVirtualLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>virtualLength</name><data>0000000040240000</data></node>
+   <node f="42"><name>system</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_7</coupling></data></node>
+   </node>
+   <node f="42"><name>motor</name></node>
+   <node f="42" dt="3"><name>visualization</name><data><coupling>/ConveyorSystem&gt;variables/visualizations/BeltConveyor</coupling></data></node>
+   <node f="42" dt="1"><name>width</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>rollerAngle</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>speed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>conveyorPoints</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/EntryTransfer8&gt;variables/transferPoint/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>a09014203fdfa4f6</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_14</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>000000003fe00000</data></node>
+     <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/EntryTransfer9&gt;variables/transferPoint/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>d81202844003f49e</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_15</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>000000003fe00000</data></node>
+     <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_3</name><data><coupling>/ExitTransfer3&gt;variables/transferPoint/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>0379e6294025f2d4</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_21</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>00000000bfe00000</data></node>
+     <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_4</name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>allocations</name></node>
+     <node f="42"><name>allocationRequests</name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>04be50f44025f2d4</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_16</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>60000000beb410d4</data></node>
+     <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+     <node f="42"><name>massFlowTransfer</name></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+      <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+      <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+   </node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>d8e8c73b404840b6</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>b98480a14021fd27</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>04be50f44025f2d4</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>000000003fe00000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>00000000c0568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transporter</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>simLength</name><data>04be50f44025f2d4</data></node>
+   <node f="42" dt="1"><name>isDirectionReversed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>curTargetSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+   <node f="42" dt="1"><name>numStoppedNonAccumItems</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildState</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildFillLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildMaxItemCount</name><data>ffc0000041dfffff</data></node>
+   <node f="42" dt="3"><name>lastSlugItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>slugReadyEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>nonAccumSlugEnteringItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>hasNonAccumSlugBlockedItem</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>fixedIntervalDriverOffset</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>traversalPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>fixedIntervalEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>nonAccumStoppedBlockerClearPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>nonAccumFullStopEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>beltRepeatDist</name><data>0000000040140000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>windowtitle</name><data>StraightConveyor</data></node>
+   <node f="42" dt="2"><name>title</name><data>Conveyor</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>picture</name><data>modules\Conveyor\bitmaps\ConveyorSection.png</data></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>green</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>blue</name><data>51eb851f3fed1eb8</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42"><name>objectinfo</name>
+    <node f="40"><name></name></node>
+    <node f="42"><name></name></node>
+    <node f="42"><name></name></node>
+    <node f="42"><name></name></node>
+   </node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>StraightConveyor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_6</coupling></data></node>
+  </node>
+ </data>
+  <node f="40"><name></name></node></node>
+ <node f="62" dt="4"><name>EntryTransfer8</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::EntryTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="442" dt="2"><name>entryOrientation</name><data>Object current = ownerobject(c);
+Conveyor conveyor = param(1);
+Object item = param(2);
+Conveyor.Item conveyorItem = conveyor.itemData[item];
+
+/***popup:Conveyor_FixedOrientation*/
+/***tag:description*//**Forward: X+, Up: Z+*/
+/** \nForward: *//***tag:forwardAxis*//**X+*/
+/** \nUp: *//***tag:upAxis*//**Z+*/
+return /** \nOrientation: *//***tag:orientation*//**/CONV_ITEM_X_BY_Y/**/;
+</data></node>
+   <node f="42" dt="1"><name>itemInsertionMode</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>holdTransports</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>maxTransportsIn</name><data>0000000000000000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_1</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+   <node f="42" dt="7"><name>blockedUpstreamTraversalMap</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::EntryTransfer::BlockedUpstreamTraversalMap</data>
+     <node f="40"><name></name></node></node>
+   </node>
+   <node f="42" dt="1"><name>pullFromPort</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullRequirement</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>EntryTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>d8e8c73b404880b6</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>37b3333340213333</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000040668000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>8753dbff406631d6</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>8753dbff406631d6</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>receivePort</name><data>00000000c0000000</data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/Processor2&gt;connections/connectionsout/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_8</coupling></data></node>
+  </node>
+ </data>
+  <node f="40"><name></name></node></node>
+ <node f="62" dt="4"><name>EntryTransfer9</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::EntryTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="442" dt="2"><name>entryOrientation</name><data>Object current = ownerobject(c);
+Conveyor conveyor = param(1);
+Object item = param(2);
+Conveyor.Item conveyorItem = conveyor.itemData[item];
+
+/***popup:Conveyor_FixedOrientation*/
+/***tag:description*//**Forward: X+, Up: Z+*/
+/** \nForward: *//***tag:forwardAxis*//**X+*/
+/** \nUp: *//***tag:upAxis*//**Z+*/
+return /** \nOrientation: *//***tag:orientation*//**/CONV_ITEM_X_BY_Y/**/;
+</data></node>
+   <node f="42" dt="1"><name>itemInsertionMode</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>holdTransports</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>maxTransportsIn</name><data>0000000000000000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_2</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+   <node f="42" dt="7"><name>blockedUpstreamTraversalMap</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::EntryTransfer::BlockedUpstreamTraversalMap</data>
+     <node f="40"><name></name></node></node>
+   </node>
+   <node f="42" dt="1"><name>pullFromPort</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullRequirement</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>EntryTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>d8e8c73c404880b6</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>6d666666401a6666</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000040668000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>8753dbff406631d6</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>8753dbff406631d6</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>receivePort</name><data>00000000c0000000</data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/Processor1&gt;connections/connectionsout/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_9</coupling></data></node>
+  </node>
+ </data>
+  <node f="40"><name></name></node></node>
+ <node f="62" dt="4"><name>CurvedConveyor2</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::Conveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::CurvedConveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>startAngle</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sweepAngle</name><data>00000000c0568000</data></node>
+   <node f="42" dt="1"><name>radius</name><data>15a889ac4006f661</data></node>
+   <node f="42"><name>mergeController</name></node>
+   <node f="42"><name>traversals</name></node>
+   <node f="42" dt="1"><name>accumType</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>acceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>deceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stopSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>stopSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>moveSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>moveSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>entrySpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>entrySpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>restartDelay</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useFixedIntervalMovement</name><data>0000000000000000</data></node>
+   <node f="42"><name>fixedIntervalPattern</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+   </node>
+   <node f="42" dt="1"><name>fixedIntervalItemEdge</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>useCatchCondition</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>catchCondition</name><data>Conveyor current = ownerobject(c);
+Object item = param(1);
+int dogNum = param(2);
+int groupNum = param(3);
+int groupMemberNum = param(4);
+
+/**Always Catch*/
+return 1;
+</data></node>
+   <node f="42" dt="1"><name>isSlugBuilder</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByFillPercent</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>slugFillPercent</name><data>0000000040540000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugReadyTime</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>slugReleaseSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>hasSlugMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugMaxItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>length</name><data>460b2dfc401208de</data></node>
+   <node f="42" dt="1"><name>rise</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useVirtualLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>virtualLength</name><data>0000000040240000</data></node>
+   <node f="42"><name>system</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_8</coupling></data></node>
+   </node>
+   <node f="42"><name>motor</name></node>
+   <node f="42" dt="3"><name>visualization</name><data><coupling>/ConveyorSystem&gt;variables/visualizations/BeltConveyor</coupling></data></node>
+   <node f="42" dt="1"><name>width</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>rollerAngle</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>speed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>conveyorPoints</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_4</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>allocations</name></node>
+     <node f="42"><name>allocationRequests</name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>0000000000000000</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_17</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+     <node f="42"><name>massFlowTransfer</name></node>
+     <node f="42" dt="7"><name>localType</name><data/>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>inlineSpeedType</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>sideSpeedType</name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name>inlineTransferMaxAngle</name><data>0000000040468000</data></node>
+      <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>finishTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>transferTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>customSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>popupDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>doSmoothTransitions</name><data>000000003ff00000</data></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::TransferType</data>
+       <node f="40"><name></name></node></node>
+     </node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+      <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+      <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/EntryTransfer10&gt;variables/transferPoint/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>f240ff223e6446ab</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_20</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>000000003fe00000</data></node>
+     <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_3</name><data><coupling>/ExitTransfer4&gt;variables/transferPoint/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>1e44536e401208de</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_23</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>00000000bfe00000</data></node>
+     <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_4</name><data><coupling>/StraightConveyor6&gt;variables/conveyorPoints/_1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>allocations</name></node>
+     <node f="42"><name>allocationRequests</name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>460b2dfc401208de</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_18</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>a800007cbe7080fa</data></node>
+     <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+     <node f="42"><name>massFlowTransfer</name></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+      <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+      <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+   </node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>bd85d4724046d150</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>4fab2c58bfffad62</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>47ae147b3f847ae1</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Conveyor</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>windowtitle</name><data>CurvedConveyor</data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="200042" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>none</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transporter</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>loading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>utilize</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>full</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>not empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>filling</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>starved</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>mixing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>flowing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>allocated idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>off shift</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>change over</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>repair</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>maintenance</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>lunch</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>on break</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>suspend</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>available</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>preprocessing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>postprocessing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>inspecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>operating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>standby</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>purging</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>cleaning</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>accelerating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>maxspeed</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>decelerating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>stopped</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>simLength</name><data>460b2dfc401208de</data></node>
+   <node f="42" dt="1"><name>isDirectionReversed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>curTargetSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+   <node f="42" dt="1"><name>numStoppedNonAccumItems</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildState</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildFillLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildMaxItemCount</name><data>ffc0000041dfffff</data></node>
+   <node f="42" dt="3"><name>lastSlugItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>slugReadyEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>nonAccumSlugEnteringItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>hasNonAccumSlugBlockedItem</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>fixedIntervalDriverOffset</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>traversalPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>fixedIntervalEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>nonAccumStoppedBlockerClearPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>nonAccumFullStopEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>beltRepeatDist</name><data>0000000040140000</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>picture</name><data>modules\Conveyor\bitmaps\CurvedSection.png</data></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>green</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>blue</name><data>51eb851f3fed1eb8</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42"><name>objectinfo</name>
+    <node f="40"><name></name></node>
+    <node f="42"><name></name></node>
+    <node f="42"><name></name></node>
+    <node f="42"><name></name></node>
+   </node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>CurvedConveyor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_7</coupling></data></node>
+  </node>
+ </data>
+  <node f="40"><name></name></node></node>
+ <node f="62" dt="4"><name>StraightConveyor6</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::Conveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::StraightConveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>mergeController</name></node>
+   <node f="42"><name>traversals</name></node>
+   <node f="42" dt="1"><name>accumType</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>acceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>deceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stopSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>stopSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>moveSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>moveSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>entrySpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>entrySpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>restartDelay</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useFixedIntervalMovement</name><data>0000000000000000</data></node>
+   <node f="42"><name>fixedIntervalPattern</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+   </node>
+   <node f="42" dt="1"><name>fixedIntervalItemEdge</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>useCatchCondition</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>catchCondition</name><data>Conveyor current = ownerobject(c);
+Object item = param(1);
+int dogNum = param(2);
+int groupNum = param(3);
+int groupMemberNum = param(4);
+
+/**Always Catch*/
+return 1;
+</data></node>
+   <node f="42" dt="1"><name>isSlugBuilder</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByFillPercent</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>slugFillPercent</name><data>0000000040540000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugReadyTime</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>slugReleaseSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>hasSlugMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugMaxItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>length</name><data>42ca7af94020809e</data></node>
+   <node f="42" dt="1"><name>rise</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useVirtualLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>virtualLength</name><data>0000000040240000</data></node>
+   <node f="42"><name>system</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_9</coupling></data></node>
+   </node>
+   <node f="42"><name>motor</name></node>
+   <node f="42" dt="3"><name>visualization</name><data><coupling>/ConveyorSystem&gt;variables/visualizations/BeltConveyor</coupling></data></node>
+   <node f="42" dt="1"><name>width</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>rollerAngle</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>speed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>conveyorPoints</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_4</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>allocations</name></node>
+     <node f="42"><name>allocationRequests</name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>0000000000000000</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_19</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+     <node f="42"><name>massFlowTransfer</name></node>
+     <node f="42" dt="7"><name>localType</name><data/>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>inlineSpeedType</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>sideSpeedType</name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name>inlineTransferMaxAngle</name><data>0000000040468000</data></node>
+      <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>finishTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>transferTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>customSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>popupDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>doSmoothTransitions</name><data>000000003ff00000</data></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::TransferType</data>
+       <node f="40"><name></name></node></node>
+     </node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+      <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+      <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/EntryTransfer11&gt;variables/transferPoint/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>3c0000003ea3e36d</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_22</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>000000003fe00000</data></node>
+     <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     </node>
+    </node>
+   </node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>c27eafc24046d150</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>1a9ed0fdc0136689</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>42ca7af94020809e</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>000000003fe00000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000040668000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transporter</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>simLength</name><data>42ca7af94020809e</data></node>
+   <node f="42" dt="1"><name>isDirectionReversed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>curTargetSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+   <node f="42" dt="1"><name>numStoppedNonAccumItems</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildState</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildFillLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildMaxItemCount</name><data>ffc0000041dfffff</data></node>
+   <node f="42" dt="3"><name>lastSlugItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>slugReadyEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>nonAccumSlugEnteringItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>hasNonAccumSlugBlockedItem</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>fixedIntervalDriverOffset</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>traversalPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>fixedIntervalEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>nonAccumStoppedBlockerClearPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>nonAccumFullStopEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>beltRepeatDist</name><data>0000000040140000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>windowtitle</name><data>StraightConveyor</data></node>
+   <node f="42" dt="2"><name>title</name><data>Conveyor</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>picture</name><data>modules\Conveyor\bitmaps\ConveyorSection.png</data></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>green</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>blue</name><data>51eb851f3fed1eb8</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42"><name>objectinfo</name>
+    <node f="40"><name></name></node>
+    <node f="42"><name></name></node>
+    <node f="42"><name></name></node>
+    <node f="42"><name></name></node>
+   </node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>StraightConveyor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_8</coupling></data></node>
+  </node>
+ </data>
+  <node f="40"><name></name></node></node>
+ <node f="42" dt="4"><name>Queue2</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FixedResource</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Queue</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>00000000408f4000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>usebatching</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>batchsize</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>maxwaittime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>flush</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>currentbatchsize</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>placemode</name><data>0000000040080000</data></node>
+   <node f="42" dt="1"><name>stackinitz</name><data>9999999a3fb99999</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Queue</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>Queues/batches flow items</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>000000003fe00000</data></node>
+    <node f="42" dt="1"><name>green</name><data>000000003fe00000</data></node>
+    <node f="42" dt="1"><name>blue</name><data>000000003fe00000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>fs3d\Queue\Queue.3ds</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\queuepicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>97981a1f40461bdd</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>e6dbd3f5c00051d7</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>9999999a3fd99999</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>0000000040140000</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name></name></node>
+   <node f="42"><name></name></node>
+   <node f="42"><name></name></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="42" dt="4"><name>Queue3</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FixedResource</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Queue</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>00000000408f4000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>usebatching</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>batchsize</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>maxwaittime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>flush</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>currentbatchsize</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>placemode</name><data>0000000040080000</data></node>
+   <node f="42" dt="1"><name>stackinitz</name><data>9999999a3fb99999</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Queue</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>Queues/batches flow items</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>000000003fe00000</data></node>
+    <node f="42" dt="1"><name>green</name><data>000000003fe00000</data></node>
+    <node f="42" dt="1"><name>blue</name><data>000000003fe00000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>fs3d\Queue\Queue.3ds</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\queuepicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>0520000040448000</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>c1f0499cc00052a9</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>9999999a3fd99999</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>0000000040140000</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name></name></node>
+   <node f="42"><name></name></node>
+   <node f="42"><name></name></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="42" dt="4"><name>Queue4</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FixedResource</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Queue</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>00000000408f4000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>usebatching</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>batchsize</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>maxwaittime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>flush</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>currentbatchsize</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>placemode</name><data>0000000040080000</data></node>
+   <node f="42" dt="1"><name>stackinitz</name><data>9999999a3fb99999</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Queue</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>Queues/batches flow items</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>000000003fe00000</data></node>
+    <node f="42" dt="1"><name>green</name><data>000000003fe00000</data></node>
+    <node f="42" dt="1"><name>blue</name><data>000000003fe00000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>fs3d\Queue\Queue.3ds</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\queuepicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>6b2000004042e666</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>ed7aacfdc000542e</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>9999999a3fd99999</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>0000000040140000</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name></name></node>
+   <node f="42"><name></name></node>
+   <node f="42"><name></name></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="42" dt="4"><name>Processor3</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Processor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FixedResource</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>cycletime</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>setuptime</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>000000003ff00000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>useprocessoperators</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>usesetupoperators</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofprocessoperators</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>processoperatorpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preemptprocessoperators</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>processdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int trigger = param(2);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>convey</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>usesameop</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>nrofsetupoperators</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>loading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>851eb8523fd851eb</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe73333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>ac0831273fd45a1c</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>modellen/Pusher Sorter_247742109F58E4CA2CFAB596E964CEEB.glb</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\processorpicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>Processes flow items</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>b16d26384045df26</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>6c000000c0166666</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>05fffffe3ff80000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>b3c7e9e73fe9da7d</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>956338803ff8ac03</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000080000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>00000000c0568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>000000003fc546fc</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>c00000003fde1bd4</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>e00000003fed3095</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>400000003ff17f71</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>c000000040003e4d</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>600000003ff10572</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>Output: 0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>%Idle:  0.0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>%Processing: 0.0</name><data>0000000000000000</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Processor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="42" dt="4"><name>Processor4</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Processor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FixedResource</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>cycletime</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>setuptime</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>000000003ff00000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>useprocessoperators</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>usesetupoperators</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofprocessoperators</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>processoperatorpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preemptprocessoperators</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>processdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int trigger = param(2);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>convey</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>usesameop</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>nrofsetupoperators</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>loading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>851eb8523fd851eb</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe73333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>ac0831273fd45a1c</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>modellen/Pusher Sorter_247742109F58E4CA2CFAB596E964CEEB.glb</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\processorpicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>Processes flow items</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>687cb03c4044a094</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>6c000000c0166666</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>05fffffe3ff80000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>b3c7e9f23fe9da7d</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>956338893ff8ac03</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000080000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>00000000c0568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>000000003fc546fc</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>c00000003fde1bd4</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>e00000003fed3095</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>400000003ff17f71</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>c000000040003e4d</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>600000003ff10572</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>Output: 0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>%Idle:  0.0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>%Processing: 0.0</name><data>0000000000000000</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Processor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="42" dt="4"><name>Processor5</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Processor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>FixedResource</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="80000040"><name></name></node>
+   <node f="42" dt="1"><name>cycletime</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>setuptime</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>maxcontent</name><data>000000003ff00000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>useprocessoperators</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>usesetupoperators</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofprocessoperators</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>processoperatorpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preemptprocessoperators</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>processdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int trigger = param(2);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>convey</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>usesameop</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>nrofsetupoperators</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>offset travel loaded</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>loading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>851eb8523fd851eb</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe73333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>ac0831273fd45a1c</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>modellen/Pusher Sorter_247742109F58E4CA2CFAB596E964CEEB.glb</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\processorpicturesmall.png</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>frame</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="4000000042" dt="2"><name>tooltip</name><data>Processes flow items</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>d190000040430ccc</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>6c000000c0166666</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>060000013ff80000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>b3c7e9ee3fe9da7d</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>956338823ff8ac03</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000080000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>00000000c0568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>offsetx</name><data>000000003fc546fc</data></node>
+   <node f="42" dt="1"><name>offsety</name><data>c00000003fde1bd4</data></node>
+   <node f="42" dt="1"><name>offsetz</name><data>e00000003fed3095</data></node>
+   <node f="42" dt="1"><name>offsetsx</name><data>400000003ff17f71</data></node>
+   <node f="42" dt="1"><name>offsetsy</name><data>c000000040003e4d</data></node>
+   <node f="42" dt="1"><name>offsetsz</name><data>600000003ff10572</data></node>
+   <node f="42" dt="1"><name>offsetrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>offsetrz</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>objectinfo</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>Output: 0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>%Idle:  0.0</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>%Processing: 0.0</name><data>0000000000000000</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>Processor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+ </data></node>
+ <node f="62" dt="4"><name>EntryTransfer10</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::EntryTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="442" dt="2"><name>entryOrientation</name><data>Object current = ownerobject(c);
+Conveyor conveyor = param(1);
+Object item = param(2);
+Conveyor.Item conveyorItem = conveyor.itemData[item];
+
+/***popup:Conveyor_FixedOrientation*/
+/***tag:description*//**Forward: X+, Up: Z+*/
+/** \nForward: *//***tag:forwardAxis*//**X+*/
+/** \nUp: *//***tag:upAxis*//**Z+*/
+return /** \nOrientation: *//***tag:orientation*//**/CONV_ITEM_X_BY_Y/**/;
+</data></node>
+   <node f="42" dt="1"><name>itemInsertionMode</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>holdTransports</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>maxTransportsIn</name><data>0000000000000000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_2</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+   <node f="42" dt="7"><name>blockedUpstreamTraversalMap</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::EntryTransfer::BlockedUpstreamTraversalMap</data>
+     <node f="40"><name></name></node></node>
+   </node>
+   <node f="42" dt="1"><name>pullFromPort</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullRequirement</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>EntryTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>cee05d0d404880b6</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>c2536e4abffe13c8</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>fe6b41fa40667fff</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>receivePort</name><data>00000000c0000000</data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ExitTransfer3&gt;connections/connectionsout/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_10</coupling></data></node>
+  </node>
+ </data></node>
+ <node f="62" dt="4"><name>ExitTransfer3</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::ExitTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>stopAtEnd</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>continuousPickPrediction</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>ignoreOnPredictLatePickup</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>pickPredictionInterval</name><data>000000003ff00000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor5&gt;variables/conveyorPoints/_3</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>ExitTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>3f4f2da34047e71d</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>b61192a5bffe13c8</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000040668000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/EntryTransfer10&gt;connections/connectionsin/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/ExitTransfers/_3</coupling></data></node>
+  </node>
+ </data></node>
+ <node f="62" dt="4"><name>EntryTransfer11</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::EntryTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="442" dt="2"><name>entryOrientation</name><data>Object current = ownerobject(c);
+Conveyor conveyor = param(1);
+Object item = param(2);
+Conveyor.Item conveyorItem = conveyor.itemData[item];
+
+/***popup:Conveyor_FixedOrientation*/
+/***tag:description*//**Forward: X+, Up: Z+*/
+/** \nForward: *//***tag:forwardAxis*//**X+*/
+/** \nUp: *//***tag:upAxis*//**Z+*/
+return /** \nOrientation: *//***tag:orientation*//**/CONV_ITEM_X_BY_Y/**/;
+</data></node>
+   <node f="42" dt="1"><name>itemInsertionMode</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>holdTransports</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>maxTransportsIn</name><data>0000000000000000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor6&gt;variables/conveyorPoints/_2</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+   <node f="42" dt="7"><name>blockedUpstreamTraversalMap</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::EntryTransfer::BlockedUpstreamTraversalMap</data>
+     <node f="40"><name></name></node></node>
+   </node>
+   <node f="42" dt="1"><name>pullFromPort</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullRequirement</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>EntryTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>f0b907a64046c483</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>1a9ed0fec0156689</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>0000000040568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>receivePort</name><data>00000000c0000000</data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ExitTransfer4&gt;connections/connectionsout/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/EntryTransfers/_11</coupling></data></node>
+  </node>
+ </data></node>
+ <node f="62" dt="4"><name>ExitTransfer4</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::ExitTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::FRTransfer</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>stopAtEnd</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>continuousPickPrediction</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>ignoreOnPredictLatePickup</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>pickPredictionInterval</name><data>000000003ff00000</data></node>
+   <node f="42"><name>transferPoint</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/CurvedConveyor2&gt;variables/conveyorPoints/_3</coupling></data></node>
+   </node>
+   <node f="42" dt="1"><name>canOrphan</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrreleased</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pull</name><data>0000000000000000</data></node>
+   <node f="8000000442" dt="2"><name>sendtoport</name><data>Object item = param(1);
+Object current = ownerobject(c);
+/**First available*/
+
+return 0 ;</data></node>
+   <node f="8000000442" dt="2"><name>receivefromport</name><data>Object current = ownerobject(c);
+/**Any Port*/
+return 0;
+</data></node>
+   <node f="8000000442" dt="2"><name>pullrequirement</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port =  param(2);
+
+/**Pull Anything*/
+
+return 1;</data></node>
+   <node f="42" dt="1"><name>usetransport</name><data>0000000000000000</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>transportpriority</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>preempttransport</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>transportdispatcher</name><data>Object current = ownerobject(c);
+Object item = param(1);
+int port = param(2);
+Object destination = param(3);
+double priority = param(4);
+int preempt = param(5);
+
+/***popup:CenterObject*/
+return /**/current.centerObjects[/**/
+	/***tag:portnr*//**/1/**//**/]/**/;
+</data></node>
+   <node f="42" dt="1"><name>nroftransportsout</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nroftransportsin</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>outwaitinfo</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="1"><name>sendtocontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>pullcontinuous</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>lifo</name><data>0000000000000000</data></node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+   <node f="42" dt="2"><name>title</name><data>Fixed Resource Multiservice</data></node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>ExitTransfer</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>objectinfo</name></node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>green</name><data>333333333fe33333</data></node>
+    <node f="42" dt="1"><name>blue</name><data>0000000000000000</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>picture</name><data>bitmaps\Template.bmp</data></node>
+  </node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>f4a7cfe94046c483</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>51f242e9c01099bc</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fc99999</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>31a01e2040568000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="259"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>other</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>numEntries</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>38101c6b4071f751</data></node>
+   <node f="42" dt="3"><name>releasedItems</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/EntryTransfer11&gt;connections/connectionsin/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+    </node>
+   </node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/ExitTransfers/_4</coupling></data></node>
+  </node>
+ </data></node>
+ <node f="62" dt="4"><name>StraightConveyor7</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::Conveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::StraightConveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>mergeController</name></node>
+   <node f="42"><name>traversals</name></node>
+   <node f="42" dt="1"><name>accumType</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>acceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>deceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stopSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>stopSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>moveSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>moveSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>entrySpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>entrySpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>restartDelay</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useFixedIntervalMovement</name><data>0000000000000000</data></node>
+   <node f="42"><name>fixedIntervalPattern</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+   </node>
+   <node f="42" dt="1"><name>fixedIntervalItemEdge</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>useCatchCondition</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>catchCondition</name><data>Conveyor current = ownerobject(c);
+Object item = param(1);
+int dogNum = param(2);
+int groupNum = param(3);
+int groupMemberNum = param(4);
+
+/**Always Catch*/
+return 1;
+</data></node>
+   <node f="42" dt="1"><name>isSlugBuilder</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByFillPercent</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>slugFillPercent</name><data>0000000040540000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugReadyTime</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>slugReleaseSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>hasSlugMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugMaxItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>length</name><data>24f8152940212669</data></node>
+   <node f="42" dt="1"><name>rise</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useVirtualLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>virtualLength</name><data>0000000040240000</data></node>
+   <node f="42"><name>system</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_10</coupling></data></node>
+   </node>
+   <node f="42"><name>motor</name></node>
+   <node f="42" dt="3"><name>visualization</name><data><coupling>/ConveyorSystem&gt;variables/visualizations/BeltConveyor</coupling></data></node>
+   <node f="42" dt="1"><name>width</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>rollerAngle</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>speed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>conveyorPoints</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor8&gt;variables/conveyorPoints/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>allocations</name></node>
+     <node f="42"><name>allocationRequests</name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>24f8152940212669</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_24</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>000000003d000000</data></node>
+     <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+     <node f="42"><name>massFlowTransfer</name></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>3e3633a400000000</data></node>
+      <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAcc</name><data>3da3d70a00000000</data></node>
+      <node f="42" dt="1"><name>driverCurAccTime</name><data>00000000bf800000</data></node>
+      <node f="42" dt="1"><name>driverStartTime</name><data>b1704e4f00000000</data></node>
+      <node f="42" dt="1"><name>driverStartSpeed</name><data>3ed4919600000000</data></node>
+      <node f="42" dt="1"><name>driverTargetSpeed</name><data>bd271de73f800000</data></node>
+      <node f="42" dt="1"><name>driverStartDist</name><data>3da3d70900000000</data></node>
+      <node f="42" dt="1"><name>driverHaltTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>000000004064c000</data></node>
+     </node>
+    </node>
+   </node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>6e6366534046c8f4</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>1f6e877a400b79a2</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>24f8152940212669</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>000000003fe00000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>00000000c0668000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="3"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transporter</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>simLength</name><data>24f8152940212669</data></node>
+   <node f="42" dt="1"><name>isDirectionReversed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>curTargetSpeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartSpeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverTargetSpeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverHaltTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>numStoppedNonAccumItems</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildState</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildFillLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>lastSlugItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>slugReadyEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>nonAccumSlugEnteringItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>hasNonAccumSlugBlockedItem</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>fixedIntervalDriverOffset</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>traversalPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>fixedIntervalEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>nonAccumStoppedBlockerClearPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>nonAccumFullStopEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>beltRepeatDist</name><data>0000000040140000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>windowtitle</name><data>StraightConveyor</data></node>
+   <node f="42" dt="2"><name>title</name><data>Conveyor</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>picture</name><data>modules\Conveyor\bitmaps\ConveyorSection.png</data></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>green</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>blue</name><data>51eb851f3fed1eb8</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42"><name>objectinfo</name>
+    <node f="40"><name></name></node>
+    <node f="42"><name>info1</name></node>
+    <node f="42"><name>info2</name></node>
+    <node f="42"><name>info3</name></node>
+   </node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>StraightConveyor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_9</coupling></data></node>
+  </node>
+ </data></node>
+ <node f="62" dt="4"><name>StraightConveyor8</name><data>
+  <node f="40"><name></name></node>
+  <node f="42"><name>superclasses</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::Conveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>classes</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="3"><name>Conveyor::StraightConveyor</name><data><coupling>null</coupling></data></node>
+  </node>
+  <node f="42"><name>variables</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>mergeController</name></node>
+   <node f="42"><name>traversals</name></node>
+   <node f="42" dt="1"><name>accumType</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>acceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>deceleration</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stopSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>stopSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>moveSpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>moveSpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>entrySpaceSizeFactor</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>entrySpacePadding</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>restartDelay</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>useFixedIntervalMovement</name><data>0000000000000000</data></node>
+   <node f="42"><name>fixedIntervalPattern</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+   </node>
+   <node f="42" dt="1"><name>fixedIntervalItemEdge</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>useCatchCondition</name><data>0000000000000000</data></node>
+   <node f="442" dt="2"><name>catchCondition</name><data>Conveyor current = ownerobject(c);
+Object item = param(1);
+int dogNum = param(2);
+int groupNum = param(3);
+int groupMemberNum = param(4);
+
+/**Always Catch*/
+return 1;
+</data>
+    <node f="40"><name></name></node></node>
+   <node f="42" dt="1"><name>isSlugBuilder</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByFillPercent</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>slugFillPercent</name><data>0000000040540000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugReadyTime</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>isSlugReadyByItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>slugReleaseSpeed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>hasSlugMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugMaxItemCount</name><data>0000000040240000</data></node>
+   <node f="42" dt="1"><name>length</name><data>7fda251b402659ef</data></node>
+   <node f="42" dt="1"><name>rise</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>useVirtualLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>virtualLength</name><data>0000000040240000</data></node>
+   <node f="42"><name>system</name>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_11</coupling></data></node>
+   </node>
+   <node f="42"><name>motor</name></node>
+   <node f="42" dt="3"><name>visualization</name><data><coupling>/ConveyorSystem&gt;variables/visualizations/BeltConveyor</coupling></data></node>
+   <node f="42" dt="1"><name>width</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>rollerAngle</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>speed</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>conveyorPoints</name><data>0000000000000000</data>
+    <node f="40"><name></name></node>
+    <node f="10000042" dt="3"><name></name><data><coupling>/StraightConveyor7&gt;variables/conveyorPoints/1</coupling></data>
+     <node f="40"><name></name></node>
+     <node f="42"><name>allocations</name></node>
+     <node f="42"><name>allocationRequests</name></node>
+     <node f="42" dt="1"><name>distAlong</name><data>0000000000000000</data></node>
+     <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_25</coupling></data></node>
+     <node f="42" dt="1"><name>distOffCenter</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+     <node f="42"><name>massFlowTransfer</name></node>
+     <node f="42" dt="7"><name>localType</name><data/>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>inlineSpeedType</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>sideSpeedType</name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name>inlineTransferMaxAngle</name><data>0000000040468000</data></node>
+      <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>finishTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>transferTime</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>customSpeed</name><data>000000003ff00000</data></node>
+      <node f="42" dt="1"><name>popupDist</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>doSmoothTransitions</name><data>000000003ff00000</data></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::TransferType</data>
+       <node f="40"><name></name></node></node>
+     </node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>flowRateRatio</name><data>0000081c00000838</data></node>
+      <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+      <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+      <node f="42" dt="1"><name>driverCurAcc</name><data>00000c5000000c6c</data></node>
+      <node f="42" dt="1"><name>driverCurAccTime</name><data>00000c9000000cb8</data></node>
+      <node f="42" dt="1"><name>driverStartTime</name><data>00000cd400000cf4</data></node>
+      <node f="42" dt="1"><name>driverStartSpeed</name><data>00000d1000000d2c</data></node>
+      <node f="42" dt="1"><name>driverTargetSpeed</name><data>00000d4800000d6c</data></node>
+      <node f="42" dt="1"><name>driverStartDist</name><data>00000d9000000dac</data></node>
+      <node f="42" dt="1"><name>driverHaltTime</name><data>00000dd000000dec</data></node>
+      <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>00000000402e0000</data></node>
+     </node>
+    </node>
+   </node>
+   <node f="42"><name>timetables</name></node>
+   <node f="42"><name>networknodes</name></node>
+   <node f="42" dt="1"><name>timeoflaststop</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>nrofstops</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>statebeforestop</name><data>0000000000000000</data></node>
+   <node f="42"><name>collisionspheres</name></node>
+   <node f="42"><name>collisionobjects</name></node>
+   <node f="42" dt="1"><name>savedstate</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>resetposition</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>doanimations</name><data>000000003ff00000</data></node>
+  </node>
+  <node f="42"><name>behaviour</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>spatial</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="1"><name>spatialx</name><data>2525610940427f5a</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>1f6e873c400b79a2</data></node>
+   <node f="42" dt="1"><name>spatialz</name><data>000000003ff00000</data></node>
+   <node f="42" dt="1"><name>spatialsx</name><data>eb4056894025fd8f</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>000000003fe00000</data></node>
+   <node f="42" dt="1"><name>spatialsz</name><data>0000000040000000</data></node>
+   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>spatialrz</name><data>00000000c0668000</data></node>
+   <node f="42" dt="1"><name>centroid</name><data>0000000000000000</data></node>
+  </node>
+  <node f="42"><name>stats</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="7"><name>state_current</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="6"><name>profile</name><data f="1">
+     <fields>
+      <field name="state" bytesize="36" type="3"/>
+      <field name="time" bytesize="8" type="1"/>
+      <field name="active" bytesize="4" type="2"/>
+     </fields>
+     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>processing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>busy</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>blocked</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>generating</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>empty</ed><ed>0000000000000000</ed><ed>1</ed></entry>
+     <entry><ed>collecting</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>waiting for transporter</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
+     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_input</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_output</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_content</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="7"><name>stats_staytime</name><data/>
+    <node f="40"><name></name></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>simLength</name><data>7fda251b402659ef</data></node>
+   <node f="42" dt="1"><name>isDirectionReversed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>curTargetSpeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartSpeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverTargetSpeed</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>driverHaltTime</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>numStoppedNonAccumItems</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildState</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildFillLength</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>slugBuildMaxItemCount</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>lastSlugItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>slugReadyEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="3"><name>nonAccumSlugEnteringItem</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>hasNonAccumSlugBlockedItem</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>fixedIntervalDriverOffset</name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name>traversalPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>fixedIntervalEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>nonAccumStoppedBlockerClearPoints</name><data>0000000000000000</data></node>
+   <node f="42" dt="3"><name>nonAccumFullStopEvent</name><data><coupling>null</coupling></data></node>
+   <node f="42" dt="1"><name>beltRepeatDist</name><data>0000000040140000</data></node>
+  </node>
+  <node f="42"><name>special</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>windowtitle</name><data>StraightConveyor</data></node>
+   <node f="42" dt="2"><name>title</name><data>Conveyor</data></node>
+   <node f="42" dt="2"><name>description</name><data></data></node>
+   <node f="42" dt="2"><name>guifocusclass</name><data>VIEW:/standardviews/modelingutilities/QuickerProperties</data></node>
+  </node>
+  <node f="42"><name>visual</name>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>picture</name><data>modules\Conveyor\bitmaps\ConveyorSection.png</data></node>
+   <node f="42"><name>color</name>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>red</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>green</name><data>51eb851f3fed1eb8</data></node>
+    <node f="42" dt="1"><name>blue</name><data>51eb851f3fed1eb8</data></node>
+   </node>
+   <node f="42" dt="2"><name>shape</name><data>***</data></node>
+   <node f="42" dt="1"><name>shapeindex</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imagebase</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexbase</name><data>0000000000000000</data></node>
+   <node f="42" dt="2"><name>imageobject</name><data>***</data></node>
+   <node f="42" dt="1"><name>imageindexobject</name><data>0000000000000000</data></node>
+   <node f="42"><name>objectinfo</name>
+    <node f="40"><name></name></node>
+    <node f="42"><name>info1</name></node>
+    <node f="42"><name>info2</name></node>
+    <node f="42"><name>info3</name></node>
+   </node>
+  </node>
+  <node f="4000000042" dt="2"><name>windowtitle</name><data>StraightConveyor</data>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>labels</name>
+   <node f="40"><name></name></node></node>
+  <node f="42"><name>connections</name>
+   <node f="40"><name></name></node>
+   <node f="42"><name>connectionsin</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionsout</name>
+    <node f="40"><name></name></node></node>
+   <node f="42"><name>connectionscenter</name>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>events</name>
+   <node f="40"><name></name></node></node>
+  <node f="42" dt="7"><name>resetvalues</name><data/>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+    <node f="40"><name></name></node></node>
+  </node>
+  <node f="42"><name>stored</name></node>
+  <node f="42"><name>Groups</name>
+   <node f="40"><name></name></node>
+   <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_10</coupling></data></node>
+  </node>
+ </data></node>
+>>>>>>> Stashed changes
 </node></flexsim-tree>
