@@ -1,1 +1,64 @@
+<html>
+    <head>
+        <title> Titel</title>
+        <link rel="stylesheet" href="Bestellen.css" type="text/css"/>
+    </head>
 
+    <body>
+        <header>
+            <h1>Titel</h1>
+        </header>
+
+        <nav>
+            link 1 link 2 link 3
+        </nav>
+
+        <div class="menu-knoppen">
+        <a class="btn" href="../website lay-out home.html">Home</a>
+        <a class="btn" href="../Bestellen pagina/Bestellen.html">Bestellen</a> 
+        <a class="btn" href="../Contact pagina/Contact.html">Contact </a> 
+        <a class="btn" href="../producten-pagina/Producten.html">Producten</a> 
+        </div>
+
+        <div class="filter" id="myBtnContainer">
+            <button class="btn active" data-filter="all"> Show all</button>
+            <button class="btn" data-filter="clear all">wis filter keuze </button>
+            <button class="btn" data-filter="kleur"> kleur</button>
+            <button class="btn" data-filter="gewicht"> gewicht</button>
+        </div>
+
+        <div class="sub-filter" id="kleurSubContainer" style="display: none; margin-top: 10px;">
+            <div id="myBtnContainerkleur">
+                <button class="btn" data-filter="rood"> rood</button>
+                <button class="btn" data-filter="blauw"> blauw</button>
+                <button class="btn" data-filter="groen"> groen</button>
+            </div>
+        </div>
+
+        <div class="sub-filter" id="gewichtSubContainer" style="display: none; margin-top: 10px;">
+            <div id="myBtnContainer2">
+                <button class="btn" data-filter="kg15"> 15KG</button>
+                <button class="btn" data-filter="kg25"> 25KG</button>
+                <button class="btn" data-filter="kg50"> 50KG</button>
+            </div>
+        </div>
+
+        <div style="margin: 20px 0;">
+            <strong>geselecteerde filters:</strong>
+            <div id="activeFilters" style="margin-top: 10px; font-weight: bold;">Geen</div>
+        </div>
+
+        <div class="container">
+            <div class="filterDiv rood">rood</div>
+            <div class="filterDiv blauw">blauw</div>
+            <div class="filterDiv groen">groen</div>
+        </div>
+
+        <div class="container">
+            <div class="filterDiv kg15">15KG</div>
+            <div class="filterDiv kg25">25KG</div>
+            <div class="filterDiv kg50">50KG</div>
+        </div>
+        <script src="Bestellen pagina.js"></script>
+    </body>
+</html>
