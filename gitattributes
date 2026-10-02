@@ -1,0 +1,5 @@
+# FlexSim files that change on every save and never need a real merge.
+# On a conflict, Git keeps your own version automatically.
+# Each person must run this once:  git config merge.ours.driver true
+distributedfiles/savehistory.fsx merge=ours
+distributedfiles/windows.fsx merge=ours
