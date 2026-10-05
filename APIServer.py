@@ -1,37 +1,90 @@
 from fastapi import FastAPI
 import random
 import uvicorn
+from pydantic import BaseModel
+
+
+class Order(BaseModel):
+    Color: int
+    Weight: int
+    ColorSorted: bool
+    IDPackage: int
+
 
 app = FastAPI()
 
-class Order:
-    def __init__(self, Color, Weight):
-        self.Color = Color
-        self.ColorSorted = ColorSorted
-        self.Weight = Weight
 
+# Eerste bestelling
+bestellingen = [
+    Order(
+        random.randrange(1, 4),
+        random.randrange(1, 4),
+        False,
+        random.randrange(1, 99999)
+    )
+]
 
+# Nog 99 bestellingen toevoegen
 i = 1
-bestellingen = [Order(Color, Weight) for Color, Weight in [(random.randrange(1, 4), random.randrange(1, 4), False)]]
+
 while i < 100:
-    bestellingen.append([Order(random.randrange(1, 4), random.randrange(1, 4), False)])
+    bestellingen.append(
+        Order(
+            random.randrange(1, 4),
+            random.randrange(1, 4),
+            False,
+            random.randrange(1, 99999)
+        )
+    )
     i += 1
+
 
 @app.get("/Bestellingen")
 async def ListBestelling():
     return bestellingen
 
+
 @app.post("/NewBestelling")
-async def AddBestelling(NieuwNummer: int):
-    bestellingen.append(NieuwNummer)
+async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
+
+    nieuwe_bestelling = Order(
+        NieuwKleur,
+        NieuwGewicht,
+        False,
+        random.randrange(1, 99999)
+    )
+
+    bestellingen.append(nieuwe_bestelling)
+
     return bestellingen
 
-@app.get("/RemoveBestelling")
-async def RemoveBestelling():
-    bestellingen.pop(0)
+
+@app.post("/ColorSet")
+async def ColorSet(IDNumber: int):
+
+    for bestelling in bestellingen:
+        if bestelling.IDPackage == IDNumber:
+            bestelling.ColorSorted = True
+            break
+
+    return bestellingen
+
+
+@app.post("/RemoveBestelling")
+async def RemoveBestelling(IDNumber: int):
+
+    for bestelling in bestellingen:
+        if bestelling.IDPackage == IDNumber:
+            bestellingen.remove(bestelling)
+            break
+
     return bestellingen
 
 
 if __name__ == "__main__":
-    # Run this directly from your normal terminal/command prompt (python APIServer.py)
-    uvicorn.run("APIServer:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run(
+        "APIServer:app",
+        host="127.0.0.1",
+        port=8000,
+        reload=True
+    )
