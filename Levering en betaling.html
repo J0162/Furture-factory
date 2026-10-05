@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Levering en betaling</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Levering en betaling.css" type="text/css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="#" method="post">
+                    <div class="row">
+
+                        <div class="col-50">
+                            <h3>Betalingsadres</h3>
+                            <div class="fields">
+                                <div class="field">
+                                    <label for="fname"><i class="fa fa-user"></i> Voornaam</label>
+                                    <input type="text" id="fname" name="voornaam">
+                                </div>
+                                <div class="field">
+                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                                <div class="field field-full">
+                                    <label for="adr"><i class="fa fa-address-card-o"></i> Adres</label>
+                                    <input type="text" id="adr" name="adres">
+                                </div>
+                                <div class="field">
+                                    <label for="stad"><i class="fa fa-institution"></i> Stad</label>
+                                    <input type="text" id="stad" name="stad">
+                                </div>
+                                <div class="field">
+                                    <label for="province">Provincie</label>
+                                    <input type="text" id="province" name="provincie">
+                                </div>
+                                <div class="field">
+                                    <label for="postcode">Postcode</label>
+                                    <input type="text" id="postcode" name="postcode">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Betaalmethode</h3>
+                            <label>Geaccepteerde kaarten</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:#0000FF;"></i>
+                                <i class="fa fa-cc-amex" style="color:#005691;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:#EB001B;"></i>
+                            </div>
+
+                            <div class="fields">
+                                <div class="field field-full">
+                                    <label for="cname">Naam op kaart</label>
+                                    <input type="text" id="cname" name="kaartnaam"
+                                           autocomplete="cc-name" required>
+                                </div>
+                                <div class="field field-full">
+                                    <label for="cnum">Kaartnummer</label>
+                                    <input type="text" id="cnum" name="kaartnummer"
+                                           maxlength="16" inputmode="numeric"
+                                           pattern="[0-9]{15,16}"
+                                           autocomplete="cc-number" required>
+                                </div>
+                                <div class="field">
+                                    <label for="exmonth">Vervalmaand</label>
+                                    <input type="text" id="exmonth" name="vervalmaand">
+                                </div>
+                                <div class="field">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv"
+                                           maxlength="4" inputmode="numeric"
+                                           pattern="[0-9]{3,4}"
+                                           autocomplete="cc-csc" required>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Verstuuradres is hetzelfde als betaaladres.
+                    </label>
+                    <input type="submit" value="Doorgaan naar afrekenen" class="btn">
+                    <button type="button" id="ideal-knop" class="btn-ideal" aria-label="Betaal met iDEAL/Wero">
+                        <img src="ideal-wero-logo.png" alt="ideal en wero">
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-25">
+            <div class="container">
+                <h4>Winkelwagen
+                    <span class="price" style="color:#000000">
+                        <i class="fa fa-shopping-cart"></i>
+                        <b id="cart-aantal">0</b>
+                    </span>
+                </h4>
+                <div id="cart-lijst"></div>
+                <hr>
+                <p>Totaal <span class="price" style="color:black"><b>€<span id="cart-totaal">0,00</span></b></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("cvv").addEventListener("input", function () {
+            this.value = this.value.replace(/[^0-9]/g, "").slice(0, 4);
+        });
+
+        document.getElementById("cnum").addEventListener("input", function () {
+            this.value = this.value.replace(/[^0-9]/g, "").slice(0, 16);
+        });
+
+        document.getElementById("ideal-knop").addEventListener("click", function () {
+            window.location.href = "ideal-betaling.html";
+        });
+
+        var cart = [];
+        try {
+            cart = JSON.parse(localStorage.getItem("winkelwagen")) || [];
+        } catch (e) {
+            cart = [];
+        }
+
+        function formatPrijs(bedrag) {
+            return bedrag.toFixed(2).replace(".", ",");
+        }
+
+        var lijst = document.getElementById("cart-lijst");
+        var totaal = 0;
+        var aantal = 0;
+
+        if (cart.length === 0) {
+            lijst.textContent = "Je winkelwagen is leeg.";
+        }
+
+        cart.forEach(function (item) {
+            var regel = item.price * item.aantal;
+            totaal += regel;
+            aantal += item.aantal;
+
+            var p = document.createElement("p");
+            p.textContent = item.name + " (" + item.aantal + "x)";
+            var prijs = document.createElement("span");
+            prijs.className = "price";
+            prijs.textContent = "€" + formatPrijs(regel);
+            p.appendChild(prijs);
+            lijst.appendChild(p);
+        });
+
+        document.getElementById("cart-aantal").textContent = aantal;
+        document.getElementById("cart-totaal").textContent = formatPrijs(totaal);
+    </script>
+</body>
+</html>
