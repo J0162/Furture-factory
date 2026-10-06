@@ -11,6 +11,7 @@
     <div class="row">
         <div class="col-75">
             <div class="container">
+                <div id="melding" style="display:none; padding:12px; margin-bottom:12px; border-radius:3px;"></div>
                 <form action="#" method="post">
                     <div class="row">
 
@@ -18,32 +19,25 @@
                             <h3>Betalingsadres</h3>
                             <div class="fields">
                                 <div class="field">
-                                    <label for="fname"><i class="fa fa-user"></i> Voornaam</label>
-                                    <input type="text" id="fname" name="voornaam">
+                                    <label for="fname"><i class="fa fa-user"></i> Voor- en achternaam</label>
+                                    <input type="text" id="name" name="naam">
                                 </div>
                                 <div class="field">
                                     <label for="email"><i class="fa fa-envelope"></i> Email</label>
                                     <input type="text" id="email" name="email">
                                 </div>
-                                <div class="field field-full">
-                                    <label for="adr"><i class="fa fa-address-card-o"></i> Adres</label>
-                                    <input type="text" id="adr" name="adres">
+                            <div class="adres-rij">
+                                <div class="adres-wrapper">
+                                    <label for="adres">Adres</label>
+                                    <input type="text" id="adres" autocomplete="off">
+                                    <ul id="adres-suggesties" class="suggesties"></ul>
                                 </div>
-                                <div class="field">
-                                    <label for="stad"><i class="fa fa-institution"></i> Stad</label>
-                                    <input type="text" id="stad" name="stad">
-                                </div>
-                                <div class="field">
-                                    <label for="province">Provincie</label>
-                                    <input type="text" id="province" name="provincie">
-                                </div>
-                                <div class="field">
+                                <div class="postcode-veld">
                                     <label for="postcode">Postcode</label>
                                     <input type="text" id="postcode" name="postcode">
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-50">
                             <h3>Betaalmethode</h3>
                             <label>Geaccepteerde kaarten</label>
@@ -85,7 +79,7 @@
                     <label>
                         <input type="checkbox" checked="checked" name="sameadr"> Verstuuradres is hetzelfde als betaaladres.
                     </label>
-                    <input type="submit" value="Doorgaan naar afrekenen" class="btn">
+                    <input type="submit" value="Betalen" class="btn">
                     <button type="button" id="ideal-knop" class="btn-ideal" aria-label="Betaal met iDEAL/Wero">
                         <img src="ideal-wero-logo.png" alt="ideal en wero">
                     </button>
@@ -107,55 +101,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        document.getElementById("cvv").addEventListener("input", function () {
-            this.value = this.value.replace(/[^0-9]/g, "").slice(0, 4);
-        });
-
-        document.getElementById("cnum").addEventListener("input", function () {
-            this.value = this.value.replace(/[^0-9]/g, "").slice(0, 16);
-        });
-
-        document.getElementById("ideal-knop").addEventListener("click", function () {
-            window.location.href = "ideal-betaling.html";
-        });
-
-        var cart = [];
-        try {
-            cart = JSON.parse(localStorage.getItem("winkelwagen")) || [];
-        } catch (e) {
-            cart = [];
-        }
-
-        function formatPrijs(bedrag) {
-            return bedrag.toFixed(2).replace(".", ",");
-        }
-
-        var lijst = document.getElementById("cart-lijst");
-        var totaal = 0;
-        var aantal = 0;
-
-        if (cart.length === 0) {
-            lijst.textContent = "Je winkelwagen is leeg.";
-        }
-
-        cart.forEach(function (item) {
-            var regel = item.price * item.aantal;
-            totaal += regel;
-            aantal += item.aantal;
-
-            var p = document.createElement("p");
-            p.textContent = item.name + " (" + item.aantal + "x)";
-            var prijs = document.createElement("span");
-            prijs.className = "price";
-            prijs.textContent = "€" + formatPrijs(regel);
-            p.appendChild(prijs);
-            lijst.appendChild(p);
-        });
-
-        document.getElementById("cart-aantal").textContent = aantal;
-        document.getElementById("cart-totaal").textContent = formatPrijs(totaal);
-    </script>
+    <script src="Levering en betaling.js"></script>
 </body>
 </html>
