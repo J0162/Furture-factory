@@ -57,7 +57,7 @@ def SortByRequestedType(current):
 
     # Bestelling verwijderen via ID
     response = requests.post(
-        "http://127.0.0.1:8000/RemoveBestelling",
+        "http://127.0.0.1:8000/ColorSet",
         params={"IDNumber": gekozen_id}
     )
 

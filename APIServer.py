@@ -17,10 +17,10 @@ app = FastAPI()
 # Eerste bestelling
 bestellingen = [
     Order(
-        random.randrange(1, 4),
-        random.randrange(1, 4),
-        False,
-        random.randrange(1, 99999)
+        Color=random.randrange(1, 4),
+        Weight=random.randrange(1, 4),
+        ColorSorted=False,
+        IDPackage=random.randrange(1, 99999)
     )
 ]
 
@@ -30,10 +30,10 @@ i = 1
 while i < 100:
     bestellingen.append(
         Order(
-            random.randrange(1, 4),
-            random.randrange(1, 4),
-            False,
-            random.randrange(1, 99999)
+            Color=random.randrange(1, 4),
+            Weight=random.randrange(1, 4),
+            ColorSorted=False,
+            IDPackage=random.randrange(1, 99999)
         )
     )
     i += 1
@@ -48,10 +48,10 @@ async def ListBestelling():
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
     nieuwe_bestelling = Order(
-        NieuwKleur,
-        NieuwGewicht,
-        False,
-        random.randrange(1, 99999)
+        Color=NieuwKleur,
+        Gewicht=NieuwGewicht,
+        ColorSorted=False,
+        IDPackage=random.randrange(1, 99999)
     )
 
     bestellingen.append(nieuwe_bestelling)
