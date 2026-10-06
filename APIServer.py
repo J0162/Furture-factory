@@ -2,6 +2,9 @@ from fastapi import FastAPI
 import random
 import uvicorn
 from pydantic import BaseModel
+from fastapi.responses import FileResponse
+from pathlib import Path
+
 
 
 class Order(BaseModel):
@@ -43,6 +46,9 @@ while i < 100:
 async def ListBestelling():
     return bestellingen
 
+@app.get("/")
+async def Dashboard():
+    return FileResponse(Path(__file__).parent / "dashboard.html")
 
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
