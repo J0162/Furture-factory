@@ -35,6 +35,10 @@
            text-shadow: 0 1px 1px rgba(0,0,0,.3); }
   .order.next { outline: 3px solid var(--ink); outline-offset: 2px; }
   .order.new { animation: pop .5s ease-out; }
+  .order.sorted { opacity: .35; }
+  .order.sorted::after { content: "✓"; font-size: 13px; }
+  .order.justsorted { animation: flash .8s ease-out; }
+  @keyframes flash { 0% { transform: scale(1.35); opacity: 1; } 100% { transform: scale(1); } }
   @keyframes pop { from { transform: scale(.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
   form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
   select, input, button { font: inherit; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--line);
@@ -49,19 +53,19 @@
   <p class="sub"><span id="dot" class="dot"></span><span id="status">Verbinden…</span></p>
 
   <div class="row">
-    <div class="panel"><div class="label">In wachtrij</div><div class="big" id="n-queue">–</div></div>
-    <div class="panel"><div class="label">Verwerkt door robot</div><div class="big" id="n-done">–</div></div>
-    <div class="panel"><div class="label">Nieuw toegevoegd</div><div class="big" id="n-added">–</div></div>
-    <div class="panel"><div class="label">Per kleur</div><div class="bars" id="bars"></div></div>
+    <div class="panel"><div class="label">Nog te sorteren</div><div class="big" id="n-open">–</div></div>
+    <div class="panel"><div class="label">Gesorteerd door robot</div><div class="big" id="n-done">–</div></div>
+    <div class="panel"><div class="label">Totaal bestellingen</div><div class="big" id="n-total">–</div></div>
+    <div class="panel"><div class="label">Nog te sorteren per kleur</div><div class="bars" id="bars"></div></div>
   </div>
 
   <div class="panel" style="margin-bottom:16px">
-    <h2>Lengte wachtrij (laatste 2 minuten)</h2>
+    <h2>Nog te sorteren (laatste 2 minuten)</h2>
     <canvas id="chart"></canvas>
   </div>
 
   <div class="panel" style="margin-bottom:16px">
-    <h2>Wachtrij — eerste blok (omlijnd) is de volgende voor de robot</h2>
+    <h2>Bestellingen — omlijnd = volgende voor de robot, vaag met ✓ = gesorteerd</h2>
     <div class="queue" id="queue"></div>
   </div>
 
@@ -71,6 +75,7 @@
       <select id="f-color"></select>
       <input id="f-weight" type="number" min="1" max="3" value="1" style="width:80px" title="Gewicht">
       <button>Toevoegen</button>
+      <span id="f-msg" class="label"></span>
     </form>
   </div>
 </main>
@@ -86,12 +91,11 @@ const POLL_MS = 500;
 const HISTORY = 240;               // 240 samples x 0.5 s = 2 minutes
 
 const history = [];
-let lastLength = null;
-const stats = { verwerkt: 0, toegevoegd: 0 };   // counted since the page was opened
+let knownIds = null;               // IDs seen in the previous poll
+let sortedIds = new Set();         // IDs that were sorted in the previous poll
 
 const $ = id => document.getElementById(id);
 
-// Fill the "add order" dropdown
 for (const [k, c] of Object.entries(COLORS)) {
   $("f-color").insertAdjacentHTML("beforeend", `<option value="${k}">${c.name}</option>`);
 }
@@ -99,16 +103,9 @@ for (const [k, c] of Object.entries(COLORS)) {
 async function poll() {
   try {
     const orders = await fetch("/Bestellingen").then(r => r.json());
-    // Old server versions wrapped each order in a list: [[{...}], [{...}]]
     const list = orders.map(o => Array.isArray(o) ? o[0] : o)
                        .filter(o => o && typeof o === "object");
-    // Count processed / added orders from how the list length changes
-    if (lastLength !== null) {
-      const diff = list.length - lastLength;
-      if (diff < 0) stats.verwerkt -= diff;
-      if (diff > 0) stats.toegevoegd += diff;
-    }
-    render(list, stats);
+    render(list);
     $("dot").className = "dot";
     $("status").textContent = "Live — bijgewerkt " + new Date().toLocaleTimeString();
   } catch (e) {
@@ -117,31 +114,39 @@ async function poll() {
   }
 }
 
-function render(list, stats) {
-  $("n-queue").textContent = list.length;
-  $("n-done").textContent = stats.verwerkt;
-  $("n-added").textContent = stats.toegevoegd;
+function render(list) {
+  const open = list.filter(o => !o.ColorSorted);
+  $("n-open").textContent = open.length;
+  $("n-done").textContent = list.length - open.length;
+  $("n-total").textContent = list.length;
 
-  // Per-color bars
   const counts = {};
-  list.forEach(o => counts[o.Color] = (counts[o.Color] || 0) + 1);
+  open.forEach(o => counts[o.Color] = (counts[o.Color] || 0) + 1);
   const max = Math.max(1, ...Object.values(counts));
   $("bars").innerHTML = Object.entries(COLORS).map(([k, c]) => `
     <div class="bar"><span>${c.name}</span>
       <div class="track"><div class="fill" style="width:${(counts[k] || 0) / max * 100}%;background:${c.hex}"></div></div>
       <span>${counts[k] || 0}</span></div>`).join("");
 
-  // Queue blocks; animate ones that were appended since the last poll
-  const grew = lastLength !== null && list.length > lastLength ? list.length - lastLength : 0;
+  const nextId = open.length ? open[0].IDPackage : null;
   $("queue").innerHTML = list.map((o, i) => {
     const c = COLORS[o.Color] || { name: "?", hex: "#888" };
-    const cls = ["order", i === 0 ? "next" : "", i >= list.length - grew ? "new" : ""].join(" ");
-    return `<div class="${cls}" style="background:${c.hex}" title="#${i + 1} ${c.name}, gewicht ${o.Weight}">
-              <span>${i + 1}</span><span>${typeof o.Weight === "number" ? o.Weight + "kg" : ""}</span></div>`;
+    const cls = ["order",
+      o.ColorSorted ? "sorted" : "",
+      o.IDPackage === nextId ? "next" : "",
+      knownIds && !knownIds.has(o.IDPackage) ? "new" : "",
+      o.ColorSorted && knownIds && !sortedIds.has(o.IDPackage) ? "justsorted" : "",
+    ].join(" ");
+    const w = typeof o.Weight === "number" ? o.Weight + "kg" : "";
+    return `<div class="${cls}" style="background:${c.hex}"
+              title="ID ${o.IDPackage ?? "?"} · ${c.name} · gewicht ${o.Weight} · ${o.ColorSorted ? "gesorteerd" : "nog niet gesorteerd"}">
+              <span>${i + 1}</span><span>${o.ColorSorted ? "" : w}</span></div>`;
   }).join("");
-  lastLength = list.length;
 
-  history.push(list.length);
+  knownIds = new Set(list.map(o => o.IDPackage));
+  sortedIds = new Set(list.filter(o => o.ColorSorted).map(o => o.IDPackage));
+
+  history.push(open.length);
   if (history.length > HISTORY) history.shift();
   drawChart();
 }
@@ -171,8 +176,9 @@ function drawChart() {
 
 $("add").addEventListener("submit", async e => {
   e.preventDefault();
-  const q = new URLSearchParams({ Color: $("f-color").value, Weight: $("f-weight").value });
-  await fetch("/NewBestelling?" + q, { method: "POST" }).catch(() => {});
+  const q = new URLSearchParams({ NieuwKleur: $("f-color").value, NieuwGewicht: $("f-weight").value });
+  const r = await fetch("/NewBestelling?" + q, { method: "POST" }).catch(() => null);
+  $("f-msg").textContent = r && r.ok ? "Toegevoegd" : "Mislukt (" + (r ? r.status : "geen verbinding") + ")";
   poll();
 });
 
