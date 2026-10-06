@@ -7,8 +7,8 @@
   <node f="42" dt="4"><name>QuickerProperties4054516948</name><data>
    <node f="40"><name></name></node>
    <node f="42" dt="2"><name>saver</name><data>QuickerProperties</data></node>
-   <node f="42" dt="1"><name>spatialx</name><data>000000004082d800</data></node>
-   <node f="42" dt="1"><name>spatialy</name><data>000000004076a000</data></node>
+   <node f="42" dt="1"><name>spatialx</name><data>0000000040859800</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>0000000040789000</data></node>
    <node f="42" dt="1"><name>spatialsx</name><data>0000000040736000</data></node>
    <node f="42" dt="1"><name>spatialsy</name><data>0000000040780000</data>
     <node f="40"><name></name></node></node>
@@ -24,8 +24,8 @@
    <node f="42" dt="2"><name>saver</name><data>Splitter</data></node>
    <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
-   <node f="42" dt="1"><name>spatialsx</name><data>0000000040940000</data></node>
-   <node f="42" dt="1"><name>spatialsy</name><data>000000004083e800</data>
+   <node f="42" dt="1"><name>spatialsx</name><data>0000000040980000</data></node>
+   <node f="42" dt="1"><name>spatialsy</name><data>0000000040892000</data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
    </node>
@@ -46,7 +46,7 @@
      <node f="42" dt="1"><name>desired</name><data>0000000040708000</data></node>
      <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
     </node>
-    <node f="42" dt="1"><name>spatialsy</name><data>000000004083e800</data>
+    <node f="42" dt="1"><name>spatialsy</name><data>0000000040892000</data>
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>min</name><data>0000000040390000</data></node>
      <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
@@ -85,14 +85,14 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
      <node f="40"><name></name></node>
      <node f="42" dt="2"><name>saver</name><data>LibraryIconGrid</data></node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
+     <node f="42" dt="1"><name>spatialy</name><data>0000000040350000</data></node>
      <node f="42" dt="1"><name>spatialsx</name><data>0000000040708000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>min</name><data>0000000040604000</data></node>
       <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
       <node f="42" dt="1"><name>desired</name><data>000000004067c000</data></node>
      </node>
-     <node f="42" dt="1"><name>spatialsy</name><data>0000000040828800</data>
+     <node f="42" dt="1"><name>spatialsy</name><data>000000004087c800</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
      </node>
@@ -111,14 +111,14 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
      <node f="40"><name></name></node>
      <node f="42" dt="2"><name>saver</name><data>Toolbox</data></node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
+     <node f="42" dt="1"><name>spatialy</name><data>0000000040350000</data></node>
      <node f="42" dt="1"><name>spatialsx</name><data>0000000040708000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>min</name><data>0000000040604000</data></node>
       <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
       <node f="42" dt="1"><name>desired</name><data>0000000040694000</data></node>
      </node>
-     <node f="42" dt="1"><name>spatialsy</name><data>0000000040828800</data>
+     <node f="42" dt="1"><name>spatialsy</name><data>000000004087c800</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
      </node>
@@ -147,14 +147,14 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
        <node f="40"><name></name></node></node>
      </node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
+     <node f="42" dt="1"><name>spatialy</name><data>0000000040350000</data></node>
      <node f="42" dt="1"><name>spatialsx</name><data>0000000040708000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>min</name><data>0000000040708000</data></node>
       <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
       <node f="42" dt="1"><name>desired</name><data>0000000040708000</data></node>
      </node>
-     <node f="42" dt="1"><name>spatialsy</name><data>0000000040828800</data>
+     <node f="42" dt="1"><name>spatialsy</name><data>000000004087c800</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
      </node>
@@ -199,8 +199,8 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
-       <node f="42" dt="1"><name>spatialsx</name><data>0000000040708000</data></node>
-       <node f="42" dt="1"><name>spatialsy</name><data>0000000040828c00</data></node>
+       <node f="42" dt="1"><name>spatialsx</name><data>6666666640706666</data></node>
+       <node f="42" dt="1"><name>spatialsy</name><data>666666664087c666</data></node>
        <node f="42" dt="1"><name>alignrightmargin</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
       </node>
@@ -212,11 +212,11 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
     <node f="42" dt="2"><name>saver</name><data>Splitter</data></node>
     <node f="42" dt="1"><name>spatialx</name><data>000000004070c000</data></node>
     <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
-    <node f="42" dt="1"><name>spatialsx</name><data>0000000040862000</data>
+    <node f="42" dt="1"><name>spatialsx</name><data>00000000408e2000</data>
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>desired</name><data>0000000040862000</data></node>
     </node>
-    <node f="42" dt="1"><name>spatialsy</name><data>000000004083e800</data>
+    <node f="42" dt="1"><name>spatialsy</name><data>0000000040892000</data>
      <node f="40"><name></name></node></node>
     <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
     <node f="42"><name>variables</name></node>
@@ -228,11 +228,11 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
      <node f="42" dt="2"><name>saver</name><data>TabPane</data></node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialsx</name><data>0000000040862000</data>
+     <node f="42" dt="1"><name>spatialsx</name><data>00000000408e2000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>desired</name><data>0000000040711000</data></node>
      </node>
-     <node f="42" dt="1"><name>spatialsy</name><data>00000000407b1000</data>
+     <node f="42" dt="1"><name>spatialsy</name><data>000000004082c000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>desired</name><data>00000000407b1000</data></node>
      </node>
@@ -270,30 +270,28 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
        <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
 else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
       </node>
-      <node f="42" dt="1"><name>viewpointx</name><data>89c831db40607fd6</data></node>
-      <node f="42" dt="1"><name>viewpointy</name><data>74f45556c03e74b8</data></node>
+      <node f="42" dt="1"><name>viewpointx</name><data>4b2dcc224031946f</data></node>
+      <node f="42" dt="1"><name>viewpointy</name><data>9930d209c0385125</data></node>
       <node f="42" dt="1"><name>viewpointrx</name><data>00000000c0524000</data></node>
       <node f="42" dt="1"><name>viewpointrz</name><data>0000000040ad3e00</data></node>
-      <node f="42" dt="1"><name>viewpointradius</name><data>420708dd405a1590</data>
+      <node f="42" dt="1"><name>viewpointradius</name><data>de772ecb4032c9ac</data>
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>eye</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>focus</name><data>9999999a3fa99999</data></node>
        <node f="42" dt="1"><name>type</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>pass</name><data>0000000000000000</data></node>
       </node>
-      <node f="42" dt="1"><name>gridx</name><data>0000000040240000</data></node>
-      <node f="42" dt="1"><name>gridy</name><data>0000000040240000</data></node>
-      <node f="42" dt="1"><name>viewnear</name><data>bd4c7b2a3fe6504a</data></node>
-      <node f="42" dt="1"><name>viewfar</name><data>fcdcb0474085ca68</data></node>
+      <node f="42" dt="1"><name>viewnear</name><data>4fcbd8f33fc0126a</data></node>
+      <node f="42" dt="1"><name>viewfar</name><data>a3da23b2405f63f7</data></node>
       <node f="42" dt="2"><name>bitmap</name><data>buttons\view_persp.ico</data></node>
      </data></node>
      <node f="42" dt="4"><name>FlowItemBin</name><data>
       <node f="40"><name></name></node>
       <node f="42" dt="2"><name>saver</name><data>FlowItemBin</data></node>
       <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-      <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
-      <node f="42" dt="1"><name>spatialsx</name><data>0000000040861800</data></node>
-      <node f="42" dt="1"><name>spatialsy</name><data>0000000040799000</data></node>
+      <node f="42" dt="1"><name>spatialy</name><data>0000000040350000</data></node>
+      <node f="42" dt="1"><name>spatialsx</name><data>00000000408e1800</data></node>
+      <node f="42" dt="1"><name>spatialsy</name><data>0000000040821000</data></node>
       <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
       <node f="42" dt="1"><name>alignrightmargin</name><data>0000000000000000</data></node>
       <node f="42"><name>variables</name></node>
@@ -336,8 +334,8 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
      <node f="40"><name></name></node>
      <node f="42" dt="2"><name>saver</name><data>ToolTabPane</data></node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialy</name><data>00000000407b5000</data></node>
-     <node f="42" dt="1"><name>spatialsx</name><data>0000000040862000</data>
+     <node f="42" dt="1"><name>spatialy</name><data>000000004082e000</data></node>
+     <node f="42" dt="1"><name>spatialsx</name><data>00000000408e2000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>min</name><data>00000000404e0000</data></node>
       <node f="42" dt="1"><name>desired</name><data>00000000408f9800</data></node>
@@ -382,9 +380,9 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
       <node f="40"><name></name></node>
       <node f="42" dt="2"><name>saver</name><data>SystemConsole</data></node>
       <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-      <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
-      <node f="42" dt="1"><name>spatialsx</name><data>0000000040862000</data></node>
-      <node f="42" dt="1"><name>spatialsy</name><data>0000000040638000</data>
+      <node f="42" dt="1"><name>spatialy</name><data>0000000040350000</data></node>
+      <node f="42" dt="1"><name>spatialsx</name><data>00000000408e1800</data></node>
+      <node f="42" dt="1"><name>spatialsy</name><data>000000004063a000</data>
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>min</name><data>0000000040490000</data></node>
        <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
@@ -21383,6 +21381,2067 @@ time: 36251.354763 exception: FlexScript exception: Label property inObjects ret
 time: 36272.622331 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
 time: 36298.460273 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
 time: 36319.727841 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+Unable to load 3d shape: C:/ProgramData/Autodesk/FlexSim/FlexSim27.0/temp8.ipt
+Unable to load 3d shape: C:/ProgramData/Autodesk/FlexSim/FlexSim27.0/temp5.ipt
+Unable to load 3d shape: C:/ProgramData/Autodesk/FlexSim/FlexSim27.0/temp2.ipt
+spec not found for the module 'RobotColorSort'
+time: 187.931453 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 210.306569 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 11
+time: 244.565924 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 265.833492 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 22
+time: 292.282894 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 313.550463 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 348.917365 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 370.184934 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 396.634336 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 417.901905 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 453.268807 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 474.536375 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 500.985778 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 522.253346 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 557.620249 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 578.887817 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 605.337220 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 626.604788 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 661.971691 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 683.239259 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 709.688661 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 730.956230 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 766.323132 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 787.590701 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 814.040103 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 835.307671 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 870.674574 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 891.942142 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 918.391545 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 939.659113 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 977.071083 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 998.338652 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1024.788054 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1046.055623 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1082.755156 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1104.022724 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1130.472126 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1151.739695 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1187.342665 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1208.610234 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1235.059636 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1256.327205 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1290.515961 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1311.783530 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1337.732932 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1359.000501 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1393.189258 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1414.456826 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1440.406229 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1461.673797 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1497.597376 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1518.864944 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1544.814347 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1566.081915 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1604.452136 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1625.719704 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1652.169107 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1673.436675 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1711.567214 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1732.834782 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1767.201684 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1788.469253 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1823.836155 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1845.103723 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1879.470626 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1900.738194 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1926.983776 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1948.251345 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1982.618247 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2003.885816 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2030.131398 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2051.398966 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2085.765869 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2107.033437 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2133.279019 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2154.546587 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2188.913490 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2210.181058 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2236.426640 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2257.694209 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2292.061111 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2313.328680 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2339.574262 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2360.841830 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2395.208733 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2416.476301 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2442.721883 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2463.989451 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2498.356354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2519.623922 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2545.869504 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2567.137073 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2601.503975 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2622.771543 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2649.017126 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2670.284694 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2704.651597 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2725.919165 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2752.164747 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2773.432315 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2807.799218 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2829.066786 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2855.312368 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2876.579937 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2910.946839 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2932.214407 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2958.459990 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2979.727558 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3014.094460 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3035.362029 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3061.607611 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3082.875179 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3117.242082 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3138.509650 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3164.755232 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3186.022801 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3220.389703 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3241.657271 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3267.902854 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3289.170422 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3323.537324 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3344.804893 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3371.050475 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3392.318043 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3426.684946 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3447.952514 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3474.198096 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3495.465665 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3532.242865 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3553.510434 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3579.756016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3601.023584 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3635.390487 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3656.658055 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3682.903637 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3704.171206 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3740.166507 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3761.434075 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3787.679657 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3808.947226 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3844.588255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3865.855823 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3892.101405 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3913.368974 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3946.557731 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3967.825299 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3993.570881 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4014.838449 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4050.894278 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4072.161846 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4098.407428 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4119.674996 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4158.451041 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4179.718610 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4205.964192 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4227.231760 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4264.620688 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4285.888256 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4312.133838 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4333.401406 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4368.083516 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4389.351084 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4422.717987 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4443.985555 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4478.352458 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4499.620026 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4532.986929 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4554.254497 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4587.621399 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4608.888968 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4642.255870 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4663.523438 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4689.565200 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4710.832769 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4744.199671 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4765.467239 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4791.509001 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4812.776569 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4846.143472 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4867.411040 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4893.452802 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4914.720370 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4948.087273 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4969.354841 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4995.396603 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5016.664171 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5050.031074 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5071.298642 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5097.340404 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5118.607972 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5151.974875 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5173.242443 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5199.284205 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5220.551773 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5253.918676 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5275.186244 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5301.228006 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5322.495574 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5355.862476 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5377.130045 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5403.171807 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5424.439375 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5457.806277 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5479.073846 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5505.115607 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5526.383176 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5559.750078 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5581.017646 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5607.059408 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5628.326977 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5661.693879 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5682.961447 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5709.003209 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5730.270777 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5763.637680 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5784.905248 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5810.947010 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5832.214578 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5865.581481 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5886.849049 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5912.890811 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5934.158379 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 5967.525282 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 5988.792850 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6014.834612 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6036.102180 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6069.469083 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6090.736651 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6116.778413 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6138.045981 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6171.412884 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6192.680452 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6218.722214 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6239.989782 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6273.356684 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6294.624253 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6320.666015 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6341.933583 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6375.300485 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6396.568054 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6422.609815 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6443.877384 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6477.244286 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6498.511855 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6524.553616 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6545.821185 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6579.188087 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6600.455655 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6626.497417 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6647.764985 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6681.131888 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6702.399456 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6728.441218 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6749.708786 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6783.075689 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6804.343257 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6830.385019 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6851.652587 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6885.019490 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6906.287058 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6932.328820 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 6953.596388 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 6986.963291 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7008.230859 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7041.597762 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7062.865330 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7096.232232 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7117.499801 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7143.541562 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7164.809131 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7198.176033 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7219.443601 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7245.485363 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7266.752932 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7300.119834 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7321.387402 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7347.429164 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7368.696732 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7402.063635 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7423.331203 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7449.372965 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7470.640533 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7504.007436 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7525.275004 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7551.316766 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7572.584334 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7605.951237 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7627.218805 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7653.260567 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7674.528135 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7707.895038 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7729.162606 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7755.204368 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7776.471936 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7809.838839 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7831.106407 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7857.148169 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7878.415737 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7911.782639 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7933.050208 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 7959.091970 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 7980.359538 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8013.726440 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8034.994009 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8061.035770 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8082.303339 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8115.670241 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8136.937810 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8162.979571 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8184.247140 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8217.614042 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8238.881610 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8264.923372 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8286.190940 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8319.557843 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8340.825411 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8366.867173 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8388.134741 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8421.501644 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8442.769212 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8468.810974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8490.078542 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8523.445445 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8544.713013 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8570.754775 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8592.022343 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8625.389246 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8646.656814 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8672.698576 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8693.966144 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8727.333047 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8748.600615 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8774.642377 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8795.909945 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8829.276847 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8850.544416 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8876.586178 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8897.853746 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8931.220648 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8952.488217 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 8978.529978 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 8999.797547 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9033.164449 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9054.432018 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9080.473779 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9101.741348 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9135.108250 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9156.375818 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9182.417580 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9203.685148 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9237.052051 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9258.319619 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9284.361381 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9305.628949 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9338.995852 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9360.263420 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9386.305182 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9407.572750 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9440.939653 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9462.207221 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9488.248983 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9509.516551 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9542.883454 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9564.151022 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9590.192784 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9611.460352 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9644.827255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9666.094823 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9692.136585 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9713.404153 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9746.771055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9768.038624 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9794.080386 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9815.347954 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9848.714856 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9869.982425 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9903.349327 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9924.616895 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 9957.983798 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 9979.251366 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10005.293128 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10026.560696 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10059.927599 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10081.195167 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10107.236929 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10128.504497 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10161.871400 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10183.138968 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10209.180730 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10230.448298 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10263.815201 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10285.082769 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10311.124531 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10332.392099 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10365.759002 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10387.026570 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10413.068332 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10434.335900 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10467.702802 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10488.970371 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10515.012133 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10536.279701 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10569.646603 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10590.914172 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10616.955933 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10638.223502 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10671.590404 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10692.857973 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10718.899734 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10740.167303 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10773.534205 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10794.801773 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10820.843535 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10842.111103 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10875.478006 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10896.745574 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10922.787336 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10944.054904 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 10977.421807 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 10998.689375 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11024.731137 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11045.998705 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11079.365608 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11100.633176 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11126.674938 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11147.942506 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11181.309409 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11202.576977 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11228.618739 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11249.886307 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11283.253210 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11304.520778 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11330.562540 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11351.830108 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11385.197010 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11406.464579 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11432.506341 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11453.773909 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11487.140811 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11508.408380 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11534.450141 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11555.717710 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11589.084612 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11610.352181 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11636.393942 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11657.661511 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11691.028413 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11712.295981 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11738.337743 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11759.605312 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11792.972214 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11814.239782 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11840.281544 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11861.549112 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11894.916015 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11916.183583 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11942.225345 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 11963.492913 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 11996.859816 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12018.127384 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12044.169146 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12065.436714 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12098.803617 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12120.071185 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12146.112947 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12167.380515 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12200.747418 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12222.014986 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12248.056748 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12269.324316 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12302.691219 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12323.958787 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12350.000549 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12371.268117 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12404.635019 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12425.902588 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12451.944349 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12473.211918 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12506.578820 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12527.846389 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12553.888150 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12575.155719 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12608.522621 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12629.790189 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12655.831951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12677.099520 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12710.466422 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12731.733990 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12765.100893 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12786.368461 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12819.735364 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12841.002932 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12867.044694 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12888.312262 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12921.679165 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12942.946733 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 12968.988495 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 12990.256063 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13023.622965 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13044.890534 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13070.932296 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13092.199864 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13125.566766 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13146.834335 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13172.876096 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13194.143665 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13227.510567 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13248.778136 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13274.819897 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13296.087466 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13329.454368 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13350.721936 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13376.763698 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13398.031267 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13431.398169 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13452.665737 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13478.707499 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13499.975067 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13533.341970 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13554.609538 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13580.651300 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13601.918868 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13635.285771 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13656.553339 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13682.595101 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13703.862669 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13737.229572 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13758.497140 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13784.538902 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13805.806470 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13839.173373 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13860.440941 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13886.482703 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13907.750271 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13941.117174 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 13962.384742 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 13988.426504 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14009.694072 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14043.060974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14064.328543 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14090.370304 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14111.637873 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14145.004775 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14166.272344 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14192.314105 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14213.581674 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14246.948576 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14268.216144 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14294.257906 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14315.525475 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14348.892377 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14370.159945 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14396.201707 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14417.469275 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14450.836178 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14472.103746 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14498.145508 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14519.413076 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14552.779979 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14574.047547 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14600.089309 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14621.356877 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14654.723780 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14675.991348 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14702.033110 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14723.300678 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14756.667581 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14777.935149 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14803.976911 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14825.244479 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14858.611382 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14879.878950 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14905.920712 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14927.188280 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 14960.555182 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 14981.822751 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15007.864512 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15029.132081 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15062.498983 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15083.766552 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15109.808313 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15131.075882 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15164.442784 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15185.710352 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15211.752114 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15233.019683 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15266.386585 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15287.654153 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15313.695915 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15334.963483 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15368.330386 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15389.597954 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15415.639716 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15436.907284 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15470.274187 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15491.541755 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15517.583517 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15538.851085 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15572.217988 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15593.485556 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15626.852459 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15648.120027 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15681.486929 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15702.754498 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15728.796259 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15750.063828 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15783.430730 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15804.698299 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15830.740060 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15852.007629 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15885.374531 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15906.642099 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15932.683861 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 15953.951430 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 15987.318332 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16008.585900 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16034.627662 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16055.895230 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16089.262133 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16110.529701 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16136.571463 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16157.839031 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16191.205934 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16212.473502 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16238.515264 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16259.782832 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16293.149735 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16314.417303 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16340.459065 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16361.726633 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16395.093536 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16416.361104 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16442.402866 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16463.670434 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16497.037337 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16518.304905 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16544.346667 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16565.614235 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16598.981137 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16620.248706 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16646.290467 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16667.558036 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16700.924938 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16722.192507 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16748.234268 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16769.501837 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16802.868739 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16824.136307 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16850.178069 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16871.445638 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16904.812540 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16926.080108 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 16952.121870 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 16973.389438 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17006.756341 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17028.023909 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17054.065671 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17075.333239 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17108.700142 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17129.967710 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17156.009472 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17177.277040 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17210.643943 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17231.911511 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17257.953273 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17279.220841 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17312.587744 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17333.855312 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17359.897074 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17381.164642 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17414.531545 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17435.799113 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17461.840875 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17483.108443 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17516.475345 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17537.742914 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17563.784675 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17585.052244 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17618.419146 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17639.686715 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17665.728476 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17686.996045 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17720.362947 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17741.630515 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17767.672277 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17788.939846 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17822.306748 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17843.574316 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17869.616078 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17890.883646 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17924.250549 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17945.518117 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 17971.559879 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 17992.827447 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18026.194350 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18047.461918 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18073.503680 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18094.771248 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18128.138151 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18149.405719 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18175.447481 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18196.715049 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18230.081952 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18251.349520 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18277.391282 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18298.658850 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18332.025753 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18353.293321 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18379.335083 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18400.602651 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18433.969553 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18455.237122 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18488.604024 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18509.871593 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18543.238495 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18564.506063 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18590.547825 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18611.815393 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18645.182296 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18666.449864 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18692.491626 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18713.759194 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18747.126097 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18768.393665 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18794.435427 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18815.702995 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18849.069898 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18870.337466 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18896.379228 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18917.646796 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18951.013699 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 18972.281267 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 18998.323029 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19019.590597 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19052.957500 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19074.225068 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19100.266830 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19121.534398 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19154.901300 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19176.168869 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19202.210630 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19223.478199 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19256.845101 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19278.112670 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19304.154431 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19325.422000 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19358.788902 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19380.056470 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19406.098232 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19427.365801 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19460.732703 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19482.000271 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19508.042033 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19529.309601 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19562.676504 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19583.944072 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19609.985834 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19631.253402 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19664.620305 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19685.887873 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19711.929635 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19733.197203 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19766.564106 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19787.831674 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19813.873436 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19835.141004 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19868.507907 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19889.775475 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19915.817237 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19937.084805 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 19970.451708 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 19991.719276 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20017.761038 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20039.028606 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20072.395508 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20093.663077 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20119.704839 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20140.972407 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20174.339309 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20195.606878 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20221.648639 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20242.916208 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20276.283110 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20297.550679 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20323.592440 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20344.860009 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20378.226911 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20399.494479 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20425.536241 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20446.803809 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20480.170712 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20501.438280 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20527.480042 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20548.747610 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20582.114513 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20603.382081 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20629.423843 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20650.691411 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20684.058314 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20705.325882 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20731.367644 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20752.635212 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20786.002115 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20807.269683 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20833.311445 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20854.579013 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20887.945916 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20909.213484 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20935.255246 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 20956.522814 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 20989.889716 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21011.157285 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21037.199047 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21058.466615 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21091.833517 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21113.101086 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21139.142847 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21160.410416 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21193.777318 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21215.044887 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21241.086648 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21262.354217 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21295.721119 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21316.988687 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21350.355590 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21371.623158 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21404.990061 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21426.257629 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21452.299391 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21473.566959 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21506.933862 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21528.201430 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21554.243192 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21575.510760 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21608.877663 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21630.145231 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21656.186993 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21677.454561 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21710.821463 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21732.089032 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21758.130794 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21779.398362 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21812.765264 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21834.032833 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21860.074594 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21881.342163 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21914.709065 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21935.976634 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 21962.018395 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 21983.285964 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22016.652866 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22037.920434 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22063.962196 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22085.229764 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22118.596667 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22139.864235 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22165.905997 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22187.173565 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22220.540468 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22241.808036 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22267.849798 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22289.117366 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22322.484269 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22343.751837 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22377.118740 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22398.386308 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22431.753210 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22453.020779 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22479.062540 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22500.330109 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22533.697011 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22554.964580 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22581.006341 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22602.273910 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22635.640812 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22656.908380 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22682.950142 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22704.217711 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22737.584613 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22758.852181 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22784.893943 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22806.161511 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22839.528414 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22860.795982 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22886.837744 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22908.105312 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22941.472215 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 22962.739783 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 22988.781545 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23010.049113 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23043.416016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23064.683584 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23090.725346 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23111.992914 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23145.359817 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23166.627385 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23192.669147 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23213.936715 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23247.303618 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23268.571186 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23294.612948 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23315.880516 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23349.247418 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23370.514987 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23396.556749 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23417.824317 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23451.191219 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23472.458788 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23498.500549 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23519.768118 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23553.135020 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23574.402589 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23600.444350 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23621.711919 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23655.078821 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23676.346389 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23709.713292 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23730.980860 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23764.347763 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23785.615331 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23811.657093 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23832.924661 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23866.291564 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23887.559132 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23913.600894 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23934.868462 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 23970.235365 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 23991.502933 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24017.544695 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24038.812263 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24073.478555 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24094.746124 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24120.787886 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24142.055454 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24175.840661 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24197.108229 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24223.149991 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24244.417559 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24276.856108 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24298.123676 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24323.665438 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24344.933006 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24378.750636 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24400.018204 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24426.059966 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24447.327534 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24482.568286 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24503.835854 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24529.877616 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24551.145184 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24587.114674 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24608.382242 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24634.424004 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24655.691572 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24690.214898 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24711.482466 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24737.524228 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24758.791796 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24794.622800 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24815.890368 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24841.932130 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24863.199698 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24896.802669 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24918.070237 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 24944.111999 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 24965.379567 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25000.016076 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25021.283644 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25047.325406 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25068.592974 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25102.171806 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25123.439374 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25149.481136 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25170.748704 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25204.214608 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25225.482176 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25251.523938 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25272.791506 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25307.144812 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25328.412380 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25354.454142 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25375.721710 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25409.088613 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25430.356181 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25456.397943 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25477.665511 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25511.032413 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25532.299982 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25558.341744 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25579.609312 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25612.976214 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25634.243783 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25660.285544 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25681.553113 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25714.920015 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25736.187584 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25762.229345 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25783.496914 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25816.863816 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25838.131384 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25864.173146 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25885.440714 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25920.440893 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25941.708461 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 25967.750223 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 25989.017791 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26022.620762 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26043.888330 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26069.930092 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26091.197660 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26125.365820 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26146.633388 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26172.675150 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26193.942718 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26227.515331 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26248.782899 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26274.824661 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26296.092229 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26329.558855 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26350.826424 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26376.868185 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26398.135754 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26432.463384 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26453.730952 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26479.772714 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26501.040282 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26534.407184 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26555.674753 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26581.716515 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26602.984083 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26636.350985 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26657.618554 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26683.660315 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26704.927884 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26738.294786 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26759.562354 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26785.604116 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26806.871685 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26840.238587 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26861.506155 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26887.547917 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26908.815485 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26942.182388 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 26963.449956 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 26989.491718 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27010.759286 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27044.126189 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27065.393757 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27091.435519 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27112.703087 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27146.069990 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27167.337558 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27193.379320 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27214.646888 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27248.013791 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27269.281359 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27295.323121 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27316.590689 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27349.957592 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27371.225160 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27397.266922 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27418.534490 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27451.901392 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27473.168961 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27499.210723 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27520.478291 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27553.845193 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27575.112762 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27601.154523 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27622.422092 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27655.788994 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27677.056563 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27703.098324 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27724.365893 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27757.732795 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27779.000363 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27805.042125 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27826.309693 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27859.676596 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27880.944164 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27906.985926 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27928.253494 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 27961.620397 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 27982.887965 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28008.929727 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28030.197295 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28063.564198 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28084.831766 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28110.873528 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28132.141096 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28165.507999 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28186.775567 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28212.817329 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28234.084897 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28260.126659 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28281.394227 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28307.435989 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28328.703557 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28362.070460 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28383.338028 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28409.379790 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28430.647358 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28464.014261 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28485.281829 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28511.323591 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28532.591159 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28565.958061 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28587.225630 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28613.267392 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28634.534960 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28667.901862 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28689.169431 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28715.211192 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28736.478761 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28769.845663 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28791.113232 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28817.154993 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28838.422562 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28871.789464 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28893.057032 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28919.098794 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28940.366363 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 28973.733265 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 28995.000833 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29021.042595 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29042.310163 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29075.677066 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29096.944634 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29122.986396 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29144.253964 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29177.620867 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29198.888435 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29224.930197 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29246.197765 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29279.564668 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29300.832236 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29326.873998 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29348.141566 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29381.508469 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29402.776037 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29428.817799 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29450.085367 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29476.127129 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29497.394697 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29530.761600 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29552.029168 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29578.070930 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29599.338498 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29632.705400 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29653.972969 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29680.014731 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29701.282299 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29734.649201 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29755.916770 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29781.958531 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29803.226100 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29836.593002 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29857.860571 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29883.902332 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29905.169901 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29938.536803 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 29959.804371 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 29985.846133 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30007.113701 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30040.480604 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30061.748172 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30087.789934 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30109.057502 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30142.424405 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30163.691973 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30189.733735 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30211.001303 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30244.368206 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30265.635774 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30291.677536 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30312.945104 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30346.312007 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30367.579575 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30393.621337 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30414.888905 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30448.255808 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30469.523376 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30495.565138 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30516.832706 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30550.199608 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30571.467177 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30597.508939 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30618.776507 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30652.143409 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30673.410978 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30699.452739 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30720.720308 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30754.087210 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30775.354779 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30801.396540 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30822.664109 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30856.031011 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30877.298579 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30903.340341 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30924.607910 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 30957.974812 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 30979.242380 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31005.284142 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31026.551710 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31059.918613 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31081.186181 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31107.227943 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31128.495511 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31161.862414 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31183.129982 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31209.171744 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31230.439312 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31263.806215 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31285.073783 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31311.115545 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31332.383113 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31365.750016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31387.017584 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31413.059346 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31434.326914 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31467.693846 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31488.961415 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31515.003177 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31536.270745 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31569.674308 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31590.941876 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31616.983638 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31638.251206 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31671.741707 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31693.009275 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31719.051037 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31740.318605 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31773.888177 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31795.155745 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31821.197507 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31842.465075 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31876.074787 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31897.342355 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31923.384117 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31944.651685 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 31978.275418 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 31999.542986 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32025.584748 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32046.852316 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32080.480415 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32101.747983 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32127.789745 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32149.057313 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32182.686728 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32203.954296 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32229.996058 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32251.263626 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32284.893433 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32306.161001 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32332.202763 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32353.470331 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32387.100255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32408.367823 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32434.409585 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32455.677153 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32489.307112 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32510.574680 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32536.616442 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32557.884010 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32591.513979 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32612.781547 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32638.823309 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32660.090877 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32693.720849 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32714.988417 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32741.030179 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32762.297747 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32795.927720 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32817.195288 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32843.237050 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32864.504618 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32898.134591 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32919.402159 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 32945.443921 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 32966.711489 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33000.341462 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33021.609030 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33047.650792 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33068.918360 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33102.548333 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33123.815901 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33149.857663 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33171.125232 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33204.755204 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33226.022773 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33252.064535 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33273.332103 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33306.962076 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33328.229644 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33354.271406 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33375.538974 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33409.168947 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33430.436515 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33456.478277 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33477.745845 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33511.375818 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33532.643387 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33558.685148 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33579.952717 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33613.582690 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33634.850258 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33660.892020 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33682.159588 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33715.789561 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33737.057129 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33763.098891 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33784.366459 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33819.996432 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33841.264000 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33867.305762 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33888.573331 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33922.558267 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33943.825835 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 33969.867597 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 33991.135165 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34024.116125 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34045.383693 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34070.925455 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34092.193023 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34126.748163 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34148.015732 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34174.057493 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34195.325062 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34229.017105 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34250.284673 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34276.326435 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34297.594003 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34332.379140 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34353.646708 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34379.688470 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34400.956038 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34436.446160 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34457.713728 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34483.755490 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34505.023059 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34540.395220 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34561.662788 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34594.029691 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34615.297259 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34647.985774 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34669.253342 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34701.620245 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34722.887813 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34755.254716 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34776.522284 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34808.889187 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34830.156755 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34862.523657 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34883.791226 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34916.158128 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34937.425696 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 34969.792599 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 34991.060167 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35023.698698 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35044.966266 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35070.804208 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35092.071776 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35126.197400 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35147.464968 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35173.302909 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35194.570478 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35228.077596 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35249.345165 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35275.183106 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35296.450674 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35330.444630 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35351.712198 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35377.550139 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35398.817708 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35432.618940 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35453.886508 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35479.724450 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35500.992018 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35534.857824 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35556.125393 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35581.963334 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35603.230902 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35637.033212 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35658.300781 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35684.138722 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35705.406290 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35739.271038 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35760.538606 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35786.376547 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35807.644115 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35841.447467 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35862.715036 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35888.552977 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35909.820545 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35943.684268 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 35964.951837 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 35990.789778 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36012.057346 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36046.901244 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36068.168812 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36094.006753 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36115.274322 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36149.117466 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36170.385034 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36196.222976 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36217.490544 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36251.354763 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36272.622331 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36298.460273 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36319.727841 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36353.969389 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36375.236957 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36401.074899 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36422.342467 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36456.697209 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36477.964777 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36503.802719 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36525.070287 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36559.259376 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36580.526944 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36606.364886 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36627.632454 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36661.433686 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36682.701255 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36708.539196 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36729.806764 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36763.672571 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36784.940139 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36810.778080 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36832.045649 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36865.847959 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36887.115527 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36912.953468 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36934.221037 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 36968.085784 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 36989.353352 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37015.191294 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37036.458862 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37070.262214 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37091.529782 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37117.367723 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37138.635292 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37172.499015 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37193.766583 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37219.604524 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37240.872093 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37274.676452 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37295.944020 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37321.781961 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37343.049530 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37376.912263 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37398.179831 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37424.017772 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37445.285341 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37479.090673 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37500.358242 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37526.196183 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37547.463751 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37579.830654 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37601.098222 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37626.936163 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37648.203732 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37680.570634 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37701.838202 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37727.676144 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37748.943712 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37781.310615 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37802.578183 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37828.416124 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37849.683693 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37882.050595 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37903.318163 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37929.156105 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 37950.423673 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 37982.790576 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38004.058144 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38029.896085 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38051.163653 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38083.530556 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38104.798124 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38130.636066 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38151.903634 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38184.270537 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38205.538105 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38231.376046 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38252.643614 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38285.010517 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38306.278085 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38332.116027 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38353.383595 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38385.750497 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38407.018066 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38432.856007 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38454.123575 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38486.490478 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38507.758046 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38533.595988 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38554.863556 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38587.230458 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38608.498027 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38634.335968 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38655.603536 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38687.970439 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38709.238007 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38735.075948 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38756.343517 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38788.710419 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38809.977988 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38842.344890 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38863.612458 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38895.979361 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38917.246929 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38943.084871 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 38964.352439 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 38996.719341 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39017.986910 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39043.824851 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39065.092419 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39097.459322 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39118.726890 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39144.564831 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39165.832400 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39198.199302 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39219.466871 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39251.833773 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39273.101341 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39308.568686 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39329.836254 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39355.674195 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39376.941764 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39410.216043 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39431.483611 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39457.321553 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39478.589121 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39510.208145 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39531.475713 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39556.813654 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39578.081223 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39610.708417 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39631.975985 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39657.813926 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39679.081495 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39711.912508 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39733.180076 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39759.018017 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39780.285586 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39813.219005 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39834.486573 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39860.324515 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39881.592083 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39914.545985 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39935.813553 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 39968.180456 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 39989.448024 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40023.996783 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40045.264352 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40071.102293 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40092.369861 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40125.867349 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40147.134917 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40172.972859 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40194.240427 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40227.687406 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40248.954974 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40274.792915 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40296.060484 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40330.392014 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40351.659582 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40377.497523 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40398.765092 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40433.591044 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40454.858612 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40480.696554 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40501.964122 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40536.249576 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40557.517144 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40583.355086 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40604.622654 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40637.123741 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40658.391309 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40684.229251 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40705.496819 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40738.608362 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40759.875930 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40785.713872 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40806.981440 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40839.865088 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40861.132656 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40886.970598 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40908.238166 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40941.227093 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 40962.494661 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 40988.332602 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41009.600171 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41042.541283 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41063.808851 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41089.646793 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41110.914361 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41143.877476 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41165.145044 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41190.982985 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41212.250554 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41245.203589 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41266.471157 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41292.309099 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41313.576667 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41346.534330 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41367.801899 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41393.639840 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41414.907408 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41447.862949 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41469.130517 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41501.497420 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41522.764988 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41555.131890 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41576.399459 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41602.237400 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41623.504968 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41655.871871 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41677.139439 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41702.977381 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41724.244949 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41756.628980 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41777.896549 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41803.734490 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41825.002058 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41857.654138 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41878.921706 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41904.759647 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41926.027216 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 41958.929907 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 41980.197475 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42012.564377 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42033.831946 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42066.198848 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42087.466417 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42113.304358 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42134.571926 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42166.938829 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42188.206397 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42214.044338 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42235.311907 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42267.678809 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42288.946377 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42314.784319 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42336.051887 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42368.418790 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42389.686358 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42415.524299 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42436.791868 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42469.158770 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42490.426338 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42522.793241 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42544.060809 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42576.427712 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42597.695280 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42623.533221 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42644.800790 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42677.167692 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42698.435260 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42724.273202 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42745.540770 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42777.907673 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42799.175241 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42825.013182 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42846.280751 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42878.647653 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42899.915221 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42932.282124 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 42953.549692 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 42979.387634 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43000.655202 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43033.022104 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43054.289673 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43080.127614 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43101.395182 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43133.762085 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43155.029653 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43180.867595 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43202.135163 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43234.502065 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43255.769634 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43281.607575 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43302.875143 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43335.242046 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43356.509614 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43382.347555 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43403.615124 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43435.982026 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43457.249595 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43489.616497 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43510.884065 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43543.250968 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43564.518536 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43590.356478 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43611.624046 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43643.990948 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43665.258517 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43691.096458 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43712.364026 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43744.730929 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43765.998497 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43791.836438 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43813.104007 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43845.470909 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43866.738478 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43892.576419 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43913.843987 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43946.210890 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 43967.478458 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 43993.316399 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44014.583968 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44046.950870 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44068.218439 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44094.056380 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44115.323948 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44147.910873 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44169.178441 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44195.016383 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44216.283951 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44248.817403 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44270.084971 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44295.922913 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44317.190481 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44349.787950 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44371.055518 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44396.893459 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44418.161028 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44451.356789 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44472.624358 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44498.462299 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44519.729867 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44552.123013 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44573.390582 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44599.228523 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44620.496091 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44653.359007 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44674.626575 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44700.464516 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44721.732085 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44755.537078 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44776.804646 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44802.642587 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44823.910156 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44857.756827 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44879.024395 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44904.862337 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44926.129905 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 44959.957818 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 44981.225386 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45007.063328 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45028.330896 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45062.167350 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45083.434918 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45109.272859 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45130.540428 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45164.373012 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45185.640581 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45211.478522 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45232.746090 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45266.580432 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45287.848000 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45313.685941 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45334.953510 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45368.787054 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45390.054623 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45415.892564 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45437.160132 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45470.994038 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45492.261607 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45518.099548 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45539.367116 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45573.200858 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45594.468427 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45620.306368 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45641.573936 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45675.407753 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45696.675321 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45722.513263 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45743.780831 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45777.614614 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45798.882182 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45824.720123 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45845.987692 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45879.821490 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45901.089058 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45926.926999 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 45948.194568 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 45982.028359 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46003.295927 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46029.133869 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46050.401437 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46084.235231 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46105.502799 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46131.340741 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46152.608309 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46186.442102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46207.709670 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46233.547612 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46254.815180 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46288.648974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46309.916542 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46335.754483 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46357.022051 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46390.855845 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46412.123413 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46437.961354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46459.228923 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46493.062716 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46514.330284 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46540.168226 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46561.435794 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46595.269587 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46616.537156 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46642.375097 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46663.642665 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46697.476459 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46718.744027 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46744.581968 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46765.849537 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46800.675489 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46821.943057 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46847.780999 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46869.048567 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46901.919665 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46923.187233 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 46949.025175 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 46970.292743 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47004.084217 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47025.351786 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47051.189727 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47072.457295 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47106.309875 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47127.577444 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47153.415385 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47174.682953 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47210.508144 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47231.775713 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47257.613654 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47278.881222 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47311.933284 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47333.200853 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47359.038794 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47380.306362 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47415.451504 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47436.719073 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47462.557014 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47483.824582 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47515.102412 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47536.369980 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47561.707922 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47582.975490 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47617.927429 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47639.194997 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47665.032938 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47686.300506 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47719.531815 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47740.799383 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47766.637325 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47787.904893 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47822.376244 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47843.643812 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47869.481753 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47890.749322 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47923.949679 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47945.217247 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 47971.055188 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 47992.322756 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/vleugelkat. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+spec not found for the module 'RobotColorSort'
+spec not found for the module 'RobotColorSort'
+spec not found for the module 'RobotColorSort'
+time: 187.931453 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 210.306569 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 11
+time: 244.565924 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 265.833492 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 22
+time: 292.282894 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 313.550463 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 348.917365 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 370.184934 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 396.634336 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 417.901905 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 453.268807 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 474.536375 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 500.985778 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 522.253346 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 557.620249 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 578.887817 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 605.337220 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 626.604788 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 661.971691 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 683.239259 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 709.688661 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 730.956230 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 766.323132 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 787.590701 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 814.040103 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 835.307671 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 870.674574 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 891.942142 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 918.391545 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 939.659113 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 977.071083 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 998.338652 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1024.788054 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1046.055623 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1082.755156 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1104.022724 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1130.472126 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1151.739695 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1187.342665 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1208.610234 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1235.059636 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1256.327205 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1290.515961 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1311.783530 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1337.732932 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1359.000501 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1393.189258 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1414.456826 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1440.406229 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1461.673797 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1497.597376 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1518.864944 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1544.814347 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1566.081915 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1604.452136 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1625.719704 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1652.169107 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1673.436675 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1711.567214 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1732.834782 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1767.201684 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1788.469253 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1823.836155 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1845.103723 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1879.470626 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1900.738194 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1926.983776 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1948.251345 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 1982.618247 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2003.885816 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2030.131398 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2051.398966 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2085.765869 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2107.033437 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2133.279019 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2154.546587 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2188.913490 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2210.181058 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2236.426640 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2257.694209 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2292.061111 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2313.328680 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2339.574262 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2360.841830 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2395.208733 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2416.476301 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2442.721883 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2463.989451 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2498.356354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2519.623922 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2545.869504 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2567.137073 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2601.503975 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2622.771543 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2649.017126 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2670.284694 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2704.651597 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2725.919165 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2752.164747 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2773.432315 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2807.799218 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2829.066786 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2855.312368 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2876.579937 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2910.946839 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2932.214407 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 2958.459990 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 2979.727558 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3014.094460 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3035.362029 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3061.607611 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3082.875179 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3117.242082 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3138.509650 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3164.755232 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3186.022801 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3220.389703 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3241.657271 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3267.902854 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3289.170422 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3323.537324 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3344.804893 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3371.050475 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3392.318043 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3426.684946 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3447.952514 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3474.198096 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3495.465665 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3532.242865 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3553.510434 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3579.756016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3601.023584 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3635.390487 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3656.658055 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3682.903637 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3704.171206 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3740.166507 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3761.434075 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3787.679657 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3808.947226 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3844.588255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3865.855823 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3892.101405 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3913.368974 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3946.557731 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 3967.825299 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 3993.570881 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4014.838449 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4050.894278 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4072.161846 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4098.407428 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4119.674996 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4158.451041 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4179.718610 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4205.964192 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4227.231760 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4264.620688 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4285.888256 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4312.133838 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4333.401406 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4368.083516 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4389.351084 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4422.717987 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4443.985555 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4478.352458 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4499.620026 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4532.986929 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4554.254497 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4587.621399 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4608.888968 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4642.255870 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4663.523438 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4689.565200 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4710.832769 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4744.199671 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4765.467239 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4791.509001 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4812.776569 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4846.143472 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4867.411040 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4893.452802 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4914.720370 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/Jeff. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+time: 4948.087273 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 4969.354841 exception: FlexScript exception: Label property Type retrieved on /StraightConveyor5/turtle. Label does not exist. at MODEL:/DP1&gt;variables/onArrival at line 0
+spec not found for the module 'RobotColorSort'
+spec not found for the module 'RobotColorSort'
 </data></node>
        </node>
       </node>
@@ -21398,9 +23457,9 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
       <node f="40"><name></name></node>
       <node f="42" dt="2"><name>saver</name><data>CompilerConsole</data></node>
       <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-      <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
-      <node f="42" dt="1"><name>spatialsx</name><data>0000000040862000</data></node>
-      <node f="42" dt="1"><name>spatialsy</name><data>0000000040638000</data>
+      <node f="42" dt="1"><name>spatialy</name><data>0000000040350000</data></node>
+      <node f="42" dt="1"><name>spatialsx</name><data>00000000408e1800</data></node>
+      <node f="42" dt="1"><name>spatialsy</name><data>000000004063a000</data>
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>min</name><data>0000000040490000</data></node>
        <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
@@ -21892,6 +23951,83 @@ Could not finish parsing because of previous errors.
 
 
 
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Source1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Walls/Source2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
 </data></node>
        </node>
       </node>
@@ -21908,7 +24044,7 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
    <node f="42" dt="4"><name>ToolPane</name><data>
     <node f="40"><name></name></node>
     <node f="42" dt="2"><name>saver</name><data>ToolPane</data></node>
-    <node f="42" dt="1"><name>spatialx</name><data>00000000408ea000</data></node>
+    <node f="42" dt="1"><name>spatialx</name><data>0000000040935000</data></node>
     <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>spatialsx</name><data>000000004072c000</data>
      <node f="40"><name></name></node>
@@ -21916,7 +24052,7 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
      <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
      <node f="42" dt="1"><name>desired</name><data>000000004072c000</data></node>
     </node>
-    <node f="42" dt="1"><name>spatialsy</name><data>000000004083e800</data>
+    <node f="42" dt="1"><name>spatialsy</name><data>0000000040892000</data>
      <node f="40"><name></name></node></node>
     <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>alignrightmargin</name><data>0000000000000000</data></node>
@@ -21942,13 +24078,13 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
      <node f="42" dt="2"><name>saver</name><data>QuickProperties</data></node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialsx</name><data>000000004072b000</data>
+     <node f="42" dt="1"><name>spatialsx</name><data>666666664072a666</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>min</name><data>0000000040604000</data></node>
       <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
       <node f="42" dt="1"><name>desired</name><data>000000004072c000</data></node>
      </node>
-     <node f="42" dt="1"><name>spatialsy</name><data>0000000040834000</data></node>
+     <node f="42" dt="1"><name>spatialsy</name><data>3333333340887333</data></node>
      <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>alignrightmargin</name><data>0000000000000000</data></node>
      <node f="42"><name>variables</name></node>
