@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bestellingen live</title>
+<style>
+  :root {
+    --bg: #f6f6f4; --card: #fff; --ink: #1d1d1b; --muted: #6b6b66; --line: #e2e2dc;
+    --accent: #2a6df4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161615; --card: #20201e; --ink: #ececea; --muted: #9a9a94; --line: #34342f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 16px; background: var(--bg); color: var(--ink);
+         font: 15px/1.4 system-ui, -apple-system, Segoe UI, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #2fa84f; margin-right: 6px; }
+  .dot.off { background: #d23c3c; }
+  .row { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-bottom: 16px; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .label { color: var(--muted); font-size: 13px; }
+  .big { font-size: 30px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .bars { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+  .bar { display: grid; grid-template-columns: 70px 1fr 32px; align-items: center; gap: 8px; font-size: 13px; }
+  .bar .track { height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; }
+  .bar .fill { height: 100%; border-radius: 5px; transition: width .3s; }
+  canvas { width: 100%; height: 120px; display: block; }
+  .queue { display: flex; flex-wrap: wrap; gap: 6px; }
+  .order { width: 46px; height: 46px; border-radius: 8px; display: flex; flex-direction: column;
+           align-items: center; justify-content: center; color: #fff; font-size: 11px; font-weight: 600;
+           text-shadow: 0 1px 1px rgba(0,0,0,.3); }
+  .order.next { outline: 3px solid var(--ink); outline-offset: 2px; }
+  .order.new { animation: pop .5s ease-out; }
+  @keyframes pop { from { transform: scale(.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+  form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  select, input, button { font: inherit; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--line);
+                          background: var(--card); color: var(--ink); }
+  button { background: var(--accent); color: #fff; border: none; cursor: pointer; }
+  h2 { font-size: 15px; margin: 0 0 10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bestellingen live</h1>
+  <p class="sub"><span id="dot" class="dot"></span><span id="status">Verbinden…</span></p>
+
+  <div class="row">
+    <div class="panel"><div class="label">In wachtrij</div><div class="big" id="n-queue">–</div></div>
+    <div class="panel"><div class="label">Verwerkt door robot</div><div class="big" id="n-done">–</div></div>
+    <div class="panel"><div class="label">Nieuw toegevoegd</div><div class="big" id="n-added">–</div></div>
+    <div class="panel"><div class="label">Per kleur</div><div class="bars" id="bars"></div></div>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px">
+    <h2>Lengte wachtrij (laatste 2 minuten)</h2>
+    <canvas id="chart"></canvas>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px">
+    <h2>Wachtrij — eerste blok (omlijnd) is de volgende voor de robot</h2>
+    <div class="queue" id="queue"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Bestelling toevoegen</h2>
+    <form id="add">
+      <select id="f-color"></select>
+      <input id="f-weight" type="number" min="1" max="3" value="1" style="width:80px" title="Gewicht">
+      <button>Toevoegen</button>
+    </form>
+  </div>
+</main>
+
+<script>
+// Change these to match what Color 1/2/3 mean in your FlexSim model
+const COLORS = {
+  1: { name: "Rood",  hex: "#d64545" },
+  2: { name: "Groen", hex: "#2f9e5b" },
+  3: { name: "Blauw", hex: "#2f6fd6" },
+};
+const POLL_MS = 500;
+const HISTORY = 240;               // 240 samples x 0.5 s = 2 minutes
+
+const history = [];
+let lastLength = null;
+
+const $ = id => document.getElementById(id);
+
+// Fill the "add order" dropdown
+for (const [k, c] of Object.entries(COLORS)) {
+  $("f-color").insertAdjacentHTML("beforeend", `<option value="${k}">${c.name}</option>`);
+}
+
+async function poll() {
+  try {
+    const [orders, stats] = await Promise.all([
+      fetch("/Bestellingen").then(r => r.json()),
+      fetch("/Stats").then(r => r.json()),
+    ]);
+    // Old server versions wrapped each order in a list: [[{...}], [{...}]]
+    const list = orders.map(o => Array.isArray(o) ? o[0] : o).filter(Boolean);
+    render(list, stats);
+    $("dot").className = "dot";
+    $("status").textContent = "Live — bijgewerkt " + new Date().toLocaleTimeString();
+  } catch (e) {
+    $("dot").className = "dot off";
+    $("status").textContent = "Geen verbinding met de API-server";
+  }
+}
+
+function render(list, stats) {
+  $("n-queue").textContent = list.length;
+  $("n-done").textContent = stats.verwerkt;
+  $("n-added").textContent = stats.toegevoegd;
+
+  // Per-color bars
+  const counts = {};
+  list.forEach(o => counts[o.Color] = (counts[o.Color] || 0) + 1);
+  const max = Math.max(1, ...Object.values(counts));
+  $("bars").innerHTML = Object.entries(COLORS).map(([k, c]) => `
+    <div class="bar"><span>${c.name}</span>
+      <div class="track"><div class="fill" style="width:${(counts[k] || 0) / max * 100}%;background:${c.hex}"></div></div>
+      <span>${counts[k] || 0}</span></div>`).join("");
+
+  // Queue blocks; animate ones that were appended since the last poll
+  const grew = lastLength !== null && list.length > lastLength ? list.length - lastLength : 0;
+  $("queue").innerHTML = list.map((o, i) => {
+    const c = COLORS[o.Color] || { name: "?", hex: "#888" };
+    const cls = ["order", i === 0 ? "next" : "", i >= list.length - grew ? "new" : ""].join(" ");
+    return `<div class="${cls}" style="background:${c.hex}" title="#${i + 1} ${c.name}, gewicht ${o.Weight}">
+              <span>${i + 1}</span><span>${o.Weight}kg</span></div>`;
+  }).join("");
+  lastLength = list.length;
+
+  history.push(list.length);
+  if (history.length > HISTORY) history.shift();
+  drawChart();
+}
+
+function drawChart() {
+  const cv = $("chart"), dpr = window.devicePixelRatio || 1;
+  const w = cv.clientWidth, h = cv.clientHeight;
+  cv.width = w * dpr; cv.height = h * dpr;
+  const g = cv.getContext("2d");
+  g.scale(dpr, dpr);
+  const css = getComputedStyle(document.documentElement);
+  const max = Math.max(10, ...history);
+  const x = i => (i / (HISTORY - 1)) * (w - 30);
+  const y = v => h - 6 - (v / max) * (h - 16);
+
+  g.strokeStyle = css.getPropertyValue("--line"); g.lineWidth = 1;
+  g.beginPath(); g.moveTo(0, y(0)); g.lineTo(w - 30, y(0)); g.stroke();
+  g.fillStyle = css.getPropertyValue("--muted"); g.font = "11px system-ui";
+  g.fillText(max, w - 26, y(max) + 4); g.fillText(0, w - 26, y(0) + 4);
+
+  if (history.length < 2) return;
+  g.strokeStyle = css.getPropertyValue("--accent"); g.lineWidth = 2;
+  g.beginPath();
+  history.forEach((v, i) => i ? g.lineTo(x(i), y(v)) : g.moveTo(x(i), y(v)));
+  g.stroke();
+}
+
+$("add").addEventListener("submit", async e => {
+  e.preventDefault();
+  const q = new URLSearchParams({ Color: $("f-color").value, Weight: $("f-weight").value });
+  await fetch("/NewBestelling?" + q, { method: "POST" });
+  poll();
+});
+
+poll();
+setInterval(poll, POLL_MS);
+</script>
+</body>
+</html>
