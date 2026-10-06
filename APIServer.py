@@ -90,6 +90,36 @@ async def RemoveBestelling(IDNumber: int):
 
     return bestellingen
 
+@app.get("/stats")
+async def Statistics():
+    Red = 0
+    Blue = 0
+    Green = 0
+    WeightOne = 0
+    WeightTwo = 0
+    WeightThree = 0
+    for bestelling in bestellingen:
+        match bestelling.Color:
+            case 1:
+                Red += 1
+            case 2:
+                Blue +=1
+            case 3:
+                Green += 1
+        match bestelling.Weight:
+            case 1:
+                WeightOne += 1
+            case 2:
+                WeightTwo += 1
+            case 3:
+                WeightThree += 1
+
+        
+
+
+    statistics = str(bestellingen) + "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n"
+    return statistics
+
 
 if __name__ == "__main__":
     uvicorn.run(
