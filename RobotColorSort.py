@@ -11,10 +11,12 @@ class CurrentOrder:
 RobotList = []
 
 
-def SortByRequestedType(current):
+def SortByRequestedType(RobotNumber):
     # Bestellingen ophalen
     response = requests.get("http://127.0.0.1:8000/Bestellingen")
+    test = RobotNumber
 
+    print("RobotNumber:", test)
     if response.status_code != 200:
         print("Fout bij ophalen bestellingen:", response.status_code)
         return random.randrange(1, 4)

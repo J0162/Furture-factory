@@ -12,6 +12,7 @@ class Order(BaseModel):
     Weight: int
     ColorSorted: bool
     IDPackage: int
+    Done: bool
 
 
 app = FastAPI()
@@ -23,7 +24,8 @@ bestellingen = [
         Color=random.randrange(1, 4),
         Weight=random.randrange(1, 4),
         ColorSorted=False,
-        IDPackage=random.randrange(1, 99999)
+        IDPackage=random.randrange(1, 99999),
+        Done=False
     )
 ]
 
@@ -36,7 +38,8 @@ while i < 100:
             Color=random.randrange(1, 4),
             Weight=random.randrange(1, 4),
             ColorSorted=False,
-            IDPackage=random.randrange(1, 99999)
+            IDPackage=random.randrange(1, 99999),
+            Done=False
         )
     )
     i += 1
@@ -55,9 +58,10 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
     nieuwe_bestelling = Order(
         Color=NieuwKleur,
-        Gewicht=NieuwGewicht,
+        Weight=NieuwGewicht,
         ColorSorted=False,
-        IDPackage=random.randrange(1, 99999)
+        IDPackage=random.randrange(1, 99999),
+        Done=False
     )
 
     bestellingen.append(nieuwe_bestelling)
