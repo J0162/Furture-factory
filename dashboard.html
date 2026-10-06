@@ -87,6 +87,7 @@ const HISTORY = 240;               // 240 samples x 0.5 s = 2 minutes
 
 const history = [];
 let lastLength = null;
+const stats = { verwerkt: 0, toegevoegd: 0 };   // counted since the page was opened
 
 const $ = id => document.getElementById(id);
 
@@ -97,12 +98,16 @@ for (const [k, c] of Object.entries(COLORS)) {
 
 async function poll() {
   try {
-    const [orders, stats] = await Promise.all([
-      fetch("/Bestellingen").then(r => r.json()),
-      fetch("/Stats").then(r => r.json()),
-    ]);
+    const orders = await fetch("/Bestellingen").then(r => r.json());
     // Old server versions wrapped each order in a list: [[{...}], [{...}]]
-    const list = orders.map(o => Array.isArray(o) ? o[0] : o).filter(Boolean);
+    const list = orders.map(o => Array.isArray(o) ? o[0] : o)
+                       .filter(o => o && typeof o === "object");
+    // Count processed / added orders from how the list length changes
+    if (lastLength !== null) {
+      const diff = list.length - lastLength;
+      if (diff < 0) stats.verwerkt -= diff;
+      if (diff > 0) stats.toegevoegd += diff;
+    }
     render(list, stats);
     $("dot").className = "dot";
     $("status").textContent = "Live — bijgewerkt " + new Date().toLocaleTimeString();
@@ -132,7 +137,7 @@ function render(list, stats) {
     const c = COLORS[o.Color] || { name: "?", hex: "#888" };
     const cls = ["order", i === 0 ? "next" : "", i >= list.length - grew ? "new" : ""].join(" ");
     return `<div class="${cls}" style="background:${c.hex}" title="#${i + 1} ${c.name}, gewicht ${o.Weight}">
-              <span>${i + 1}</span><span>${o.Weight}kg</span></div>`;
+              <span>${i + 1}</span><span>${typeof o.Weight === "number" ? o.Weight + "kg" : ""}</span></div>`;
   }).join("");
   lastLength = list.length;
 
@@ -167,7 +172,7 @@ function drawChart() {
 $("add").addEventListener("submit", async e => {
   e.preventDefault();
   const q = new URLSearchParams({ Color: $("f-color").value, Weight: $("f-weight").value });
-  await fetch("/NewBestelling?" + q, { method: "POST" });
+  await fetch("/NewBestelling?" + q, { method: "POST" }).catch(() => {});
   poll();
 });
 
