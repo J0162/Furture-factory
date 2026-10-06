@@ -3,21 +3,28 @@ import sys
 scriptPath = os.path.dirname(os.path.realpath(__file__))
 pDir = scriptPath + "\\..\\..\\..\\program\\";
 program = r"C:\Program Files\Autodesk\FlexSim 2027\program"
-omni = r"C:\Program Files\Autodesk\FlexSim 2027\modules\Omniverse"
 flexsimpy = r"C:\Program Files\Autodesk\FlexSim 2027\modules\FlexSimPy-main\out\Rel_3_10"
 
-for p in (program, omni, flexsimpy):
+for p in (program, flexsimpy):
     os.add_dll_directory(p)
 
-os.environ["PATH"] = program + os.pathsep + omni + os.pathsep + os.environ["PATH"]
+os.environ["PATH"] = program + os.pathsep + os.pathsep + os.environ["PATH"]
 sys.path.insert(0, flexsimpy)
 
 import FlexSimPy
 
 print("Python:", sys.version)
 print("FlexSimPy:", FlexSimPy.__file__)
-controller = FlexSimPy.launch(evaluationLicense=True, showGUI=False, programDir=pDir)
-controller.open(scriptPath + "\\future factory.fsx");4
-controller.open(scriptPath + "\\TestSendReceive.fsm");
-controller.reset();
-controller.run(10);
+
+print("Launching...", flush=True)
+controller = FlexSimPy.launch(evaluationLicense=False, showGUI=True, programDir=program + "\\")
+
+print("Launched, opening model...", flush=True)
+
+controller.open(os.path.join(scriptPath, "future factory.fsx"))
+print("Model opened, resetting...", flush=True)
+controller.reset()
+print("Running...", flush=True)
+controller.run(1000)
+
+input("Done - FlexSim stays open until you press Enter here...")
