@@ -136,3 +136,57 @@ span.price {
     height: 32px;
     width: auto;
 }
+
+.address-wrapper {
+    position: relative;
+}
+
+.suggesties {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    background: #ffffff;
+    border: 1px solid #999999;
+    border-top: none;
+    z-index: 10px;
+}
+
+.suggesties:empty {
+    display: none;
+}
+
+.suggesties li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggesties li:hover {
+    background-color: #e6f7ea;
+}
+
+.adres-rij {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.adres-wrapper {
+    flex: 3;
+    position: relative;
+}
+
+.postcode-veld {
+    flex: 1;
+}
+
+.adres-rij input {
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn-ideal img {
+    height: 32px;
+    width: auto;
+}
