@@ -14,7 +14,7 @@ const ollama = new Ollama({
     host: "http://127.0.0.1:11434"
 });
 
-const KNOWN_FILE = "/Users/rolf/Documents/semester/semester1/block2/Naamloos/Furture-factory/future factory.fsx";
+const KNOWN_FILE = "./future factory.fsx";
 
 
 
