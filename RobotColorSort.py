@@ -33,7 +33,7 @@ def SortByRequestedType(RobotNumber):
     for bestelling in bestellingen:
 
         # Alleen bestellingen gebruiken die nog niet gesorteerd zijn
-        if bestelling["ColorSorted"] is False:
+        if bestelling["ColorSorted"] is False & bestelling["Weight"] == RobotNumber:
 
             RobotList.append(
                 CurrentOrder(

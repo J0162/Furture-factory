@@ -1,0 +1,140 @@
+h1 {
+    color: black;
+    font-size: 60px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+:root {
+  --heightdiff: 10%;
+}
+
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.hr {
+    display: block;
+    height: 90vh;
+    width: 15vw;
+    border: 0;
+    border-right: 3px solid black;
+    margin: 0px 0;
+    padding: 10px;
+}
+
+
+.banner {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 0px 0;
+    width: 105vw;
+    /* Viewport width */
+    margin-top: -11px;
+    margin-left: -11px;
+    margin-right: -11px;
+    border: 3px solid black;
+}
+
+.chatdiv {
+    background-color: #b0adad;
+    border: 2px solid black;
+    height: 70vh;
+    width: 65vw;
+
+    position: fixed;
+    bottom: 13vh;
+    left: 25vw;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-spacer {
+    flex: 1;
+}
+
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.usermessage {
+    justify-content: flex-end;
+}
+
+.aimessage {
+    justify-content: flex-start;
+}
+
+.userbox {
+    background-color: lightgreen;
+    border: 2px solid rgb(41, 243, 41);
+    border-radius: 10px;
+    width: 35vw;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.AIbox {
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 35vw;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.usericon,
+.AIicon {
+    width: 4vh;
+    height: 4vh;
+    flex-shrink: 0;
+}
+
+.usericon {
+    margin-left: 8px;
+}
+
+.AIicon {
+    margin-right: 8px;
+}
+
+input[type=text] {
+    position: relative;
+    left: 25vw;
+    bottom: 12vh;
+    width: 60%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    position: relative;
+    left: 25vw;
+    bottom: 12vh;
+    width: 6%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+}

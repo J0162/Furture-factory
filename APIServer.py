@@ -17,6 +17,7 @@ class Order(BaseModel):
 
 app = FastAPI()
 
+factorystatistics = ""
 
 # Eerste bestelling
 bestellingen = [
@@ -68,6 +69,12 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
     return bestellingen
 
+@app.post("/factoryinput")
+async def factoryinput(input: str):
+    input == factorystatistics
+    return input
+    
+
 
 @app.post("/ColorSet")
 async def ColorSet(IDNumber: int):
@@ -117,7 +124,7 @@ async def Statistics():
         
 
 
-    statistics = str(bestellingen) + "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n"
+    statistics = str(bestellingen) + "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n" + factorystatistics
     return statistics
 
 
