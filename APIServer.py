@@ -5,7 +5,14 @@ from pydantic import BaseModel
 from fastapi.responses import FileResponse
 from pathlib import Path
 
-
+class FactoryInput(BaseModel):
+    run_id: str
+    status: str
+    timestamp: str
+    sim_time: float
+    real_time: float
+    script_runtime: float
+    machines: list
 
 class Order(BaseModel):
     Color: int
@@ -70,7 +77,7 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
     return bestellingen
 
 @app.post("/factoryinput")
-async def factoryinput(input: str):
+async def factoryinput(input: FactoryInput):
     input == factorystatistics
     return input
     
