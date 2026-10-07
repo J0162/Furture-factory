@@ -1,0 +1,69 @@
+Stap;Naam;In;Uit;Inhoud;Gem. verwerkingstijd (s);Sim-tijd (s);Echte tijd (s)
+Vrachtwagens input;Truck1 ouput2;;;;;537.7;136.75
+Vrachtwagens input;Truck1 ouput1;;;;;537.7;136.75
+Import queue;import_1;;;;;537.7;136.75
+Import queue;import_2;;;;;537.7;136.75
+Heftruck naar inkomst rack;Transporter1;;;;;537.7;136.75
+Heftruck naar inkomst rack;Transporter2;;;;;537.7;136.75
+Drive-in racken begin;DriveInRack1;;;;;537.7;136.75
+Heftruck begin fabriekproces;Transporter3;;;;;537.7;136.75
+Begin fabriekproces;Separator1;;;;;537.7;136.75
+Wegen;Processor1;;;;;537.7;136.75
+Wegen;Processor2;;;;;537.7;136.75
+Sorters;Processor3;;;;;537.7;136.75
+Sorters;Processor4;;;;;537.7;136.75
+Sorters;Processor5;;;;;537.7;136.75
+Robotarmen;Robot1;;;;;537.7;136.75
+Robotarmen;Robot2;;;;;537.7;136.75
+Robotarmen;Robot3;;;;;537.7;136.75
+Ververs;Processor10;;;;;537.7;136.75
+Ververs;Processor11;;;;;537.7;136.75
+Ververs;Processor12;;;;;537.7;136.75
+Ververs;Processor16;;;;;537.7;136.75
+Ververs;Processor17;;;;;537.7;136.75
+Ververs;Processor18;;;;;537.7;136.75
+Ververs;Processor22;;;;;537.7;136.75
+Ververs;Processor23;;;;;537.7;136.75
+Ververs;Processor24;;;;;537.7;136.75
+Doos inpakkers;Processor13;;;;;537.7;136.75
+Doos inpakkers;Processor14;;;;;537.7;136.75
+Doos inpakkers;Processor15;;;;;537.7;136.75
+Doos inpakkers;Processor19;;;;;537.7;136.75
+Doos inpakkers;Processor20;;;;;537.7;136.75
+Doos inpakkers;Processor21;;;;;537.7;136.75
+Doos inpakkers;Processor25;;;;;537.7;136.75
+Doos inpakkers;Processor26;;;;;537.7;136.75
+Doos inpakkers;Processor27;;;;;537.7;136.75
+Pallet inpakkers;Processor28;;;;;537.7;136.75
+Pallet inpakkers;Processor29;;;;;537.7;136.75
+Pallet inpakkers;Processor30;;;;;537.7;136.75
+Pallet inpakkers;Processor31;;;;;537.7;136.75
+Pallet inpakkers;Processor32;;;;;537.7;136.75
+Pallet inpakkers;Processor33;;;;;537.7;136.75
+Pallet inpakkers;Processor36;;;;;537.7;136.75
+Pallet inpakkers;Processor34;;;;;537.7;136.75
+Pallet inpakkers;Processor35;;;;;537.7;136.75
+Queue object 1;object 1_1;;;;;537.7;136.75
+Queue object 1;object 1_2;;;;;537.7;136.75
+Queue object 1;object 1_3;;;;;537.7;136.75
+Queue object 2;object 2_1;;;;;537.7;136.75
+Queue object 2;object 2_2;;;;;537.7;136.75
+Queue object 2;object 2_3;;;;;537.7;136.75
+Queue object 3;object 3_1;;;;;537.7;136.75
+Queue object 3;object 3_2;;;;;537.7;136.75
+Queue object 3;object 3_3;;;;;537.7;136.75
+Heftruck naar warehouse;Transporter obj 3;;;;;537.7;136.75
+Heftruck naar warehouse;Transporter obj3;;;;;537.7;136.75
+Heftruck naar warehouse;Transporter obj 2;;;;;537.7;136.75
+Heftruck naar warehouse;transporter obj1;;;;;537.7;136.75
+Heftruck naar warehouse;Transporter obj2;;;;;537.7;136.75
+Heftruck naar warehouse;Transporter obj1;;;;;537.7;136.75
+Drive-in racken warenhuis;warehose rack1;;;;;537.7;136.75
+Drive-in racken warenhuis;warehose rack2;;;;;537.7;136.75
+Drive-in racken warenhuis;warehose rack3;;;;;537.7;136.75
+Heftruck export;export1;;;;;537.7;136.75
+Heftruck export;export2;;;;;537.7;136.75
+Export queue;export 2;;;;;537.7;136.75
+Export queue;export 1;;;;;537.7;136.75
+Export truck / output;Truck1 ouput;;;;;537.7;136.75
+Export truck / output;Truck2 output;;;;;537.7;136.75
