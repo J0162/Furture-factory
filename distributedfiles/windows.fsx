@@ -7,10 +7,10 @@
   <node f="42" dt="4"><name>QuickerProperties4054516948</name><data>
    <node f="40"><name></name></node>
    <node f="42" dt="2"><name>saver</name><data>QuickerProperties</data></node>
-   <node f="42" dt="1"><name>spatialx</name><data>000000004076f000</data></node>
-   <node f="42" dt="1"><name>spatialy</name><data>0000000040701000</data></node>
+   <node f="42" dt="1"><name>spatialx</name><data>000000004084e000</data></node>
+   <node f="42" dt="1"><name>spatialy</name><data>0000000040792000</data></node>
    <node f="42" dt="1"><name>spatialsx</name><data>0000000040736000</data></node>
-   <node f="42" dt="1"><name>spatialsy</name><data>0000000040780000</data>
+   <node f="42" dt="1"><name>spatialsy</name><data>00000000405f8000</data>
     <node f="40"><name></name></node></node>
    <node f="42"><name>variables</name></node>
    <node f="42" dt="2"><name>viewfocus</name><data>&lt;no path&gt;</data></node>
@@ -35,36 +35,49 @@
    <node f="42"><name>splitterx</name></node>
   </data>
    <node f="40"><name></name></node>
-   <node f="42" dt="4"><name>ToolPane</name><data>
+   <node f="42" dt="4"><name>ToolTabPane</name><data>
     <node f="40"><name></name></node>
-    <node f="42" dt="2"><name>saver</name><data>ToolPane</data></node>
+    <node f="42" dt="2"><name>saver</name><data>ToolTabPane</data></node>
     <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>spatialsx</name><data>0000000040694000</data>
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>min</name><data>0000000040604000</data></node>
-     <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
      <node f="42" dt="1"><name>desired</name><data>0000000040694000</data></node>
+     <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
     </node>
     <node f="42" dt="1"><name>spatialsy</name><data>000000004083e800</data>
      <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>min</name><data>0000000040390000</data></node>
      <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
     </node>
     <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
     <node f="42"><name>variables</name></node>
-    <node f="42" dt="2"><name>viewfocus</name><data>MAIN:/project/model</data></node>
+    <node f="42" dt="2"><name>viewfocus</name><data>MAIN:/1</data></node>
     <node f="42" dt="2"><name>objectfocus</name><data>MAIN:/project/model</data></node>
+    <node f="42" dt="1"><name>tabwindow</name><data>0000000040598000</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
+else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
+     <node f="42"><name>targets</name>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>paneleft</name><data>0000000040598000</data></node>
+      <node f="42" dt="1"><name>paneright</name><data>0000000040598000</data></node>
+      <node f="42" dt="1"><name>panetop</name><data>0000000040598000</data></node>
+      <node f="42" dt="1"><name>panebottom</name><data>0000000040598000</data></node>
+     </node>
+    </node>
     <node f="42" dt="2"><name>windowtitle</name><data>Toolbox</data></node>
     <node f="42"><name>style</name>
      <node f="40"><name></name></node>
      <node f="42"><name>WS_CAPTION</name></node>
-     <node f="42"><name>WS_CLIPSIBLINGS</name></node>
-     <node f="42"><name>WS_CLIPCHILDREN</name></node>
      <node f="42"><name>WS_SYSMENU</name></node>
+     <node f="42" dt="1"><name>WS_CLIENTEDGE</name><data>0000000000000000</data></node>
     </node>
     <node f="42"><name>exstyle</name>
      <node f="40"><name></name></node>
      <node f="42"><name>WS_EX_TOOLWINDOW</name></node>
+     <node f="42" dt="1"><name>WS_EX_WINDOWEDGE</name><data>0000000000000000</data></node>
     </node>
    </data>
     <node f="40"><name></name></node>
@@ -72,21 +85,52 @@
      <node f="40"><name></name></node>
      <node f="42" dt="2"><name>saver</name><data>Toolbox</data></node>
      <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialy</name><data>0000000000000000</data></node>
-     <node f="42" dt="1"><name>spatialsx</name><data>0000000040692000</data>
+     <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
+     <node f="42" dt="1"><name>spatialsx</name><data>0000000040694000</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>min</name><data>0000000040604000</data></node>
       <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
       <node f="42" dt="1"><name>desired</name><data>0000000040694000</data></node>
      </node>
-     <node f="42" dt="1"><name>spatialsy</name><data>0000000040834000</data>
+     <node f="42" dt="1"><name>spatialsy</name><data>0000000040828800</data>
       <node f="40"><name></name></node>
       <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
      </node>
      <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>alignrightmargin</name><data>0000000000000000</data></node>
      <node f="42"><name>variables</name></node>
+     <node f="42" dt="1"><name>tabwindow</name><data>0000000000000000</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
+else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
+     </node>
      <node f="42" dt="2"><name>bitmap</name><data>buttons\view_tools.ico</data></node>
+    </data></node>
+    <node f="42" dt="4"><name>LibraryIconGrid</name><data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="2"><name>saver</name><data>LibraryIconGrid</data></node>
+     <node f="42" dt="1"><name>spatialx</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>spatialy</name><data>0000000040370000</data></node>
+     <node f="42" dt="1"><name>spatialsx</name><data>0000000040694000</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>min</name><data>0000000040604000</data></node>
+      <node f="42" dt="1"><name>fixed</name><data>0000000040000000</data></node>
+      <node f="42" dt="1"><name>desired</name><data>000000004067c000</data></node>
+     </node>
+     <node f="42" dt="1"><name>spatialsy</name><data>0000000040828800</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="1"><name>desired</name><data>00000000408b1800</data></node>
+     </node>
+     <node f="42" dt="1"><name>alignbottommargin</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>alignrightmargin</name><data>0000000000000000</data></node>
+     <node f="42"><name>variables</name></node>
+     <node f="42" dt="2"><name>viewfocus</name><data>MAIN:/project/library</data></node>
+     <node f="42" dt="1"><name>tabwindow</name><data>0000000000000000</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
+else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
+     </node>
+     <node f="42" dt="2"><name>bitmap</name><data>buttons\view_library.ico</data></node>
     </data></node>
    </node>
    <node f="42" dt="4"><name>SplitterYPane</name><data>
@@ -152,19 +196,19 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
        <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
 else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
       </node>
-      <node f="42" dt="1"><name>viewpointx</name><data>fa2d4d7e401788cf</data></node>
-      <node f="42" dt="1"><name>viewpointy</name><data>6a38ec24c00b6542</data></node>
-      <node f="42" dt="1"><name>viewpointrx</name><data>00000000c0544000</data></node>
-      <node f="42" dt="1"><name>viewpointrz</name><data>0000000040ac9e00</data></node>
-      <node f="42" dt="1"><name>viewpointradius</name><data>8fcc6b2e4049dcc5</data>
+      <node f="42" dt="1"><name>viewpointx</name><data>5030773b404a397e</data></node>
+      <node f="42" dt="1"><name>viewpointy</name><data>c6193e80c026f86a</data></node>
+      <node f="42" dt="1"><name>viewpointrx</name><data>00000000c0480000</data></node>
+      <node f="42" dt="1"><name>viewpointrz</name><data>0000000040aaf600</data></node>
+      <node f="42" dt="1"><name>viewpointradius</name><data>59af4034403540ff</data>
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>eye</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>focus</name><data>9999999a3fa99999</data></node>
        <node f="42" dt="1"><name>type</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>pass</name><data>0000000000000000</data></node>
       </node>
-      <node f="42" dt="1"><name>viewnear</name><data>6e20cd2d3fd3192f</data></node>
-      <node f="42" dt="1"><name>viewfar</name><data>518c08654072a698</data></node>
+      <node f="42" dt="1"><name>viewnear</name><data>4bf7d6023fd200d8</data></node>
+      <node f="42" dt="1"><name>viewfar</name><data>3a30070f407194d3</data></node>
       <node f="42" dt="2"><name>bitmap</name><data>buttons\view_persp.ico</data></node>
      </data></node>
      <node f="42" dt="4"><name>FlowItemBin</name><data>
@@ -34762,6 +34806,225 @@ time: 100871.990105 exception: FlexScript exception: Label property inObjects re
 time: 100918.690275 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
 exception: Non-zero deceleration is not supported on A* networks when the task executer uses normal offset travel. Changing deceleration on MODEL:/transporter obj1 from 1.000000 to 0.
 exception: Non-zero deceleration is not supported on A* networks when the task executer uses normal offset travel. Changing deceleration on MODEL:/Transporter obj1 from 1.000000 to 0.
+Unable to load 3d shape: C:/Users/vanop/Documents/Inventor/Factory Assets/Pusher Sorter_247742109F58E4CA2CFAB596E964CEEB.ipt
+Unable to load 3d shape: C:/Users/vanop/Documents/Inventor/Factory Assets/Industrial Scale_120C691A32777FF7F5F2FF718F744002.ipt
+Unable to load 3d shape: C:/Users/vanop/Documents/Inventor/Factory Assets/Dock Door_E3A954CAC16C0CCFD42E46A2E171C0A8.ipt
+time: 202.026723 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 260.519812 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 311.595055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 365.177939 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 426.211302 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 477.121184 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 532.605255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 585.239726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 640.046943 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 694.081931 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 748.716402 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 805.647531 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 859.055017 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 911.689488 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 961.495532 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1011.801576 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1062.696692 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1114.502736 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1168.308779 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1222.114823 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1277.920867 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1326.191012 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1376.961157 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 174.173007 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 200.622021 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 230.175289 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 254.709129 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 278.855395 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 304.451605 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 331.179799 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 357.628813 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 384.012016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 409.703069 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 435.788392 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 462.059520 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 485.972728 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 510.255722 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 537.119797 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 563.436630 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 589.686655 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 617.266742 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 644.470211 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 671.538549 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 699.220124 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 727.102449 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 755.171052 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 780.604863 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 805.951972 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 831.530245 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 857.318371 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 883.710182 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 910.178874 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 934.783514 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 960.059273 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 985.617357 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1011.421137 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 1037.445366 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+exception: Non-zero deceleration is not supported on A* networks when the task executer uses normal offset travel. Changing deceleration on MODEL:/Transporter3 from 4.000000 to 0.
+time: 171.421974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 196.736016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 222.348904 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 247.757745 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 271.743951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 295.616711 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 319.413354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 343.222469 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 368.505595 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 395.478728 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 419.315312 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 443.075443 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 468.879809 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 495.788834 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 522.922475 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 547.199937 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 572.619910 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 598.520055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 623.861832 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 649.683055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 675.464836 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 701.206418 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 726.906998 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 751.343166 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 775.228185 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 799.070414 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 822.873440 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 847.155531 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 870.878044 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 171.421974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 196.736016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 222.348904 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 247.757745 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 271.743951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 295.616711 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 319.413354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 343.222469 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 368.505595 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 395.478728 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 419.315312 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 443.075443 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 468.879809 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 495.788834 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 522.922475 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 547.199937 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 572.619910 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 598.520055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 623.861832 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 649.683055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 675.464836 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 701.206418 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 726.906998 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 751.343166 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 171.421974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 196.736016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 222.348904 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 247.757745 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 271.743951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 295.616711 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 319.413354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 343.222469 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 368.505595 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 395.478728 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 419.315312 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 443.075443 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 468.879809 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 495.788834 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 522.922475 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 547.199937 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 572.619910 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 598.520055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 623.861832 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 649.683055 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 675.464836 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 701.206418 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 726.906998 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 751.343166 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 775.228185 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 799.070414 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 822.873440 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 847.155531 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 171.421974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 196.736016 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 222.348904 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 247.757745 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 271.743951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 295.616711 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 319.413354 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 336.222469 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 164.421974 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 182.848726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 200.586944 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 217.954895 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 235.867296 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 253.381479 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 270.104786 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 286.790951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 305.549529 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 322.434255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 342.952612 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 360.764106 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 378.275320 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 172.013811 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 197.327853 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 222.412641 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 248.679455 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 273.382499 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 298.649694 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 325.662866 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 350.188818 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+exception: FlexScript exception: Property "name" accessed on invalid node. at VIEW:/active/MainPanel/BackPanel/SplitterXPane/ToolPane/QuickProperties/ContentPanel/ToolPanel/Combiner/Combiner/ExcelImport&gt;eventfunctions/configureRow at line 6 c: VIEW:/active/MainPanel/BackPanel/SplitterXPane/ToolPane/QuickProperties/ContentPanel/ToolPanel/Combiner/Combiner/ExcelImport
+exception: FlexScript exception: Property "name" accessed on invalid node. at VIEW:/active/MainPanel/BackPanel/SplitterXPane/ToolPane/QuickProperties/ContentPanel/ToolPanel/Combiner/Combiner/ExcelImport&gt;eventfunctions/configureRow at line 6 c: VIEW:/active/MainPanel/BackPanel/SplitterXPane/ToolPane/QuickProperties/ContentPanel/ToolPanel/Combiner/Combiner/ExcelImport
+time: 164.143102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 182.848726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 200.586944 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 217.954895 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 235.867296 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 253.381479 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 270.104786 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 286.790951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 305.549529 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 322.434255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 342.952612 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 164.143102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 182.848726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 200.586944 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 217.954895 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 235.867296 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 253.381479 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 270.104786 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 286.790951 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 305.549529 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 322.434255 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 342.952612 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 360.764106 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 378.275320 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 396.275320 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 412.805534 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 429.286188 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 446.570320 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 464.231236 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 480.958676 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 497.607369 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 516.194859 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 534.492467 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 164.143102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 182.848726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 164.143102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 164.143102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 182.848726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 200.586944 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 217.954895 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 235.867296 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 253.381479 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 270.104786 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 164.143102 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 3
+time: 182.848726 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
+time: 200.586944 exception: FlexScript exception: Label property inObjects retrieved on /Processor1. Label does not exist. at MODEL:/Queue1&gt;variables/sendtoport at line 0
 </data></node>
        </node>
       </node>
@@ -36296,6 +36559,458 @@ Could not finish parsing because of previous errors.
 Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
 Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
 Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		Undefined variable st being used.
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		syntax error
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		syntax error
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		syntax error
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		syntax error
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue1&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Data type ObjectPorts does not support property value
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport Line 3		Could not resolve correct operator for construct operation. Left side type is Variant&amp;, right type is (invalid)
+Flexscript Error	MODEL:/Plane7/Queue2&gt;variables/sendtoport	
+Could not finish parsing because of previous errors.
+
+
+
+Flexscript Error	MODEL:/Transporter3&gt;variables/breakto Line 3		syntax error
 Could not finish parsing because of previous errors.
 
 
