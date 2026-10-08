@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Bestellingen dashboard</title>
+  <link rel="stylesheet" href="dashboard efficiëntie.css">
+</head>
+<body>
+
+    <nav>
+        <a href="/dashboard">Bestellingen</a>
+        <a href="/efficiëntie" aria-current="efficiëntie"></a>
+        <form action="logout" method="post"><button type="submit">Uitloggen</button>
+    </nav>
+
+    <h1> Efficiëntie dashboard</h1>
+
+    <p id="melding" class="melding" hidden></p>
+
+    <div class="blokken">
+         <div class="blok">
+            <div class="getal" id="gemiddeld">-</div>
+            Gemiddelde benutting fabriek
+         </div>
+         <div class="blok">
+            <div class="getal klein" id="knelpunt">-</div>
+            <span id="knelpumt"></span>
+            Knelpunt 
+         </div>
+         <div class="blok">
+            <div class="getal klein" id="onderbenut">-</div>
+            <span id="onderbenut-pct"></span>
+            Minus benut
+         </div> 
+         <div class="box">
+            <h2> Benutting per onderdeel</h2>
+            <span class="badge groen">Efficiëntie 90%: goed</span>
+            <span class="badge geel">Efficiëntie 80%: kantelpunt</span>
+            <span class="badge rood">Efficiëntie 70%: inefficient</span>
+            <div id="overzicht"></div>
+         </div>
+         <div class="box">
+            <h2> per machine</h2>
+            <p class="uitleg">Klik op een onderdeel om de machines te zien.</p>
+            <div id="details"></div>
+        </div>
+        
+        <script src="/efficiency.js"></script>
+</body>
+</html>

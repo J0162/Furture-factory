@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verificatie</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+<form action="/2fa/verify" method="post">
+    <div class="container">
+        <h2>Tweestapverificatie</h2>
+        <p>Open Google Authenticator app en vul de 6-cijferige code in.</p>
+        <p class="error" id="error" style="display:none;">Ongeldige code. Probeer het opnieuw.</p>
+        <label for="code">Code</label>
+        <input type="text" id="code" name="code" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="one-time-code" placeholder="123456" required autofocus>
+        <button type="submit">Verifiëren</button>
+        <button type="button" onclick="location.href='/2fa/reset'" style="background-color: #6c757d; margin-top: 5px; padding: 8px; font-size: 14px;">Nieuw apparaat koppelen</button>
+    </div>
+</form>
+<script>
+     if (new URLSearchParams(location.search).has('error'))
+        document.getElementById('error').style.display = 'block';
+</script>
+</body>
+</html>

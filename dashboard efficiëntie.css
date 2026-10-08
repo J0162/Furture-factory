@@ -1,0 +1,175 @@
+:root {
+    --rood: #F542.42;
+    --groen:#03FC00;
+    --geel:#FCF800;
+    --grijs: #7D7D7D;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav a {
+    padding: 8px 14px;
+    background: #ffffff;
+    color: #222;
+    text-align: none;
+}
+
+nav.a.actief {
+    background-color: #0006FF;
+    color: #ffffff;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+ 
+.melding {
+  background-color: #fff4d6;
+  border: 1px solid #e6c36a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-align: center;
+}
+ 
+.melding.fout {
+  background-color: #fde4e1;
+  border-color: #e39a92;
+  color: #7a1d12;
+  font-weight: bold;
+}
+ 
+.blokken {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+ 
+.blok {
+  flex: 1 1 200px;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+ 
+.getal {
+  font-size: 40px;
+  font-weight: bold;
+}
+ 
+.getal.klein {
+  font-size: 20px;
+  min-height: 48px;
+}
+ 
+.blok span {
+  display: block;
+  color: #555555;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+ 
+.box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+ 
+.uitleg {
+  color: #555555;
+  font-size: 14px;
+}
+ 
+.rij {
+  display: grid;
+  grid-template-columns: 260px 1fr 52px;
+  gap: 10px;
+  align-items: center;
+  padding: 4px 0;
+}
+ 
+.spoor {
+  background-color: #e6e9ec;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+ 
+.vul {
+  height: 100%;
+}
+ 
+.pct {
+  text-align: right;
+}
+ 
+.rood   { background-color: var(--rood); }
+.groen  { background-color: var(--groen); }
+.oranje { background-color: var(--oranje); }
+.geen   { background-color: var(--grijs); }
+ 
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: white;
+}
+ 
+details {
+  border-top: 1px solid #cccccc;
+}
+ 
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 4px;
+  cursor: pointer;
+}
+ 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+ 
+th, td {
+  border-bottom: 1px solid #cccccc;
+  padding: 8px;
+  text-align: left;
+}
+ 
+th.getalkolom, td.getalkolom {
+  text-align: right;
+}
+ 
+td .spoor {
+  min-width: 80px;
+  height: 12px;
+}
+ 
+.tabelwrap {
+  overflow-x: auto;
+}
+ 
+@media only screen and (max-width: 600px) {
+  .rij {
+    display: block;
+  }
+}

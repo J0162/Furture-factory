@@ -101,7 +101,7 @@ app.post('/2fa/verify', needPending, (req, res) => {
 
 const needAuth = (req, res, next) =>
     req.session.user ? next() : res.redirect('/login.html');
-app.get('/dashboard', needAuth, view('dashboard.html'));
+app.get('/dashboard', needAuth, view('dashboard bestellingen.html'));
 
 const PY = 'http://127.0.0.1:8000';
 const KLEUREN = {1: 'Rood', 2: 'Blauw', 3: 'Groen' };
