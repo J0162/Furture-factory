@@ -21,7 +21,7 @@ export async function executeGetStats() {
     console.log(">>> get_stats TOOL EXECUTING");
 
     const response = await fetch(
-        "http://127.0.0.1:8000/stats"
+        "http://145.93.112.70:8000/stats"
     );
 
     console.log(">>> stats API responded:", response.status);

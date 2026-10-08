@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(express.static("."));
 
-await initialMessage();
+//await initialMessage();
 
 app.post("/api/chat", async (req, res) => {
 

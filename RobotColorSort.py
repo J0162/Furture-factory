@@ -1,15 +1,12 @@
 import random
 import requests
 
-
 class CurrentOrder:
     def __init__(self, IDPackage, Color):
         self.IDPackage = IDPackage
         self.Color = Color
 
-
 RobotList = []
-
 
 def SortByRequestedType(RobotNumber):
     # Bestellingen ophalen
@@ -59,8 +56,8 @@ def SortByRequestedType(RobotNumber):
 
     # Bestelling verwijderen via ID
     response = requests.post(
-        "http://127.0.0.1:8000/ColorSet",
-        params={"IDNumber": gekozen_id}
+        "http://127.0.0.1:8000/ChangeValue",
+        params={"IDNumber": gekozen_id, "BoolChange": "ColorSorted"}
     )
 
     if response.status_code != 200:

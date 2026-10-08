@@ -23,6 +23,8 @@ async function ChatAI(message) {
 
 let chatboxdiv = document.getElementById("chatbox");
 let messageInput = document.getElementById("ChatMessage");
+let Dots = document.getElementById("dots");
+var visibility = Dots.style.visibility;
 
 async function Sendmessage() {
 
@@ -60,6 +62,7 @@ async function Sendmessage() {
     // =========================
     // AI RESPONSE
     // =========================
+    Dots.style.visibility = visibility == "visible" ? 'hidden' : "visible"
     console.log("asking AI");
     let AImessage = await ChatAI(message);
     console.log(AImessage);
@@ -79,6 +82,7 @@ async function Sendmessage() {
     aiMessageDiv.appendChild(aiBox);
 
     chatboxdiv.appendChild(aiMessageDiv);
+    Dots.style.visibility = visibility == "hidden" ? 'visible' : "hidden"
 
     chatboxdiv.scrollTop = chatboxdiv.scrollHeight;
 }

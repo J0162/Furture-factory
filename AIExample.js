@@ -91,6 +91,10 @@ Keep the conversation moving.`
 ];
 
 export async function ChatAI(message) {
+    console.log("===== MESSAGES SENT TO OLLAMA =====");
+    console.dir(messages, { depth: null });
+    console.log("==================================");
+
     messages.push({
         role: "user",
         content: message
@@ -99,10 +103,11 @@ export async function ChatAI(message) {
     while (true) {
         // ask AI what to do
         const response = await ollama.chat({
-            model: "qwen3.8:27b",
+            model: "gemma4:26b",
             messages,
             tools,
-            stream: false
+            stream: false,
+            keep_alive: -1,
         });
         const assistantMessage = response.message;
         console.dir(response.message, { depth: null });

@@ -17,8 +17,11 @@ class FactoryInput(BaseModel):
 class Order(BaseModel):
     Color: int
     Weight: int
+    WeightSorted: bool
     ColorSorted: bool
     IDPackage: int
+    InWareHouse: bool
+    Shipping: bool
     Done: bool
 
 
@@ -33,7 +36,10 @@ bestellingen = [
         Weight=random.randrange(1, 4),
         ColorSorted=False,
         IDPackage=random.randrange(1, 99999),
-        Done=False
+        Done=False,
+        WeightSorted=False,
+        Shipping=False,
+        InWareHouse=False
     )
 ]
 
@@ -47,7 +53,10 @@ while i < 100:
             Weight=random.randrange(1, 4),
             ColorSorted=False,
             IDPackage=random.randrange(1, 99999),
-            Done=False
+            Done=False,
+            WeightSorted=False,
+            Shipping=False,
+            InWareHouse=False
         )
     )
     i += 1
@@ -69,7 +78,10 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
         Weight=NieuwGewicht,
         ColorSorted=False,
         IDPackage=random.randrange(1, 99999),
-        Done=False
+        Done=False,
+        WeightSorted=False,
+        Shipping=False,
+        InWareHouse=False
     )
 
     bestellingen.append(nieuwe_bestelling)
@@ -83,12 +95,20 @@ async def factoryinput(input: FactoryInput):
     
 
 
-@app.post("/ColorSet")
-async def ColorSet(IDNumber: int):
-
+@app.post("/ChangeValue")
+async def ColorSet(IDNumber: int, BoolChange: str):
     for bestelling in bestellingen:
         if bestelling.IDPackage == IDNumber:
-            bestelling.ColorSorted = True
+            if BoolChange == "WeightSorted":
+                bestelling.WeightSorted = not bestelling.WeightSorted
+            elif BoolChange == "ColorSorted":
+                bestelling.ColorSorted = not bestelling.ColorSorted
+            elif BoolChange == "InWareHouse":
+                bestelling.InWareHouse = not bestelling.InWareHouse
+            elif BoolChange == "Shipping":
+                bestelling.Shipping = not bestelling.Shipping
+            elif BoolChange == "Done":
+                bestelling.Done = not bestelling.Done
             break
 
     return bestellingen
