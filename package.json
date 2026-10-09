@@ -1,6 +1,8 @@
 {
+  "type": "module",
   "dependencies": {
     "express": "^5.2.1",
-    "ollama": "^0.6.4"
+    "ollama": "^0.6.4",
+    "saxes": "^6.0.0"
   }
 }
