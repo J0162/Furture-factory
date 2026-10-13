@@ -4,7 +4,16 @@ import uvicorn
 from pydantic import BaseModel
 from fastapi.responses import FileResponse
 from pathlib import Path
+import mysql.connector
 
+db = mysql.connector.connect(
+    host="localhost",
+    port=3306,
+    user="root",
+    password="welkom",
+    database="Packages",
+)
+cursor = db.cursor()
 
 class FactoryInput(BaseModel):
     run_id: str
@@ -62,10 +71,23 @@ while i < 100:
     )
     i += 1
 
-
 @app.get("/Bestellingen")
 async def ListBestelling():
+    cursor.execute("SELECT * FROM weights")
+    rows = cursor.fetchall()
+
+    for nr, (IDPackage, Color, ColorSorted, WeightSorted,
+             InWareHouse, Shipping, Done, Weight) in enumerate(rows, start=1):
+
+        print(
+            f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
+            f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
+            f"{InWareHouse!s:<12} {Shipping!s:<10} "
+            f"{Done!s:<6} {Weight!s:>8}"
+        )
+
     return bestellingen
+
 
 @app.get("/")
 async def Dashboard():
@@ -84,8 +106,26 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
         Shipping=False,
         InWareHouse=False
     )
-
     bestellingen.append(nieuwe_bestelling)
+    
+    cursor.execute(
+        """INSERT INTO weights
+        (IDPackage, Color, ColorSorted, WeightSorted,
+            InWareHouse, Shipping, Done, Weight)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)""",
+        (
+            0,
+            nieuwe_bestelling.Color,
+            nieuwe_bestelling.ColorSorted,
+            nieuwe_bestelling.WeightSorted,
+            nieuwe_bestelling.InWareHouse,
+            nieuwe_bestelling.Shipping,
+            nieuwe_bestelling.Done,
+            nieuwe_bestelling.Weight,
+        ),
+    )
+    db.commit()
+
 
     return bestellingen
 
@@ -122,6 +162,10 @@ async def RemoveBestelling(IDNumber: int):
         if bestelling.IDPackage == IDNumber:
             bestellingen.remove(bestelling)
             break
+
+    cursor.execute("""
+        DELETE FROM weights WHERE IDPACKAGE = %s;""",(IDNumber))
+    db.commit()
 
     return bestellingen
 
