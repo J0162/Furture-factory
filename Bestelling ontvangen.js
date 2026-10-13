@@ -85,3 +85,8 @@ const GEWICHTEN = {
     "Blauw": 25,
     "Groen": 50
 };
+const GEWICHTEN = {
+    "Rood": 15,
+    "Blauw": 25,
+    "Groen": 50
+};
