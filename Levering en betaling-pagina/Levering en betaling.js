@@ -1,12 +1,12 @@
         const API_URL = "http://127.0.0.1:8000";
 
         const KLEUR_CODE   = { "Rood": 1, "Blauw": 2, "Groen": 3 };
-        const GEWICHT_CODE = { "Rood": 1, "Blauw": 2, "Groen": 3 }; 
+        const GEWICHT_CODE = { "15KG": 1, "25KG": 2, "50KG": 3 }; 
 
         async function stuurBestelling(cart) {
             for (const item of cart) {
-                const kleur = KLEUR_CODE[item.name];
-                const gewicht = GEWICHT_CODE[item.name];
+                const kleur = KLEUR_CODE[item.kleur];
+                const gewicht = GEWICHT_CODE[item.gewicht];
                 if (kleur === undefined || gewicht === undefined) {
                     throw new Error("Onbekend product: " + item.name);
                 }
@@ -27,7 +27,44 @@
 
         document.getElementById("cnum").addEventListener("input", function () {
             this.value = this.value.replace(/[^0-9]/g, "").slice(0, 16);
+
+            var foutMelding = document.getElementById("cnum-fout");
+
+            if (this.value.length === 0) {
+                this.style.borderColor = "";
+                foutMelding.style.display = "none";
+            } else if (this.value.length < 15 || !luhn_validate(this.value)) {
+                this.style.borderColor = "red";
+                foutMelding.textContent = "Ongeldig kaartnummer"
+                foutMelding.style.display = "block";
+            } else {
+                this.style.borderColor = "green";
+                foutMelding.style.display = "none";
+            }
         });
+
+        function luhn_checksum(code) {
+            var len = code.length
+            var parity = len % 2
+            var sum = 0
+            for (var i = len-1; i >= 0; i--) {
+                var d = parseInt(code.charAt(i))
+                if (i % 2 == parity) {d *= 2}
+                if (d > 9) { d -= 9}
+                sum += d
+            }
+            return sum % 10
+        }
+
+        function luhn_calculate(partcode) {
+            var checksum = luhn_checksum(partcode + "0")
+            return checksum == 0 ? 0 : 10 - checksum
+        }
+
+        function luhn_validate(fullcode) {
+            return  luhn_checksum(fullcode) == 0
+        }
+
 
         document.getElementById("ideal-knop").addEventListener("click", function () {
             window.location.href = "ideal-betaling.html";
@@ -68,6 +105,13 @@
 
         document.getElementById("cart-aantal").textContent = aantal;
         document.getElementById("cart-totaal").textContent = formatPrijs(totaal);
+
+        const BTW_PERCENTAGE = 21;
+        var btw = totaal *  BTW_PERCENTAGE / (100 + BTW_PERCENTAGE);
+        var subtotaal = totaal - btw;
+        document.getElementById("btw-percentage").textContent = BTW_PERCENTAGE;
+        document.getElementById("cart-btw").textContent = formatPrijs(btw);
+        document.getElementById("cart-subtotaal").textContent = formatPrijs(subtotaal);
 
         const BESTEL_PAGINA = "../Bestellen.html";
         const melding = document.getElementById("melding");
