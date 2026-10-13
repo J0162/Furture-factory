@@ -1,5 +1,5 @@
 :root {
-    --rood: #F542.42;
+    --rood: #F54242;
     --groen:#03FC00;
     --geel:#FCF800;
     --grijs: #7D7D7D;
@@ -119,7 +119,7 @@ button {
  
 .rood   { background-color: var(--rood); }
 .groen  { background-color: var(--groen); }
-.oranje { background-color: var(--oranje); }
+.oranje { background-color: var(--geel); }
 .geen   { background-color: var(--grijs); }
  
 .badge {
