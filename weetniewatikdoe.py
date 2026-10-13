@@ -45,7 +45,8 @@ for _stap, _namen in STAPPEN.items():
     for _n in _namen:
         ONDERDELEN.setdefault(_n, _stap)
 
-
+# FlexSimPy wordt als EERSTE zware module geladen (net als in het oude script),
+# dus vóór fastapi/pydantic. Anders kunnen DLL's met elkaar botsen.
 FlexSimPy = None
 IMPORT_FOUT = None
 try:
@@ -67,10 +68,10 @@ class FlexSimMonitor:
         self.model = model
         self.refresh = refresh
         self.run_speed = run_speed
-        self.show_gui = show_gui 
+        self.show_gui = show_gui  # False = headless, sneller
         self.verbose = verbose
-        self.max_sim_time = max_sim_time   
-        self.stop_when = stop_when        
+        self.max_sim_time = max_sim_time   # stop bij deze simulatietijd (s), None = nooit
+        self.stop_when = stop_when         # functie(data) -> True om te stoppen, None = nooit
 
         self._lock = threading.Lock()
         self._stop = threading.Event()
@@ -79,6 +80,7 @@ class FlexSimMonitor:
         self._run_id = datetime.now().strftime("%Y%m%d-%H%M%S")
         self._snapshot = self._maak_snapshot("idle", 0.0, 0.0, {}, "nog niet gestart")
 
+    # ---------- publieke interface ----------
     def start(self):
         if self._thread and self._thread.is_alive():
             return
@@ -96,7 +98,7 @@ class FlexSimMonitor:
         with self._lock:
             return self._snapshot
 
-   
+    # ---------- intern ----------
     def _maak_snapshot(self, status, simtijd, echt, data, info):
         machines = [
             {"stap": stap, "naam": naam, **data.get(naam, _LEEG)}
@@ -214,6 +216,7 @@ class FlexSimMonitor:
 
 
 if __name__ == "__main__":
+    # Alleen FlexSim testen, zonder API:  python weetniewatikdoe.py
     import socket
     with socket.socket() as _s:
         if _s.connect_ex(("127.0.0.1", 8000)) == 0:
