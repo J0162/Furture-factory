@@ -56,7 +56,7 @@ bestellingen = [
 # Nog 99 bestellingen toevoegen
 i = 1
 
-while i < 100:
+/*while i < 100:
     bestellingen.append(
         Order(
             Color=random.randrange(1, 4),
@@ -69,7 +69,7 @@ while i < 100:
             InWareHouse=False
         )
     )
-    i += 1
+    i += 1*/
 
 @app.get("/Bestellingen")
 async def ListBestelling():
@@ -199,7 +199,54 @@ async def Statistics():
     statistics = str(bestellingen) + "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n" + factorystatistics
     return statistics
 
+def PuteverythingInList():
+    bestellingen.clear()
 
+    cursor.execute("SELECT * FROM weights")
+    rows = cursor.fetchall()
+
+    for (IDPackage, Color, ColorSorted, WeightSorted,
+         InWareHouse, Shipping, Done, Weight) in rows:
+
+        bestellingen.append(Order(
+            Color=Color,
+            Weight=Weight,
+            IDPackage=IDPackage,
+            ColorSorted=ColorSorted,
+            WeightSorted=WeightSorted,
+            InWareHouse=InWareHouse,
+            Shipping=Shipping,
+            Done=Done,
+        ))
+
+def start_API():
+    for i in range(100):
+        cursor.execute(
+            """INSERT INTO weights
+            (Color, ColorSorted, WeightSorted,
+             InWareHouse, Shipping, Done, Weight)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)""",
+            (
+                random.randrange(1, 4),
+                False,
+                False,
+                False,
+                False,
+                False,
+                random.randrange(1, 4),
+            ),
+        )
+
+    db.commit()
+    PuteverythingInList()
+
+
+@app.get("/REMOVE")
+def DeleteDatabase():
+    cursor.execute("""DELETE FROM weights;"""")
+
+
+start_API()
 if __name__ == "__main__":
     uvicorn.run(
         "APIServer:app",
