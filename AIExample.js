@@ -1,5 +1,23 @@
 import { Ollama } from "ollama";
 import { readFileSync } from "node:fs";
+import {fileURLToPath} from "url";
+import path from "path";
+import {getLlama, LlamaChatSession, defineChatSessionFunction} from "node-llama-cpp";
+
+//const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = "/Users/rolf/.Cache/huggingface/hub/models--ggml-org--gpt-oss-20b-GGUF/snapshots/ef9b12f2ff56c69cf32153a02784e7a3c88bf524/"
+const llama = await getLlama();
+const model = await llama.loadModel({
+    modelPath: path.join(__dirname, "gpt-oss-20b-MXFP4.gguf")
+});
+
+const context = await model.createContext({
+    contextSize: {
+        max: 128000
+    }
+});
+
+
 
 
 import getStats, {
@@ -14,6 +32,35 @@ import executors from "./Skills/executors.js";
 
 const tools = [getStats, Factory_design];
 
+const functions = Object.fromEntries(
+    tools.map(tool => {
+        const spec = tool.function ?? tool;
+        
+        return [
+            spec.name,
+            defineChatSessionFunction({
+                description: spec.description,
+                params: spec.parameters,
+                async handler(params) {
+                    const executor = executors[spec.name];
+                    
+                    if (!executor) {
+                        throw new Error(
+                            `No executor registered for ${spec.name}`
+                        );
+                    }
+                    
+                    return await executor(params);
+                }
+            })
+        ];
+    })
+);
+
+
+
+
+
 const ollama = new Ollama({
     host: "http://127.0.0.1:11434"
 });
@@ -21,9 +68,10 @@ const ollama = new Ollama({
 const KNOWN_FILE = "./future factory.fsx";
 
 
+const messages = []
 
-const messages = [
-  {
+const SystemMessage = [
+    {
     role: "system",
     content: `You are Piston, a factory advisor living on this website.
 
@@ -41,7 +89,13 @@ Do not use decorative symbols, emojis, arrows, or special characters.
 Do not add labels such as "Answer:", "Analysis:", or "Solution:" unless necessary.
 Use only normal sentences, short paragraphs, and standard punctuation.
 
-Avoid formatting characters such as:
+Do not use any formatting such as bold or italics.
+Do not use markdown syntax or code blocks.
+Do not use bullets or numbered lists.
+Do not use tables or block quotes.
+Do not use arrows, emojis, decorative symbols or any other special characters.
+
+AVOID FORMATTING CHARACTERS SUCH AS:
 *, #, _, \`, >, |, ~, ---
 
 If a list is necessary, write it as separate sentences instead of bullets.
@@ -49,6 +103,8 @@ If a list is necessary, write it as separate sentences instead of bullets.
 PERSONALITY
 
 You are practical, direct, and slightly dry.
+
+You are intelligent and you don't easily forget important things.
 
 Speak like an experienced factory worker or engineer.
 
@@ -83,6 +139,8 @@ Do not add unnecessary disclaimers or introductions.
 Do not turn simple questions into long technical explanations.
 
 Match the depth of the response to the user's question.
+
+When a user asks about orders, also report the number of packages (red, blue, green) that belong to those orders.
 
 WHAT YOU CAN HELP WITH
 
@@ -153,8 +211,14 @@ Be useful first. Explain second. Keep the conversation moving.`
   }
 ];
 
+const session = new LlamaChatSession({
+    contextSequence: context.getSequence(),
+    systemPrompt: SystemMessage[0].content
+});
+
+
 export async function ChatAI(message) {
-    console.log("===== MESSAGES SENT TO OLLAMA =====");
+    console.log("===== MESSAGES SENT TO AI =====");
     console.dir(messages, { depth: null });
     console.log("==================================");
 
@@ -163,15 +227,21 @@ export async function ChatAI(message) {
         content: message
     });
 
-    while (true) {
+    const answer = await session.prompt(message, { functions });
+
+    process.stdout.write(answer + "\n");
+
+    return answer;
+    /*while (true) {
         // ask AI what to do
-        const response = await ollama.chat({
+        /*const response = await ollama.chat({
             model: "gpt-oss:20b",
             messages,
             tools,
             stream: false,
             keep_alive: -1,
         });
+        const response = await session.prompt(messages, {functions})
         const assistantMessage = response.message;
         console.dir(response.message, { depth: null });
         //add AI response
@@ -218,7 +288,7 @@ export async function ChatAI(message) {
                 })
             }
         }
-    }
+    }*/
 }
 
 export async function initialMessage() {

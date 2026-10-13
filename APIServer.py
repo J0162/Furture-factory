@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from fastapi.responses import FileResponse
 from pathlib import Path
 
+
 class FactoryInput(BaseModel):
     run_id: str
     status: str
