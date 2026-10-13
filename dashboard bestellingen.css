@@ -56,3 +56,23 @@
       padding: 3px;
       margin-bottom: 5px;
     }
+
+    nav {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+    padding: 8px 14px;
+    background: #ffffff;
+    color: #222;
+    text-decoration: none;
+    }
+
+      background-color: steelblue;
+      color: white;
+      padding: 3px;
+      margin-bottom: 5px;
+    }
