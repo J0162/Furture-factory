@@ -102,8 +102,9 @@ app.post('/2fa/verify', needPending, (req, res) => {
 const needAuth = (req, res, next) =>
     req.session.user ? next() : res.redirect('/login.html');
 app.get('/dashboard', needAuth, view('dashboard bestellingen.html'));
+app.get('/efficientie', needAuth, view('dashboard efficiëntie.html'));
 
-const PY = 'http://127.0.0.1:8000';
+const PY = 'http://145.93.112.60:8000';
 const KLEUREN = {1: 'Rood', 2: 'Blauw', 3: 'Groen' };
 const GEWICHTEN = {1: 15, 2: 25, 3: 50,};
 
@@ -175,8 +176,48 @@ app.post('/api/bestellingen/:id/verwijder', needAuth, async (req, res) => {
     res.sendStatus(r.ok ? 204 : 502);
 });
 
+const MACHINES_PAD = '/Machines';
+
+app.get('/api/machines', needAuth, async (req, res) => {
+    try {
+        const r = await fetch(`${PY}/Machines`);
+        if (r.ok) {
+            const contentType = r.headers.get("content-type");
+            if (contentType && contentType.includes("application/json")) {
+                return res.json(await r.json());
+            }
+        }
+        res.json([]);
+    } catch {
+        res.json([]);
+    }
+});
+
 app.post('/logout', (req, res) => req.session.destroy(() => res.redirect('/login.html')));
 
 app.get('/', (req, res) => res.redirect('/login.html'));
- 
+
+app.post('/logout', (req, res) => req.session.destroy(() => res.redirect('/login.html')));
+
+app.get('/', (req, res) => res.redirect('/login.html'));
+
+
+fetch('http://145.93.112.60:8000/events?kanalen=factory').then(async (r) => {
+    const reader = r.body.getReader();
+    const decoder = new TextDecoder();
+    let tekst = '';
+    while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        tekst += decoder.decode(value, { stream: true });
+        const einde = tekst.indexOf('\n\n');
+        if (einde !== -1) {
+            fs.writeFileSync(path.join(__dirname, 'bericht.txt'), tekst.slice(0, einde));
+            console.log('Bericht opgeslagen in bericht.txt');
+            reader.cancel();
+            break;
+        }
+    }
+}).catch((err) => console.log('Stream fout:', err.message, err.cause));
+
 app.listen(3000, () => console.log('Open http://localhost:3000'));
