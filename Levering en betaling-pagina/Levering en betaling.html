@@ -38,6 +38,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                         <div class="col-50">
                             <h3>Betaalmethode</h3>
                             <label>Geaccepteerde kaarten</label>
@@ -59,6 +60,7 @@
                                            maxlength="16" inputmode="numeric"
                                            pattern="[0-9]{15,16}"
                                            autocomplete="cc-number" required>
+                                    <small id="cnum-fout" style="color: red; display:none; margin-top: 4px;"></small>
                                 </div>
                                 <div class="field">
                                     <label for="exmonth">Vervalmaand</label>
@@ -97,9 +99,15 @@
                 </h4>
                 <div id="cart-lijst"></div>
                 <hr>
+                <p> Subtotaal (excl. btw) <span class="price" >€<span id="cart-subtotaal">0,00</span></span></p>
+                <p> BTW (<span id="btw-percentage">21</span>%) <span class="price">€<span id="cart-btw">0,00</span></span></p>
                 <p>Totaal <span class="price" style="color:black"><b>€<span id="cart-totaal">0,00</span></b></span></p>
             </div>
         </div>
+    </div>
+    <script src="Levering en betaling.js"></script>
+</body>
+</html>
     </div>
     <script src="Levering en betaling.js"></script>
 </body>
