@@ -17,11 +17,27 @@
         <a class="btn" href="../website lay-out home.html">Home</a>
         <a class="btn" href="../Bestellen pagina/Bestellen.html">Bestellen</a> 
         <a class="btn" href="../Contact pagina/Contact.html">Contact </a> 
-        <a class="btn" href="../Producten pagina/Producten.html">Producten</a> 
+        <a class="btn" href="../producten-pagina/Producten.html">Producten</a> 
         </div>
 
         <section>
-            <p> tekst tekst</p>
+            <div class="container">
+                <form acition="action_page.php">
+                    <label for="fname">Voornaam</label>
+                    <input type="text" id="fname" name="Voornaam">
+                    
+                    <label for="lname">Achternaam</label>
+                    <input type="text" id="lname" name="Achternaam">
+
+                    <label for="subject">Onderwerp</label>
+                    <input type="text" id="subject" name="Onderwerp">
+
+                    <label for="message">Bericht</label>
+                    <input type="text" id="message" name="Bericht" style="height: 200px"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </section>
     </body>
 </html>
