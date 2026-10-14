@@ -6,15 +6,16 @@ from fastapi.responses import FileResponse
 from pathlib import Path
 import mysql.connector
 
-#db = mysql.connector.connect(
+# db = mysql.connector.connect(
 #    host="localhost",
 #    port=3306,
 #    user="root",
 #    password="welkom",
 #    database="Packages",
-#)
+# )
 
-#cursor = db.cursor()
+# cursor = db.cursor()
+
 
 class FactoryInput(BaseModel):
     run_id: str
@@ -24,6 +25,7 @@ class FactoryInput(BaseModel):
     real_time: float
     script_runtime: float
     machines: list
+
 
 class Order(BaseModel):
     Color: int
@@ -50,14 +52,14 @@ bestellingen = [
         Done=False,
         WeightSorted=False,
         Shipping=False,
-        InWareHouse=False
+        InWareHouse=False,
     )
 ]
 
 # Nog 99 bestellingen toevoegen
-#i = 1
+# i = 1
 
-#while i < 100:
+# while i < 100:
 #    bestellingen.append(
 #        Order(
 #            Color=random.randrange(1, 4),
@@ -72,20 +74,23 @@ bestellingen = [
 #    )
 #    i += 1
 
+
 def connectDB():
     db = mysql.connector.connect(
-    host="localhost",
-    port=3306,
-    user="root",
-    password="welkom",
-    database="Packages",
+        host="localhost",
+        port=3306,
+        user="root",
+        password="welkom",
+        database="Packages",
     )
     cursor = db.cursor()
     return cursor, db
 
+
 def DisconnectDB(cursor, db):
     cursor.close()
     db.close()
+
 
 @app.get("/Bestellingen")
 async def ListBestelling():
@@ -93,9 +98,16 @@ async def ListBestelling():
     cursor.execute("SELECT * FROM weights")
     rows = cursor.fetchall()
 
-    for nr, (IDPackage, Color, ColorSorted, WeightSorted,
-             InWareHouse, Shipping, Done, Weight) in enumerate(rows, start=1):
-
+    for nr, (
+        IDPackage,
+        Color,
+        ColorSorted,
+        WeightSorted,
+        InWareHouse,
+        Shipping,
+        Done,
+        Weight,
+    ) in enumerate(rows, start=1):
         print(
             f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
             f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
@@ -111,6 +123,7 @@ async def ListBestelling():
 async def Dashboard():
     return FileResponse(Path(__file__).parent / "dashboard.html")
 
+
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
     cursor, db = connectDB()
@@ -123,10 +136,10 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
         Done=False,
         WeightSorted=False,
         Shipping=False,
-        InWareHouse=False
+        InWareHouse=False,
     )
     bestellingen.append(nieuwe_bestelling)
-    
+
     cursor.execute(
         """INSERT INTO weights
         (IDPackage, Color, ColorSorted, WeightSorted,
@@ -148,11 +161,11 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
     DisconnectDB(cursor, db)
     return bestellingen
 
+
 @app.post("/factoryinput")
 async def factoryinput(input: FactoryInput):
     input == factorystatistics
     return input
-    
 
 
 @app.post("/ChangeValue")
@@ -182,11 +195,15 @@ async def RemoveBestelling(IDNumber: int):
             bestellingen.remove(bestelling)
             break
 
-    cursor.execute("""
-        DELETE FROM weights WHERE IDPACKAGE = %s;""",(IDNumber))
+    cursor.execute(
+        """
+        DELETE FROM weights WHERE IDPACKAGE = %s;""",
+        (IDNumber),
+    )
     db.commit()
     DisconnectDB(cursor, db)
     return bestellingen
+
 
 @app.get("/stats")
 async def Statistics():
@@ -199,26 +216,38 @@ async def Statistics():
     cursor, db = connectDB()
     cursor.execute("SELECT * FROM weights")
     rows = cursor.fetchall()
-    
-    for nr, (IDPackage, Color, ColorSorted, WeightSorted,
-                InWareHouse, Shipping, Done, Weight) in enumerate(rows, start=1):
-    
+
+    for nr, (
+        IDPackage,
+        Color,
+        ColorSorted,
+        WeightSorted,
+        InWareHouse,
+        Shipping,
+        Done,
+        Weight,
+    ) in enumerate(rows, start=1):
         print(
             f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
             f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
             f"{InWareHouse!s:<12} {Shipping!s:<10} "
             f"{Done!s:<6} {Weight!s:>8}"
         )
-        DBstats = f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} " f"{ColorSorted!s:<15} {WeightSorted!s:<15} " f"{InWareHouse!s:<12} {Shipping!s:<10} " f"{Done!s:<6} {Weight!s:>8}"
+        DBstats += (
+            f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
+            f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
+            f"{InWareHouse!s:<12} {Shipping!s:<10} "
+            f"{Done!s:<6} {Weight!s:>8}"
+        )
     DisconnectDB(cursor, db)
     bestellingen = PuteverythingInList()
-    
+
     for bestelling in bestellingen:
         match bestelling.Color:
             case 1:
                 Red += 1
             case 2:
-                Blue +=1
+                Blue += 1
             case 3:
                 Green += 1
         match bestelling.Weight:
@@ -229,11 +258,30 @@ async def Statistics():
             case 3:
                 WeightThree += 1
 
-        
-
-
-    statistics = "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n" + factorystatistics
+    statistics = (
+        "\n"
+        + "RedPackages: "
+        + str(Red)
+        + "\n"
+        + "Blue Packages: "
+        + str(Blue)
+        + "\n"
+        + "Green Packages: "
+        + str(Green)
+        + "\n"
+        + "5kg Packages: "
+        + str(WeightOne)
+        + "\n"
+        + "10kg Packages: "
+        + str(WeightTwo)
+        + "\n"
+        + "15kg Packages: "
+        + str(WeightThree)
+        + "\n"
+        + factorystatistics
+    )
     return statistics
+
 
 def PuteverythingInList():
     bestellingen.clear()
@@ -241,19 +289,28 @@ def PuteverythingInList():
     cursor.execute("SELECT * FROM weights")
     rows = cursor.fetchall()
 
-    for (IDPackage, Color, ColorSorted, WeightSorted,
-         InWareHouse, Shipping, Done, Weight) in rows:
-
-        bestellingen.append(Order(
-            Color=Color,
-            Weight=Weight,
-            IDPackage=IDPackage,
-            ColorSorted=ColorSorted,
-            WeightSorted=WeightSorted,
-            InWareHouse=InWareHouse,
-            Shipping=Shipping,
-            Done=Done,
-        ))
+    for (
+        IDPackage,
+        Color,
+        ColorSorted,
+        WeightSorted,
+        InWareHouse,
+        Shipping,
+        Done,
+        Weight,
+    ) in rows:
+        bestellingen.append(
+            Order(
+                Color=Color,
+                Weight=Weight,
+                IDPackage=IDPackage,
+                ColorSorted=ColorSorted,
+                WeightSorted=WeightSorted,
+                InWareHouse=InWareHouse,
+                Shipping=Shipping,
+                Done=Done,
+            )
+        )
     DisconnectDB(cursor, db)
     return bestellingen
 
@@ -281,7 +338,7 @@ def start_API():
                     random.randrange(1, 4),
                 ),
             )
-
+            i += 1
         db.commit()
 
     PuteverythingInList()
@@ -305,11 +362,7 @@ def DeleteDatabase():
     finally:
         connection.close()
 
+
 start_API()
 if __name__ == "__main__":
-    uvicorn.run(
-        "APIServer:app",
-        host="127.0.0.1",
-        port=8000,
-        reload=True
-    )
+    uvicorn.run("APIServer:app", host="127.0.0.1", port=8000, reload=True)
