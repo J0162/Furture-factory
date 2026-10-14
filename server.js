@@ -7,6 +7,8 @@ const fs = require('fs');
 const path = require('path');
 const { userInfo } = require('os');
 const { json } = require('stream/consumers');
+const multer = require('multer');
+const nodemailer = require('nodemailer')
 
 const app = express();
 const USERS_FILE = path.join(__dirname, 'users.json');
@@ -27,6 +29,80 @@ app.use(session({
 app.use(express.static(path.join(__dirname, 'openbaar')));
 
 const view = (name) => (req, res) => res.sendFile(path.join(__dirname, 'beveiligd', name));
+
+const BEDRIJF_EMAIL = 'refheru@sorteercentrum.com';
+const CONTACTFILE = path.join(__dirname, 'contactbericht.json');
+const UPLOAD_MAP = path.join(__dirname, 'contact_uploads');
+
+const upload = multer ({
+    dest: UPLOAD_MAP,
+    limits: { fileSize: 5*1024*1024, files:10}
+});
+
+let transporterBelofte = null;
+const haaltTransporter = () => {
+    if (!transporterBelofte) {
+        transporterBelofte = nodemailer.createTestAccount.then(account =>
+            nodemailer.createTransport({
+                host: account.smtp.host,
+                port: account.smtp.port,
+                secure: account.smtp.port,
+                auth: {user: account.user, pass: account.pass}
+            })
+        ).catch(err => {
+            transporterBelofte = null;
+            throw err;
+        });
+    }
+    return transporterBelofte;
+}
+app.post('/api/contact', (req, res) => {
+    upload.array('bestanden[]', 10)(req, res, async (err) => {
+        if (err) {
+            const tekst = err.code === 'LIMIT_FILE_SIZE' ? 'Een bestand is groter dan 5 MB.' : 'Bestanden konden niet worden ontvangen.';
+            return res.status(400).json({ ok: false, error: tekst });
+        }
+
+        const voornaam = String(req.body.Voornaam || '').trim();
+        const achternaam = String(req.body.Achternaam || '').trim();
+        const email = String(req.body['e-mail'] || '').trim();
+        const onderwerp = String(req.body.Onderwerp || '').trim() || '(geen onderwerp)';
+        const bericht = String(req.body.Bericht || '').trim();
+        const bestanden = req.files || [];
+
+        if (!voornaam || !bericht || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            return res.status(400).json({ ok: false, error: 'Vul je voornaam, een geldig e-mailadres en een bericht in.' });
+        }
+
+
+        const berichten = fs.existsSync(CONTACT_FILE) ? JSON.parse(fs.readFileSync(CONTACT_FILE, 'utf8')) : [];
+        berichten.push({
+            tijd: new Date().toISOString(),
+            voornaam, achternaam, email, onderwerp, bericht,
+            bestanden: bestanden.map(b => ({ naam: b.originalname, opgeslagenAls: b.filename, grootte: b.size }))
+        });
+        fs.writeFileSync(CONTACT_FILE, JSON.stringify(berichten, null, 2));
+
+        let mailVerstuurd = false;
+        try {
+            const transporter = await haalTransporter();
+            const info = await transporter.sendMail({
+                from: '"Contactformulier" <noreply@groenwebshop.nl>',
+                to: BEDRIJF_EMAIL,
+                replyTo: email,
+                subject: 'Contactformulier: ' + onderwerp,
+                text: `Naam: ${voornaam} ${achternaam}\nE-mail: ${email}\n\n${bericht}`,
+                attachments: bestanden.map(b => ({ filename: b.originalname, path: b.path }))
+            });
+            mailVerstuurd = true;
+            console.log('Contactmail verstuurd. Bekijken:', nodemailer.getTestMessageUrl(info));
+        } catch (e) {
+            console.log('Mail versturen mislukt (bericht is wel opgeslagen):', e.message);
+        }
+
+         res.json({ ok: true, naar: BEDRIJF_EMAIL, mailVerstuurd, bijlagen: bestanden.length });
+    });
+});
 
 app.post('/login', (req, res) => {
     const { uname, psw } = req.body;
