@@ -6,14 +6,15 @@ from fastapi.responses import FileResponse
 from pathlib import Path
 import mysql.connector
 
-db = mysql.connector.connect(
-    host="localhost",
-    port=3306,
-    user="root",
-    password="welkom",
-    database="Packages",
-)
-cursor = db.cursor()
+#db = mysql.connector.connect(
+#    host="localhost",
+#    port=3306,
+#    user="root",
+#    password="welkom",
+#    database="Packages",
+#)
+
+#cursor = db.cursor()
 
 class FactoryInput(BaseModel):
     run_id: str
@@ -54,25 +55,41 @@ bestellingen = [
 ]
 
 # Nog 99 bestellingen toevoegen
-i = 1
+#i = 1
 
-/*while i < 100:
-    bestellingen.append(
-        Order(
-            Color=random.randrange(1, 4),
-            Weight=random.randrange(1, 4),
-            ColorSorted=False,
-            IDPackage=random.randrange(1, 99999),
-            Done=False,
-            WeightSorted=False,
-            Shipping=False,
-            InWareHouse=False
-        )
+#while i < 100:
+#    bestellingen.append(
+#        Order(
+#            Color=random.randrange(1, 4),
+#            Weight=random.randrange(1, 4),
+#            ColorSorted=False,
+#            IDPackage=random.randrange(1, 99999),
+#            Done=False,
+#            WeightSorted=False,
+#            Shipping=False,
+#            InWareHouse=False
+#        )
+#    )
+#    i += 1
+
+def connectDB():
+    db = mysql.connector.connect(
+    host="localhost",
+    port=3306,
+    user="root",
+    password="welkom",
+    database="Packages",
     )
-    i += 1*/
+    cursor = db.cursor()
+    return cursor, db
+
+def DisconnectDB(cursor, db):
+    cursor.close()
+    db.close()
 
 @app.get("/Bestellingen")
 async def ListBestelling():
+    cursor, db = connectDB()
     cursor.execute("SELECT * FROM weights")
     rows = cursor.fetchall()
 
@@ -85,7 +102,8 @@ async def ListBestelling():
             f"{InWareHouse!s:<12} {Shipping!s:<10} "
             f"{Done!s:<6} {Weight!s:>8}"
         )
-
+    DisconnectDB(cursor, db)
+    bestellingen = PuteverythingInList()
     return bestellingen
 
 
@@ -95,6 +113,7 @@ async def Dashboard():
 
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
+    cursor, db = connectDB()
 
     nieuwe_bestelling = Order(
         Color=NieuwKleur,
@@ -126,7 +145,7 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
     )
     db.commit()
 
-
+    DisconnectDB(cursor, db)
     return bestellingen
 
 @app.post("/factoryinput")
@@ -157,7 +176,7 @@ async def ColorSet(IDNumber: int, BoolChange: str):
 
 @app.post("/RemoveBestelling")
 async def RemoveBestelling(IDNumber: int):
-
+    cursor, db = connectDB()
     for bestelling in bestellingen:
         if bestelling.IDPackage == IDNumber:
             bestellingen.remove(bestelling)
@@ -166,7 +185,7 @@ async def RemoveBestelling(IDNumber: int):
     cursor.execute("""
         DELETE FROM weights WHERE IDPACKAGE = %s;""",(IDNumber))
     db.commit()
-
+    DisconnectDB(cursor, db)
     return bestellingen
 
 @app.get("/stats")
@@ -177,6 +196,23 @@ async def Statistics():
     WeightOne = 0
     WeightTwo = 0
     WeightThree = 0
+    cursor, db = connectDB()
+    cursor.execute("SELECT * FROM weights")
+    rows = cursor.fetchall()
+    
+    for nr, (IDPackage, Color, ColorSorted, WeightSorted,
+                InWareHouse, Shipping, Done, Weight) in enumerate(rows, start=1):
+    
+        print(
+            f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
+            f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
+            f"{InWareHouse!s:<12} {Shipping!s:<10} "
+            f"{Done!s:<6} {Weight!s:>8}"
+        )
+        DBstats = f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} " f"{ColorSorted!s:<15} {WeightSorted!s:<15} " f"{InWareHouse!s:<12} {Shipping!s:<10} " f"{Done!s:<6} {Weight!s:>8}"
+    DisconnectDB(cursor, db)
+    bestellingen = PuteverythingInList()
+    
     for bestelling in bestellingen:
         match bestelling.Color:
             case 1:
@@ -196,12 +232,12 @@ async def Statistics():
         
 
 
-    statistics = str(bestellingen) + "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n" + factorystatistics
+    statistics = "\n" + "RedPackages: " + str(Red) + "\n" + "Blue Packages: " + str(Blue) + "\n" + "Green Packages: " + str(Green) + "\n" + "5kg Packages: " + str(WeightOne) + "\n" + "10kg Packages: " + str(WeightTwo) + "\n" + "15kg Packages: " + str(WeightThree) + "\n" + factorystatistics
     return statistics
 
 def PuteverythingInList():
     bestellingen.clear()
-
+    cursor, db = connectDB()
     cursor.execute("SELECT * FROM weights")
     rows = cursor.fetchall()
 
@@ -218,33 +254,56 @@ def PuteverythingInList():
             Shipping=Shipping,
             Done=Done,
         ))
+    DisconnectDB(cursor, db)
+    return bestellingen
+
 
 def start_API():
-    for i in range(100):
-        cursor.execute(
-            """INSERT INTO weights
-            (Color, ColorSorted, WeightSorted,
-             InWareHouse, Shipping, Done, Weight)
-            VALUES (%s, %s, %s, %s, %s, %s, %s)""",
-            (
-                random.randrange(1, 4),
-                False,
-                False,
-                False,
-                False,
-                False,
-                random.randrange(1, 4),
-            ),
-        )
+    cursor, db = connectDB()
+    cursor.execute("SELECT COUNT(*) FROM weights")
+    count = cursor.fetchone()[0]
 
-    db.commit()
+    # Only create 100 packages if the database is empty
+    if count == 0:
+        for i in range(100):
+            cursor.execute(
+                """INSERT INTO weights
+                (Color, ColorSorted, WeightSorted,
+                 InWareHouse, Shipping, Done, Weight)
+                VALUES (%s, %s, %s, %s, %s, %s, %s)""",
+                (
+                    random.randrange(1, 4),
+                    False,
+                    False,
+                    False,
+                    False,
+                    False,
+                    random.randrange(1, 4),
+                ),
+            )
+
+        db.commit()
+
     PuteverythingInList()
+    DisconnectDB(cursor, db)
 
 
 @app.get("/REMOVE")
 def DeleteDatabase():
-    cursor.execute("""DELETE FROM weights;"""")
+    connection = mysql.connector.connect(
+        host="localhost",
+        port=3306,
+        user="root",
+        password="welkom",
+        database="Packages",
+    )
 
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute("TRUNCATE TABLE weights")
+        return {"deleted": True}
+    finally:
+        connection.close()
 
 start_API()
 if __name__ == "__main__":
