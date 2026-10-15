@@ -1,30 +1,18 @@
+"""FlexSim-monitor als module: draait FlexSim in een eigen thread en bewaart
+de laatste meting in het geheugen. De API leest die direct uit (geen HTTP nodig)."""
 import os
 import sys
 import time
-import json
-import queue
-import shutil
 import threading
-import urllib.request
+import traceback
 from datetime import datetime, timezone
 
-t0 = time.perf_counter()
+PROGRAM = r"C:\Program Files\Autodesk\FlexSim 2027\program"
+FLEXSIMPY = r"C:\Program Files\Autodesk\FlexSim 2027\modules\FlexSimPy-main\out\Rel_3_10"
+MODEL = os.path.join(os.path.dirname(os.path.realpath(__file__)), "future factory.fsx")
 
-scriptPath = os.path.dirname(os.path.realpath(__file__))
-program = r"C:\Program Files\Autodesk\FlexSim 2027\program"
-flexsimpy = r"C:\Program Files\Autodesk\FlexSim 2027\modules\FlexSimPy-main\out\Rel_3_10"
-for p in (program, flexsimpy):
-    os.add_dll_directory(p)
-os.environ["PATH"] = program + os.pathsep + os.environ["PATH"]
-sys.path.insert(0, flexsimpy)
-
-import FlexSimPy
-
-MODEL = os.path.join(scriptPath, "future factory.fsx")
-REFRESH = 1.0
-RUN_SPEED = 15     
-API_URL = "http://127.0.0.1:8000/factoryinput"
-API_KEY = ""   
+PM_NAAM = "monitor"
+KEYS = ["in", "uit", "inhoud", "gem_tijd"]
 
 STAPPEN = {
     "Vrachtwagens input": ["Truck1 ouput2", "Truck1 ouput1"],
@@ -53,179 +41,188 @@ STAPPEN = {
     "Export truck / output": ["Truck1 ouput", "Truck2 output"],
 }
 ONDERDELEN = {}
-for stap, namen in STAPPEN.items():
-    for n in namen:
-        ONDERDELEN.setdefault(n, stap)
+for _stap, _namen in STAPPEN.items():
+    for _n in _namen:
+        ONDERDELEN.setdefault(_n, _stap)
 
-
-PM_NAAM = "monitor"
-KEYS = ["in", "uit", "inhoud", "gem_tijd"]
-INFO = ["nog niet gemeten"]
-
-
-def meet(controller, keuze=None):
-    """Leest de measure uit en zet de tekst 'naam;in;uit;inhoud;gem|naam;...' om naar een dict."""
-    try:
-        raw = controller.getPerformanceMeasure(PM_NAAM)
-    except Exception as e:
-        INFO[0] = f"FOUT bij getPerformanceMeasure('{PM_NAAM}'): {type(e).__name__}: {e}"
-        return {}
-    if not isinstance(raw, str):
-        INFO[0] = f"Measure '{PM_NAAM}' gaf {type(raw).__name__} terug ({raw!r}); er moet tekst terugkomen"
-        return {}
-    data = {}
-    for deel in raw.split("|"):
-        v = deel.split(";")
-        if len(v) == 5:
-            try:
-                data[v[0]] = {k: (float(x) if x != "" else None) for k, x in zip(KEYS, v[1:])}
-            except ValueError:
-                pass
-    INFO[0] = f"Measure '{PM_NAAM}' ok: {len(data)} van {len(ONDERDELEN)} onderdelen"
-    return data
-
-
-# ---------- API ----------
-verstuur_queue = queue.Queue(maxsize=1)
-API_STATUS = ["nog niets verstuurd"]
-
-
-def stuur_worker():
-    while True:
-        payload = verstuur_queue.get()
-        try:
-            headers = {"Content-Type": "application/json"}
-            if API_KEY:
-                headers["Authorization"] = f"Bearer {API_KEY}"
-            req = urllib.request.Request(API_URL, data=json.dumps(payload).encode("utf-8"), method="POST", headers=headers)
-            with urllib.request.urlopen(req, timeout=5) as r:
-                API_STATUS[0] = f"API ok ({r.status}) {datetime.now().strftime('%H:%M:%S')}"
-        except Exception as e:
-            API_STATUS[0] = f"API fout: {type(e).__name__}: {e}"
-
-
-def stuur(payload):
-    """Verstuurt op de achtergrond; is de API traag, dan wordt de oudste meting overgeslagen."""
-    try:
-        verstuur_queue.put_nowait(payload)
-    except queue.Full:
-        try:
-            verstuur_queue.get_nowait()
-        except queue.Empty:
-            pass
-        verstuur_queue.put_nowait(payload)
-
-
-def maak_payload(run_id, status, simtijd, echt, data):
-    return {
-        "run_id": run_id,
-        "status": status,
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        "sim_time": simtijd,
-        "real_time": echt,
-        "script_runtime": time.perf_counter() - t0,
-        "machines": [
-            {"stap": stap, "naam": naam, **data.get(naam, {k: None for k in KEYS})}
-            for naam, stap in ONDERDELEN.items()
-        ],
-    }
-
-
-def fmt(v, d=0):
-    return "-" if v is None else f"{v:.{d}f}"
-
-
-def regels_detail(data):
-    r = [f"{'Stap':<28}{'Naam':<20}{'In':>7}{'Uit':>7}{'Nu':>6}{'Gem. tijd (s)':>15}", "-" * 83]
-    vorige = None
-    for naam, stap in ONDERDELEN.items():
-        d = data.get(naam, {})
-        label = stap if stap != vorige else ""
-        vorige = stap
-        r.append(f"{label:<28}{naam:<20}{fmt(d.get('in')):>7}{fmt(d.get('uit')):>7}{fmt(d.get('inhoud')):>6}{fmt(d.get('gem_tijd'), 2):>15}")
-    return r
-
-
-def regels_samenvatting(data):
-    r = [f"{'Stap':<30}{'Machines':>9}{'In':>8}{'Uit':>8}{'Nu':>7}{'Gem. tijd (s)':>15}", "-" * 77]
-    for stap, namen in STAPPEN.items():
-        ds = [data.get(n, {}) for n in namen]
-        def som(k):
-            w = [d[k] for d in ds if d.get(k) is not None]
-            return sum(w) if w else None
-        t = [d["gem_tijd"] for d in ds if d.get("gem_tijd") is not None]
-        r.append(f"{stap:<30}{len(namen):>9}{fmt(som('in')):>8}{fmt(som('uit')):>8}{fmt(som('inhoud')):>7}{fmt(sum(t) / len(t) if t else None, 2):>15}")
-    return r
-
-
-def scherm(data, simtijd, echt, meetduur, hoogte):
-    kop = ["FUTURE FACTORY MONITOR",
-           f"Sim-tijd: {simtijd:10.1f} s | echte tijd: {echt:9.2f} s | meetduur: {meetduur:.2f} s | Enter = stoppen", f"API: {API_STATUS[0]}", ""]
-    voet = ["", INFO[0]]
-    detail = regels_detail(data)
-    if len(kop) + len(detail) + len(voet) <= hoogte:
-        return kop + detail + voet
-    samen = kop + regels_samenvatting(data) + ["(maak het terminalpaneel hoger voor alle machines)"]
-    return samen[:hoogte - len(voet)] + voet
-
-
-def teken(regels):
-    size = shutil.get_terminal_size((120, 40))
-    regels = [r[:size.columns - 1] for r in regels[:size.lines - 1]]
-    sys.stdout.write("\033[H" + "\033[K\n".join(regels) + "\033[K\033[J")
-    sys.stdout.flush()
-
-
-os.system("")  # ANSI-codes aan in Windows
-
-print("Launching...", flush=True)
-controller = FlexSimPy.launch(evaluationLicense=False, showGUI=True, programDir=program + "\\")
-controller.open(MODEL)
-controller.reset()
-controller.runToTime(10)                
-print("Measure testen...", flush=True)
-keuze = None
-if not meet(controller):
-    print(INFO[0], flush=True)
-    print("\nDe measure geeft nog geen data. Maak hem eerst aan in FlexSim (zie uitleg) of stuur de regel hierboven door.")
-    input("Enter om toch door te gaan of Ctrl+C om te stoppen...")
-print(INFO[0], flush=True)
-
-threading.Thread(target=stuur_worker, daemon=True).start()
-run_id = datetime.now().strftime("%Y%m%d-%H%M%S")
-
-stop = threading.Event()
-threading.Thread(target=lambda: (input(), stop.set()), daemon=True).start()
-
-t_run = time.perf_counter()
-controller.run(RUN_SPEED)
-
-sys.stdout.write("\033[?1049h\033[2J")   
+# FlexSimPy wordt als EERSTE zware module geladen (net als in het oude script),
+# dus vóór fastapi/pydantic. Anders kunnen DLL's met elkaar botsen.
+FlexSimPy = None
+IMPORT_FOUT = None
 try:
-    while not stop.is_set():
-        t1 = time.perf_counter()
-        data = meet(controller, keuze)
-        duur = time.perf_counter() - t1
-        simtijd = controller.time()
-        echt = time.perf_counter() - t_run
-        if data:
-            stuur(maak_payload(run_id, "running", simtijd, echt, data))
-        else:
-            API_STATUS[0] = "niets verstuurd: de measure geeft geen data"
-        hoogte = shutil.get_terminal_size((120, 40)).lines - 1
-        teken(scherm(data, simtijd, echt, duur, hoogte))
-        time.sleep(REFRESH)
-finally:
-    sys.stdout.write("\033[?1049l")
-    sys.stdout.flush()
+    os.add_dll_directory(PROGRAM)
+    os.add_dll_directory(FLEXSIMPY)
+    os.environ["PATH"] = PROGRAM + os.pathsep + os.environ["PATH"]
+    sys.path.insert(0, FLEXSIMPY)
+    import FlexSimPy
+except BaseException:
+    IMPORT_FOUT = (f"Python: {sys.version}\nProgramma: {sys.executable}\n"
+                   f"(FlexSimPy is gebouwd voor Python 3.10)\n\n" + traceback.format_exc())
 
-controller.stop()
-data = meet(controller, keuze)
-if data:
-    stuur(maak_payload(run_id, "stopped", controller.time(), time.perf_counter() - t_run, data))
-    time.sleep(1.5)  
-print("\n".join(regels_detail(data)))
-print("\n" + INFO[0])
-print(API_STATUS[0])
-print(f"Sim-tijd: {controller.time():.1f} s | run-tijd: {time.perf_counter() - t_run:.2f} s | totale runtime script: {time.perf_counter() - t0:.2f} s")
-input("Klaar - FlexSim blijft open tot je op Enter drukt...")
+_LEEG = {k: None for k in KEYS}
+
+
+class FlexSimMonitor:
+    def __init__(self, model=MODEL, refresh=1.0, run_speed=15, show_gui=True, verbose=False,
+                 max_sim_time=None, stop_when=None):
+        self.model = model
+        self.refresh = refresh
+        self.run_speed = run_speed
+        self.show_gui = show_gui  # False = headless, sneller
+        self.verbose = verbose
+        self.max_sim_time = max_sim_time   # stop bij deze simulatietijd (s), None = nooit
+        self.stop_when = stop_when         # functie(data) -> True om te stoppen, None = nooit
+
+        self._lock = threading.Lock()
+        self._stop = threading.Event()
+        self._thread = None
+        self._t0 = time.perf_counter()
+        self._run_id = datetime.now().strftime("%Y%m%d-%H%M%S")
+        self._snapshot = self._maak_snapshot("idle", 0.0, 0.0, {}, "nog niet gestart")
+
+    # ---------- publieke interface ----------
+    def start(self):
+        if self._thread and self._thread.is_alive():
+            return
+        self._stop.clear()
+        self._thread = threading.Thread(target=self.run, name="flexsim", daemon=True)
+        self._thread.start()
+
+    def stop(self):
+        self._stop.set()
+        if self._thread:
+            self._thread.join(timeout=15)
+
+    def snapshot(self):
+        """Laatste meting (thread-safe). Wordt alleen vervangen, nooit aangepast."""
+        with self._lock:
+            return self._snapshot
+
+    # ---------- intern ----------
+    def _maak_snapshot(self, status, simtijd, echt, data, info):
+        machines = [
+            {"stap": stap, "naam": naam, **data.get(naam, _LEEG)}
+            for naam, stap in ONDERDELEN.items()
+        ]
+        return {
+            "run_id": self._run_id,
+            "status": status,
+            "info": info,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "sim_time": simtijd,
+            "real_time": echt,
+            "script_runtime": time.perf_counter() - self._t0,
+            "machines": machines,
+            "stappen": self._samenvatting(data),
+        }
+
+    @staticmethod
+    def _samenvatting(data):
+        out = {}
+        for stap, namen in STAPPEN.items():
+            ds = [data.get(n, {}) for n in namen]
+
+            def som(k):
+                w = [d[k] for d in ds if d.get(k) is not None]
+                return sum(w) if w else None
+
+            t = [d["gem_tijd"] for d in ds if d.get("gem_tijd") is not None]
+            out[stap] = {
+                "machines": len(namen),
+                "in": som("in"),
+                "uit": som("uit"),
+                "inhoud": som("inhoud"),
+                "gem_tijd": sum(t) / len(t) if t else None,
+            }
+        return out
+
+    @staticmethod
+    def _meet(controller):
+        """Leest de performance measure en zet 'naam;in;uit;inhoud;gem|naam;...' om naar een dict."""
+        raw = controller.getPerformanceMeasure(PM_NAAM)
+        if not isinstance(raw, str):
+            raise TypeError(f"Measure '{PM_NAAM}' gaf {type(raw).__name__} terug, verwacht tekst")
+        data = {}
+        for deel in raw.split("|"):
+            v = deel.split(";")
+            if len(v) == 5:
+                try:
+                    data[v[0]] = {k: (float(x) if x != "" else None) for k, x in zip(KEYS, v[1:])}
+                except ValueError:
+                    pass
+        return data
+
+    def _set(self, snap):
+        with self._lock:
+            self._snapshot = snap
+
+    def run(self):
+        """Blokkerend: draai dit op de HOOFDTHREAD (zoals je oude script)."""
+        controller = None
+        try:
+            if FlexSimPy is None:
+                raise ImportError("FlexSimPy kon niet geladen worden:\n" + (IMPORT_FOUT or ""))
+            if not os.path.exists(self.model):
+                raise FileNotFoundError(f"Model niet gevonden: {self.model}")
+
+            print("[flexsim] starten...", flush=True)
+            self._set(self._maak_snapshot("starting", 0.0, 0.0, {}, "FlexSim wordt gestart"))
+            controller = FlexSimPy.launch(evaluationLicense=False, showGUI=self.show_gui,
+                                          programDir=PROGRAM + "\\")
+            controller.open(self.model)
+            controller.reset()
+            controller.runToTime(10)
+            controller.run(self.run_speed)
+            print("[flexsim] simulatie draait", flush=True)
+
+            t_run = time.perf_counter()
+            reden = None
+            while not self._stop.is_set():
+                try:
+                    data = self._meet(controller)
+                    info = f"ok: {len(data)} van {len(ONDERDELEN)} onderdelen"
+                except Exception as e:
+                    data, info = {}, f"meetfout: {type(e).__name__}: {e}"
+                self._set(self._maak_snapshot("running", controller.time(),
+                                              time.perf_counter() - t_run, data, info))
+                if self.verbose:
+                    print(f"\r[flexsim] sim {controller.time():8.1f} s | {info}      ", end="", flush=True)
+                if self.max_sim_time is not None and controller.time() >= self.max_sim_time:
+                    reden = f"simulatietijd {self.max_sim_time:g} s bereikt"
+                    break
+                if self.stop_when is not None and data and self.stop_when(data):
+                    reden = "stopvoorwaarde bereikt"
+                    break
+                self._stop.wait(self.refresh)
+
+            controller.stop()
+            try:
+                data = self._meet(controller)
+            except Exception:
+                data = {}
+            self._set(self._maak_snapshot("finished" if reden else "stopped", controller.time(),
+                                          time.perf_counter() - t_run, data, reden or "gestopt"))
+            print(("\n" if self.verbose else "") + f"[flexsim] {reden or 'gestopt'}", flush=True)
+        except KeyboardInterrupt:
+            try:
+                if controller:
+                    controller.stop()
+            except Exception:
+                pass
+            self._set(self._maak_snapshot("stopped", 0.0, 0.0, {}, "gestopt met Ctrl+C"))
+        except BaseException as e:
+            traceback.print_exc()
+            self._set(self._maak_snapshot("error", 0.0, 0.0, {}, f"{type(e).__name__}: {e}"))
+
+
+if __name__ == "__main__":
+    # Alleen FlexSim testen, zonder API:  python weetniewatikdoe.py
+    import socket
+    with socket.socket() as _s:
+        if _s.connect_ex(("127.0.0.1", 8000)) == 0:
+            sys.exit("De API (poort 8000) draait al en heeft FlexSim al gestart. "
+                     "Sluit die eerst af voordat je dit los test.")
+    m = FlexSimMonitor(verbose=True, show_gui=False)
+    m.run()
+    print(m.snapshot()["info"])
+    input("Enter om af te sluiten...")
