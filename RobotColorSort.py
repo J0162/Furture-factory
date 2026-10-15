@@ -28,9 +28,9 @@ def SortByRequestedType(RobotNumber):
 
     # Door alle bestellingen lopen
     for bestelling in bestellingen:
-
+    
         # Alleen bestellingen gebruiken die nog niet gesorteerd zijn
-        if bestelling["ColorSorted"] is False & bestelling["Weight"] == RobotNumber:
+        if not bestelling["ColorSorted"] and bestelling["Weight"] == int(RobotNumber):
 
             RobotList.append(
                 CurrentOrder(

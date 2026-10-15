@@ -239,23 +239,18 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
 @app.post("/ChangeValue")
 async def ColorSet(IDNumber: int, BoolChange: str):
-    for bestelling in bestellingen:
-        if bestelling.IDPackage == IDNumber:
-            match BoolChange:
-                case "WeightSorted":
-                    bestelling.WeightSorted = not bestelling.WeightSorted
-                case "ColorSorted":
-                    bestelling.ColorSorted = not bestelling.ColorSorted
-                case "InWareHouse":
-                    bestelling.InWareHouse = not bestelling.InWareHouse
-                case "Shipping":
-                    bestelling.Shipping = not bestelling.Shipping
-                case "Done":
-                    bestelling.Done = not bestelling.Done
-                case _:
-                    return "invalid option"
-            break
-
+    toegestaan = {"WeightSorted", "ColorSorted", "InWareHouse", "Shipping", "Done"}
+    if BoolChange not in toegestaan:
+        return "invalid option"
+    cursor, db = connectDB()
+    cursor.execute(
+        f"UPDATE weights SET {BoolChange} = NOT {BoolChange} WHERE IDPackage = %s",
+        (IDNumber,),
+    )
+    db.commit()
+    DisconnectDB(cursor, db)
+    PuteverythingInList()
+    orders_gewijzigd()   # so the dashboard /events stream updates too
     return bestellingen
 
 @app.post("/RemoveBestelling")
@@ -292,6 +287,7 @@ async def Statistics():
     cursor, db = connectDB()
     cursor.execute("SELECT * FROM weights")
     rows = cursor.fetchall()
+    DBstats = ""
 
     for nr, (
         IDPackage,
