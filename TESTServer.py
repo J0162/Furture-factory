@@ -108,7 +108,7 @@ def orders_gewijzigd():
 
 def connectDB():
     db = mysql.connector.connect(
-        host="localhost",
+        host="145.93.120.47",
         port=3306,
         user="root",
         password="welkom",
@@ -419,7 +419,7 @@ def start_API():
 @app.get("/REMOVE")
 def DeleteDatabase():
     connection = mysql.connector.connect(
-        host="localhost",
+        host="145.93.120.47",
         port=3306,
         user="root",
         password="welkom",
