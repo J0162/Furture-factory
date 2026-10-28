@@ -23,8 +23,7 @@ SHOW_GUI = True
 MAX_SIM_TIJD = None   # bv. 1114  -> stopt bij 1114 s simulatietijd
 STOP_WHEN = None      # bv. lambda data: data["Truck1 ouput"]["in"] >= 100  (voorbeeld)
 
-monitor = FlexSimMonitor(refresh=1.0, run_speed=15, show_gui=SHOW_GUI,
-                         max_sim_time=MAX_SIM_TIJD, stop_when=STOP_WHEN)
+monitor = FlexSimMonitor(refresh=1.0, run_speed=15, show_gui=SHOW_GUI, max_sim_time=MAX_SIM_TIJD, stop_when=STOP_WHEN)
 
 
 STOP_ALLES = threading.Event()

@@ -16,7 +16,6 @@ import mysql.connector
 
 # cursor = db.cursor()
 
-
 class FactoryInput(BaseModel):
     run_id: str
     status: str
@@ -25,7 +24,6 @@ class FactoryInput(BaseModel):
     real_time: float
     script_runtime: float
     machines: list
-
 
 class Order(BaseModel):
     Color: int
@@ -36,7 +34,6 @@ class Order(BaseModel):
     InWareHouse: bool
     Shipping: bool
     Done: bool
-
 
 app = FastAPI()
 
@@ -74,7 +71,6 @@ bestellingen = [
 #    )
 #    i += 1
 
-
 def connectDB():
     db = mysql.connector.connect(
         host="localhost",
@@ -86,11 +82,9 @@ def connectDB():
     cursor = db.cursor()
     return cursor, db
 
-
 def DisconnectDB(cursor, db):
     cursor.close()
     db.close()
-
 
 @app.get("/Bestellingen")
 async def ListBestelling():
@@ -118,11 +112,9 @@ async def ListBestelling():
     bestellingen = PuteverythingInList()
     return bestellingen
 
-
 @app.get("/")
 async def Dashboard():
     return FileResponse(Path(__file__).parent / "dashboard.html")
-
 
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
@@ -161,12 +153,10 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
     DisconnectDB(cursor, db)
     return bestellingen
 
-
 @app.post("/factoryinput")
 async def factoryinput(input: FactoryInput):
     input == factorystatistics
     return input
-
 
 @app.post("/ChangeValue")
 async def ColorSet(IDNumber: int, BoolChange: str):
@@ -186,7 +176,6 @@ async def ColorSet(IDNumber: int, BoolChange: str):
 
     return bestellingen
 
-
 @app.post("/RemoveBestelling")
 async def RemoveBestelling(IDNumber: int):
     cursor, db = connectDB()
@@ -203,7 +192,6 @@ async def RemoveBestelling(IDNumber: int):
     db.commit()
     DisconnectDB(cursor, db)
     return bestellingen
-
 
 @app.get("/stats")
 async def Statistics():
@@ -314,7 +302,6 @@ def PuteverythingInList():
     DisconnectDB(cursor, db)
     return bestellingen
 
-
 def start_API():
     cursor, db = connectDB()
     cursor.execute("SELECT COUNT(*) FROM weights")
@@ -344,7 +331,6 @@ def start_API():
     PuteverythingInList()
     DisconnectDB(cursor, db)
 
-
 @app.get("/REMOVE")
 def DeleteDatabase():
     connection = mysql.connector.connect(
@@ -361,7 +347,6 @@ def DeleteDatabase():
         return {"deleted": True}
     finally:
         connection.close()
-
 
 start_API()
 if __name__ == "__main__":
