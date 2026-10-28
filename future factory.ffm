@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexsim-file-map version="1">
+  <!-- Window layout and 3D view/camera: changes whenever someone moves a window or the view -->
+  <map-node path="/Tools/Workspace" file="distributedfiles/windows.fsx" file-map-method="single-node"/>
+
+  <!-- Save history (flh): changes on every save -->
+  <map-node path="/flh" file="distributedfiles/savehistory.fsx" file-map-method="single-node"/>
+
+  <!-- Packed Inventor parts (Dock Door .ipt etc.): big, rarely changes -->
+  <map-node path="/packedmedia" file="distributedfiles/media.fsx" file-map-method="single-node"/>
+</flexsim-file-map>
