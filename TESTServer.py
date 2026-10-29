@@ -260,7 +260,7 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
         DisconnectDB(cursor, db)
     else:
-        await CheckFirstAvailable(NieuwKleur, NieuwGewicht)
+        ID = await CheckFirstAvailable(NieuwKleur, NieuwGewicht)
         cursor, db = connectDB()
         nieuwe_bestelling = Order(
                     Color=NieuwKleur,
@@ -271,7 +271,7 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
                     WeightSorted=True,
                     Shipping=False,
                     InWareHouse=False,
-                    WareHouseID=None,
+                    WareHouseID=ID,
                 )
         cursor.execute(
             """INSERT INTO weights
@@ -291,6 +291,23 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
             ),
         )
         db.commit()
+        cursor.execute(
+                """SELECT *
+                FROM weights w
+                ORDER BY w.IDPackage DESC
+                LIMIT 1;""",
+                
+            )
+        result = cursor.fetchone()
+        cursor.execute(
+            """UPDATE Warehouse AS w
+            SET IDPackage = %s
+            WHERE w.WarehouseID = %s""",
+            (
+                result,
+                ID,
+            )
+        )
         DisconnectDB(cursor, db)
     PuteverythingInList()   # lijst opnieuw uit DB, met de echte IDPackage
     orders_gewijzigd()      # dashboard (/events) bijwerken

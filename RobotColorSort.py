@@ -42,7 +42,13 @@ def SortByRequestedType(RobotNumber):
     # Geen geschikte bestelling gevonden
     if not RobotList:
         print("Geen ongesorteerde bestelling gevonden")
-        return random.randrange(1, 4)
+        Color = random.randrange(1, 4)
+        Weight = RobotNumber
+        response = requests.post(
+            "http://127.0.0.1:8000/AddWarehouse",
+            params={"NewColor": Color, "NewWeight": Weight}
+        )
+        return Color
 
     # Eerste geschikte bestelling pakken
     gekozen_bestelling = RobotList[0]
