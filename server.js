@@ -237,7 +237,7 @@ const needAuth = (req, res, next) =>
 app.get('/dashboard', needAuth, view('dashboard bestellingen.html'));
 app.get('/efficientie', needAuth, view('dashboard efficiëntie.html'));
 
-const PY = 'http://145.93.112.58:8000';
+const PY = 'http://145.93.112.56:8000';
 const KLEUREN = {1: 'Rood', 2: 'Blauw', 3: 'Groen' };
 const GEWICHTEN = {1: 15, 2: 25, 3: 50,};
 
@@ -246,16 +246,65 @@ const haalOrders = async () => {
     if (!r.ok) throw new Error ('API' + r.status);
     return r.json();
 };
-const verloop = [];
+
+const HISTORIE_FILE  = path.join(__dirname, 'historie.json'); 
+const MAX_METINGEN = 8640;
+
+const leesJson = (bestand, standaard) => {
+    try { return JSON.parse(fs.readFileSync(bestand, 'utf8')); }
+    catch { return standaard; }
+};
+
+const haalMachines = async () => {
+    const r = await fetch(`${PY}/Machines`);
+    const type = r.headers.get('content-type') || '';
+    if (!r.ok || !type.includes('application/json')) return [];
+    return r.json();
+};
+
+const naarBestelling = (o) => ({
+    id: o.IDPackage,
+    kleur: KLEUREN[o.Color],
+    gewicht: GEWICHTEN[o.Weight],
+    klaar: o.ColorSorted
+});
+
+const verloop = leesJson(HISTORIE_FILE, []);
+
 const meet = async () => {
     try{
         const o = await haalOrders();
-        verloop.push({ t:Date.now(), open: o.filter(b => !b.ColorSorted).length});
-        if (verloop.length > 360) verloop.shift();
+        const open = o.filter(b => !b.ColorSorted);
+        const meting = {
+            t: Date.now(),
+            open: open.length,
+            klaar: o.length - open.length,
+            Rood:  open.filter(b => b.Color === 1).length,
+            Blauw: open.filter(b => b.Color === 2).length,
+            Groen: open.filter(b => b.Color === 3).length,
+            gemBenutting: null
+        };
+        try {
+            const waarden = (await haalMachines())
+                .map(m => m.Benutting ?? m.benutting)
+                .filter(b => typeof b === 'number');
+            if (waarden.length) meting.gemBenutting = waarden.reduce((s, b) => s + b, 0) / waarden.length;
+        } catch {}
+
+        verloop.push(meting);
+        while (verloop.length > MAX_METINGEN) verloop.shift();
+        fs.writeFile(HISTORIE_FILE, JSON.stringify(verloop), err => {
+            if (err) console.log('historie.json opslaan mislukt:', err.message);
+        });
     } catch {}
 };
 meet();
 setInterval(meet, 10000);
+
+app.get('/api/historie', needAuth, (req, res) => {
+    const n = Number(req.query.laatste);
+    res.json(Number.isInteger(n) && n > 0 ? verloop.slice(-n) : verloop);
+});
 
 app.get('/api/bestellingen', needAuth, async (req, res) => {
     try {
@@ -273,13 +322,8 @@ app.get('/api/bestellingen', needAuth, async (req, res) => {
             open: open.length,
             klaar: orders.length - open.length,
             producten,
-            verloop,
-            bestellingen: orders.map(o => ({
-                id: o.IDPackage,
-                kleur: KLEUREN[o.Color],
-                gewicht: GEWICHTEN[o.Weight],
-                klaar: o.ColorSorted
-            }))
+            verloop: verloop.slice(-360),
+            bestellingen: orders.map(naarBestelling)
         });
     } catch {
         res.status(502).json({ error: 'Python-server niet bereikbaar' });
@@ -294,6 +338,41 @@ app.get('/api/bestellingen', needAuth, async (req, res) => {
     const params = new URLSearchParams({ NieuwKleur: kleur, NieuwGewicht: gewicht });
     const r = await fetch(`${PY}/NewBestelling?${params}`, { method: 'POST' });
     res.sendStatus(r.ok ? 204 : 502);
+});
+
+const KLEUR_NR   = { Rood: 1, Blauw: 2, Groen: 3 };
+const GEWICHT_NR = { '15KG': 1, '25KG': 2, '50KG': 3 };
+
+app.post('/api/bestelling', async (req, res) => {
+    const producten = Array.isArray(req.body.producten) ? req.body.producten : [];
+    if (producten.length === 0) {
+        return res.status(400).json({ ok: false, error: 'Je winkelwagen is leeg' });
+    }
+
+    const lijst = [];
+    for (const p of producten) {
+        const kleur   = KLEUR_NR[p.kleur];
+        const gewicht = GEWICHT_NR[String(p.gewicht).toUpperCase()];
+        const aantal  = Number(p.aantal);
+        if (!kleur || !gewicht || !Number.isInteger(aantal) || aantal < 1 || aantal > 50) {
+            return res.status(400).json({ ok: false, error: 'Ongeldig product in je winkelwagen' });
+        }
+        for (let i = 0; i < aantal; i++) lijst.push({ kleur, gewicht });
+    }
+    if (lijst.length > 100) {
+        return res.status(400).json({ ok: false, error: 'Maximaal 100 producten per bestelling' });
+    }
+
+    try {
+        for (const b of lijst) {
+            const params = new URLSearchParams({ NieuwKleur: b.kleur, NieuwGewicht: b.gewicht });
+            const r = await fetch(`${PY}/NewBestelling?${params}`, { method: 'POST' });
+            if (!r.ok) throw new Error('status ' + r.status);
+        }
+        res.json({ ok: true, aantal: lijst.length });
+    } catch {
+        res.status(502).json({ ok: false, error: 'De fabriek (Python-server) is niet bereikbaar' });
+    }
 });
 
 app.post('/api/bestellingen/:id/klaar', needAuth, async (req, res) => {
