@@ -368,14 +368,10 @@ async def CheckFirstAvailable(Color, Weight):
         return WarehouseID
 
 
-async def CheckWarehouseEmpty(WarehouseID: int):
+async def CheckWarehouseEmpty():
     cursor, db = connectDB()
     cursor.execute(
-        """SELECT * FROM Warehouse
-        WHERE WareHouseID = %s""",
-        (
-            WarehouseID,
-        )
+        """SELECT * FROM Warehouse"""
     )
     result = cursor.fetchone()
     if result is None:
