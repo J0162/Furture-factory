@@ -1,4 +1,4 @@
-    body {
+body {
       font-family: Arial, sans-serif;
       background-color: #eeeeee;
       margin: 20px;
@@ -71,8 +71,33 @@
     text-decoration: none;
     }
 
-      background-color: steelblue;
-      color: white;
-      padding: 3px;
-      margin-bottom: 5px;
+    .midden {
+      text-align: center;
     }
+
+    #grafiek, #lijngrafiek {
+      border: 1px solid #cccccc;
+    }
+
+  .balk.balk-Rood  { background-color: #d9534f; }
+  .balk.balk-Blauw { background-color: #337ab7; }
+  .balk.balk-Groen { background-color: #5cb85c; }
+
+    .nieuwe-bestelling {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nieuwe-bestelling h2 {
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  .nieuwe-bestelling select {
+    padding: 7px;
+  }
+
+  #bestel-melding.gelukt { color: #2e7d32; }
+  #bestel-melding.fout   { color: #c62828; }
