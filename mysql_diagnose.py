@@ -26,11 +26,12 @@ except ImportError:
     print("C-extensie: NIET aanwezig (alleen pure Python)")
 
 for pure in (False, True):
-    for i in range(3):
-        c = t(f"connect use_pure={pure} poging {i+1}",
-              lambda: mc.connect(host=HOST, port=PORT, user=USER, password=PW, database=DB,
-                                 use_pure=pure, connection_timeout=10))
-        if c: c.close()
+    for nossl in (False, True):
+        for i in range(2):
+            c = t(f"connect pure={pure} ssl_disabled={nossl} #{i+1}",
+                  lambda: mc.connect(host=HOST, port=PORT, user=USER, password=PW, database=DB,
+                                     use_pure=pure, ssl_disabled=nossl, connection_timeout=15))
+            if c: c.close()
 
 c = mc.connect(host=HOST, port=PORT, user=USER, password=PW, database=DB)
 cur = c.cursor()

@@ -107,14 +107,30 @@ def orders_gewijzigd():
     global orders_versie
     orders_versie += 1
 
+DB_CONFIG = dict(
+    host="127.0.0.1",
+    port=3306,
+    user="root",
+    password="welkom",
+    database="Packages",
+    use_pure=False,      # snelle C-versie; use_pure=True duurde >8 s per verbinding
+)
+
+_pool = None
+
+def _get_pool():
+    """Maakt de verbindingen 1x aan en hergebruikt ze daarna (geen nieuwe login per request)."""
+    global _pool
+    if _pool is None:
+        from mysql.connector import pooling
+        t0 = time.perf_counter()
+        _pool = pooling.MySQLConnectionPool(pool_name="ff", pool_size=3,
+                                            pool_reset_session=False, **DB_CONFIG)
+        print(f"[db] verbindingspool klaar in {time.perf_counter()-t0:.2f} s", flush=True)
+    return _pool
+
 def connectDB():
-    db = mysql.connector.connect(
-        host="127.0.0.1",
-        port=3306,
-        user="root",
-        password="welkom",
-        database="Packages",
-    )
+    db = _get_pool().get_connection()   # db.close() geeft hem terug aan de pool
     cursor = db.cursor(buffered=True)   # buffered: fetchone() laat geen ongelezen rijen achter
     return cursor, db
 
@@ -528,22 +544,14 @@ def start_API():
 
 @app.get("/REMOVE")
 def DeleteDatabase():
-    connection = mysql.connector.connect(
-        host="127.0.0.1",
-        port=3306,
-        user="root",
-        password="welkom",
-        database="Packages",
-    )
-
+    cursor, connection = connectDB()
     try:
-        with connection.cursor() as cursor:
-            cursor.execute("TRUNCATE TABLE weights")
-            cursor.execute("TRUNCATE TABLE Warehouse")
+        cursor.execute("TRUNCATE TABLE weights")
+        cursor.execute("TRUNCATE TABLE Warehouse")
         connection.commit()
         return {"deleted": True}
     finally:
-        connection.close()
+        DisconnectDB(cursor, connection)
 
 
 start_API()
