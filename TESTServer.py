@@ -484,6 +484,7 @@ def PuteverythingInList():
         Shipping,
         Done,
         Weight,
+        WarehouseID,
     ) in rows:
         bestellingen.append(
             Order(
@@ -495,6 +496,7 @@ def PuteverythingInList():
                 InWareHouse=InWareHouse,
                 Shipping=Shipping,
                 Done=Done,
+                WareHouseID=WarehouseID
             )
         )
     DisconnectDB(cursor, db)
@@ -545,6 +547,7 @@ def DeleteDatabase():
         with connection.cursor() as cursor:
             cursor.execute("TRUNCATE TABLE weights")
             cursor.execute("TRUNCATE TABLE Warehouse")
+        connection.commit()
         return {"deleted": True}
     finally:
         connection.close()
