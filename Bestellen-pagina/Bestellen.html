@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Bestellen</title>
+    <link rel="stylesheet" href="Bestellen.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Titel</h1>
+        <div id="cart-icon" class="cart-icon-container">
+            🛒 <span id="cart-count">0</span>
+            <span class="cart-header-totaal">| € <span id="cart-header-total">0,00</span></span>
+        </div>
+    </header>
+
+    <div class="main-layout">
+
+        <nav>
+            link 1 <br>
+            link 2 <br>
+            link 3
+        </nav>
+
+        <div class="content-area">
+
+            <div class="menu-knoppen">
+                <a class="btn" href="../website lay-out home.html">Home</a>
+                <a class="btn" href="../Bestellen pagina/Bestellen.html">Bestellen</a>
+                <a class="btn" href="../Contact pagina/Contact.html">Contact</a>
+                <a class="btn" href="../producten-pagina/Producten.html">Producten</a>
+            </div>
+
+            <div class="filter" id="myBtnContainer">
+                <div class="filter-rij">
+                    <button class="btn active" data-filter="all">Show all</button>
+                    <button class="btn" data-filter="clear all">Wis filter keuze</button>
+                </div>
+                <div class="filter-rij">
+                    <button class="btn" data-filter="kleur">Kleur</button>
+                    <button class="btn" data-filter="gewicht">Gewicht</button>
+                </div>
+            </div>
+
+            <div class="sub-filter" id="kleurSubContainer" style="display: none;">
+                <div id="myBtnContainerkleur">
+                    <button class="btn" data-filter="Rood">rood</button>
+                    <button class="btn" data-filter="Blauw">blauw</button>
+                    <button class="btn" data-filter="Groen">groen</button>
+                </div>
+            </div>
+
+            <div class="sub-filter" id="gewichtSubContainer" style="display: none;">
+                <div id="myBtnContainer2">
+                    <button class="btn" data-filter="kg15">15KG</button>
+                    <button class="btn" data-filter="kg25">25KG</button>
+                    <button class="btn" data-filter="kg50">50KG</button>
+                </div>
+            </div>
+
+            <div class="container-grid">
+                <div class="card filterDiv show" data-filter="Rood kg15">
+                    <img src="../producten-pagina/voorbeeld foto's/rood.jpg" alt="Foto 1">
+                    <div class="card-description">Rood 15KG</div>
+                    <div class="card-price">€ 15,00</div>
+                    <button class="cart-btn" data-name="Rood" data-price="15.00">&#128722; Bestellen</button>
+                </div>
+
+                <div class="card filterDiv show" data-filter="Blauw kg25">
+                    <img src="../producten-pagina/voorbeeld foto's/blauw.jpg" alt="Foto 2">
+                    <div class="card-description">Blauw 25KG</div>
+                    <div class="card-price">€ 12,00</div>
+                    <button class="cart-btn" data-name="Blauw" data-price="12.00">&#128722; Bestellen</button>
+                </div>
+
+                <div class="card filterDiv show" data-filter="Groen kg50">
+                    <img src="../producten-pagina/voorbeeld foto's/groen.jpg" alt="Foto 3">
+                    <div class="card-description">Groen 50KG</div>
+                    <div class="card-price">€ 10,00</div>
+                    <button class="cart-btn" data-name="Groen" data-price="10.00">&#128722; Bestellen</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Winkelmandje Overzicht</h2>
+            <div class="cart-header-row">
+                <span>Product</span><span>Aantal</span><span>Prijs</span><span>Subtotaal</span><span></span>
+            </div>
+            <div id="cart-items-list"></div>
+            <div id="cart-total">
+                <strong>Totaal: € <span id="cart-total-price">0.00</span></strong>
+            </div>
+            <button id="doorgaan-shoppen" class="doorgaan-btn">Doorgaan shoppen</button>
+            <button id="checkout-btn" class="checkout-btn">Levering en betaling</button>
+        </div>
+    </div>
+
+<div id="toast" class="toast"></div>
+
+<div id="orderModal" class="modal">
+    <div class="modal-content">
+        <h2>Bestelling gelukt!</h2>
+        <p>Bedankt voor je bestelling. We gaan zo snel mogelijk met de bestelling aan de slag.</p>
+        <button id="orderModalSluiten" class="checkout-btn">Sluiten</button>
+    </div>
+</div>
+
+    <script src="Bestellen pagina.js"></script>
+</body>
+</html>

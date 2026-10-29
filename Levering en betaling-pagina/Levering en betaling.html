@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Levering en betaling</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Levering en betaling.css" type="text/css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <div id="melding" style="display:none; padding:12px; margin-bottom:12px; border-radius:3px;"></div>
+                <form action="#" method="post">
+                    <div class="row">
+
+                        <div class="col-50">
+                            <h3>Betalingsadres</h3>
+                            <div class="fields">
+                                <div class="field">
+                                    <label for="fname"><i class="fa fa-user"></i> Voor- en achternaam</label>
+                                    <input type="text" id="name" name="naam">
+                                </div>
+                                <div class="field">
+                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                            <div class="adres-rij">
+                                <div class="adres-wrapper">
+                                    <label for="adres">Adres</label>
+                                    <input type="text" id="adres" autocomplete="off">
+                                    <ul id="adres-suggesties" class="suggesties"></ul>
+                                </div>
+                                <div class="postcode-veld">
+                                    <label for="postcode">Postcode</label>
+                                    <input type="text" id="postcode" name="postcode">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-50">
+                            <h3>Betaalmethode</h3>
+                            <label>Geaccepteerde kaarten</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:#0000FF;"></i>
+                                <i class="fa fa-cc-amex" style="color:#005691;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:#EB001B;"></i>
+                            </div>
+
+                            <div class="fields">
+                                <div class="field field-full">
+                                    <label for="cname">Naam op kaart</label>
+                                    <input type="text" id="cname" name="kaartnaam"
+                                           autocomplete="cc-name" required>
+                                </div>
+                                <div class="field field-full">
+                                    <label for="cnum">Kaartnummer</label>
+                                    <input type="text" id="cnum" name="kaartnummer"
+                                           maxlength="16" inputmode="numeric"
+                                           pattern="[0-9]{15,16}"
+                                           autocomplete="cc-number" required>
+                                    <small id="cnum-fout" style="color: red; display:none; margin-top: 4px;"></small>
+                                </div>
+                                <div class="field">
+                                    <label for="exmonth">Vervalmaand</label>
+                                    <input type="text" id="exmonth" name="vervalmaand">
+                                </div>
+                                <div class="field">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv"
+                                           maxlength="4" inputmode="numeric"
+                                           pattern="[0-9]{3,4}"
+                                           autocomplete="cc-csc" required>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Verstuuradres is hetzelfde als betaaladres.
+                    </label>
+                    <input type="submit" value="Betalen" class="btn">
+                    <button type="button" id="ideal-knop" class="btn-ideal" aria-label="Betaal met iDEAL/Wero">
+                        <img src="ideal-wero-logo.png" alt="ideal en wero">
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-25">
+            <div class="container">
+                <h4>Winkelwagen
+                    <span class="price" style="color:#000000">
+                        <i class="fa fa-shopping-cart"></i>
+                        <b id="cart-aantal">0</b>
+                    </span>
+                </h4>
+                <div id="cart-lijst"></div>
+                <hr>
+                <p> Subtotaal (excl. btw) <span class="price" >€<span id="cart-subtotaal">0,00</span></span></p>
+                <p> BTW (<span id="btw-percentage">21</span>%) <span class="price">€<span id="cart-btw">0,00</span></span></p>
+                <p>Totaal <span class="price" style="color:black"><b>€<span id="cart-totaal">0,00</span></b></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="Levering en betaling.js"></script>
+</body>
+</html>
+    </div>
+    <script src="Levering en betaling.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Bestellingen dashboard</title>
+  <link rel="stylesheet" href="/dashboard%20bestellingen.css">
+</head>
+  <body>
+
+  <h1>Bestellingen dashboard</h1>
+
+  <p style="text-align:center;">
+    <button onclick="nieuweBestelling()">Nieuwe bestelling</button>
+  </p>
+
+  <div class="blokken">
+    <div class="blok">
+      <div class="getal" id="totaal">0</div>
+      Totaal bestellingen
+    </div>
+    <div class="blok">
+      <div class="getal" id="open">0</div>
+      Nog te doen
+    </div>
+    <div class="blok">
+      <div class="getal" id="klaar">0</div>
+      Afgerond
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Hoeveel bestellingen zijn er nog over?</h2>
+    <svg id="grafiek" width="600" height="250" style="border:1px solid #cccccc;"></svg>
+  </div>
+
+  <div class="box">
+    <h2>Producten in openstaande bestellingen</h2>
+    <div id="producten"></div>
+  </div>
+
+  <div class="box">
+    <h2>Alle bestellingen</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nummer</th>
+          <th>Kleur</th>
+          <th>Gewicht</th>
+          <th>Status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tabel"></tbody>
+    </table>
+  </div>
+
+<script src="/dashboard%20bestellingen.js"></script>
+
+</body>
+</html>

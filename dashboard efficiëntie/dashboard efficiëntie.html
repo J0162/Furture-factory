@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Efficiëntie dashboard</title>
+  <link rel="stylesheet" href="dashboard efficiëntie.css">
+</head>
+<body>
+
+    <nav>
+        <a href="/dashboard">Bestellingen</a>
+        <form action="/logout" method="post"><button type="submit">Uitloggen</button></form>
+    </nav>
+
+    <h1> Efficiëntie dashboard</h1>
+
+    <p id="melding" class="melding" hidden></p>
+
+    <div class="blokken">
+         <div class="blok">
+            <div class="getal" id="gemiddeld">-</div>
+            Gemiddelde benutting fabriek
+         </div>
+         <div class="blok">
+            <div class="getal klein" id="knelpunt">-</div>
+            <span id="knelpunt-pct"></span>
+            Knelpunt
+         </div>
+         <div class="blok">
+            <div class="getal klein" id="onderbenut">-</div>
+            <span id="onderbenut-pct"></span>
+            Minus benut
+         </div>
+    </div>
+
+    <div class="box">
+        <h2>Efficiëntie per machine</h2>
+        <span class="badge groen">Efficiëntie 90%: goed</span>
+        <span class="badge geel">Efficiëntie 80%: kantelpunt</span>
+        <span class="badge rood">Efficiëntie 70%: inefficient</span>
+        <div class="tabelwrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Onderdeel</th>
+                        <th>Machine</th>
+                        <th>In</th>
+                        <th>Uit</th>
+                        <th>Nu aanwezig</th>
+                        <th>Gem. tijd (s)</th>
+                        <th>Efficiëntie</th>
+                    </tr>
+                </thead>
+                <tbody id="machinetabel"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/dashboard efficiëntie.js"></script>
+</body>
+</html>

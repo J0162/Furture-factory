@@ -1,0 +1,14 @@
+{
+  "jason": {
+    "hash": "$2b$10$orPVmDn0zVM3D7rdWC7EEOatscZMPSktS.TMwC00Zrxmu1./eMYRi",
+    "totpSecret": "LEYCQG3KENNUANYE"
+  },
+  "Rolf": {
+    "hash": "$2b$10$8mRHIfFbRp2HBgM.wfBR7u9FtgnofSUFIFv2oheyosx8Iriu91J5e",
+    "totpSecret": "NVSTQ7TKEQCSKUSF"
+  },
+  "Tim": {
+    "hash": "$2b$10$JrKguKq3qa19/oRCPSquQeCgNpPZY/F1LXKHN3nhlGzAd7cMzG/eG",
+    "totpSecret": null
+  }
+}

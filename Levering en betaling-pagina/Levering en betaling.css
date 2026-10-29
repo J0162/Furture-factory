@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 100%;
+    flex: 100%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+}
+
+input[text=text] {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.fields {
+    display: block;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    column-gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.field label {
+    margin: 0;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: #ffffff;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+span.price {
+    float: right;
+    color: #868686;
+}
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25{
+        margin-bottom: 20px;
+    }
+}
+
+.field {
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+}
+
+.btn-ideal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-ideal:hover {
+    background-color: #f5f5f5;
+    border-color: #999;
+}
+
+.btn-ideal img {
+    height: 32px;
+    width: auto;
+}
+
+.address-wrapper {
+    position: relative;
+}
+
+.suggesties {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    background: #ffffff;
+    border: 1px solid #999999;
+    border-top: none;
+    z-index: 10px;
+}
+
+.suggesties:empty {
+    display: none;
+}
+
+.suggesties li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggesties li:hover {
+    background-color: #e6f7ea;
+}
+
+.adres-rij {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.adres-wrapper {
+    flex: 3;
+    position: relative;
+}
+
+.postcode-veld {
+    flex: 1;
+}
+
+.adres-rij input {
+    width: 100%;
+    box-sizing: border-box;
+}

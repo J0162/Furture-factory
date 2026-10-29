@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Authenticator koppelen</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+<form action="/2fa/verify" method="post">
+    <div class="container">
+        <h2>Google Authenticator koppelen</h2>
+        <p>1. Scan deze QR-code met de app.<br>2. Vul de code uit de app hieronder in.</p>
+        <div class="qr">
+            <img id="qr" alt="QR-code" width="200" height="200">
+            <p>Lukt scannen niet? Voer handmatig in:<br><code id="secret"></code></p>
+        </div>
+        <p class="error" id="error">Ongeldige code, probeer het opnieuw.</p>
+        <label for="code"><b>Code</b></label>
+        <input type="text" id="code" name="code" inputmode="numeric" pattern="[0-9 ]{6,7}"
+               maxlength="7" autocomplete="one-time-code" placeholder="123456" required>
+        <button type="submit">Koppelen</button>
+    </div>
+</form>
+<script>
+    fetch('/api/2fa/qr').then(r => r.json()).then(d => {
+        document.getElementById('qr').src = d.qr;
+        document.getElementById('secret').textContent = d.secret;
+    });
+</script>
+</body>
+</html>
