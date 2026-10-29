@@ -410,12 +410,12 @@ async def Statistics():
         Done,
         Weight,
     ) in enumerate(rows, start=1):
-        print(
-            f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
-            f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
-            f"{InWareHouse!s:<12} {Shipping!s:<10} "
-            f"{Done!s:<6} {Weight!s:>8}"
-        )
+        #print(
+        #    f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
+        #    f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
+        #    f"{InWareHouse!s:<12} {Shipping!s:<10} "
+        #    f"{Done!s:<6} {Weight!s:>8}"
+        #)
         DBstats += (
             f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
             f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
