@@ -5,7 +5,8 @@ const QRCode = require('qrcode');
 const {authenticator} = require('otplib');
 const fs = require('fs');
 const path = require('path');
-const crypto = require('crypto'); 
+const { userInfo } = require('os');
+const { json } = require('stream/consumers');
 const multer = require('multer');
 const nodemailer = require('nodemailer')
 
@@ -13,83 +14,24 @@ const app = express();
 const USERS_FILE = path.join(__dirname, 'users.json');
 
 if (!fs.existsSync(USERS_FILE)) {
-    fs.writeFileSync(USERS_FILE, '{}')
-    console.log('users.json aangemaakt. gebruikers toevoegen in gen-hash.js')
+    const profile = {jason: {hash: bcrypt.hashSync('1a2a3a', 10), totpSecret: null} };
+    fs.writeFileSync(USERS_FILE, JSON.stringify({jason: {hash: bcrypt.hashSync('1a2a3a', 10), totpSecret: null} }, null, 2));
 }
 const loadUsers = () => JSON.parse(fs.readFileSync(USERS_FILE, 'utf8'));
 const saveUsers = (u) => fs.writeFileSync(USERS_FILE, JSON.stringify(u, null , 2));
-
-app.disable('x-powered-by');
-function stuurFout(req, res, status, tekst) {
-    if (req.path.startsWith('/api/')) {
-        return res.status(status).json({ ok: false, error: tekst });
-    }
-    return res.status(status).send(tekst);
-}
-
-app.use((req, res, next) => {
-    res.setHeader('Content-Security-Policy',
-        "default-src 'self'; " +
-        "script-src 'self'; " +
-        "style-src 'self' https://cdnjs.cloudflare.com; " +
-        "font-src 'self' https://cdnjs.cloudflare.com; " +
-        "img-src 'self' data:; " +
-        "connect-src 'self' https://api.pdok.nl; " +
-        "form-action 'self'; " +
-        "frame-ancestors 'none'; " +
-        "base-uri 'self'; " +
-        "object-src 'none' ");
-        res.setHeader('X-Frame-Options', 'DENY');
-        res.setHeader('X-Content-Type-Options', 'nosniff');
-        res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
-        res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=()');
-        res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
-        res.setHeader('Cross-Origin-Resource-Policy', 'same-origin');
-        res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
-
-        const isBestand = /\.(css|js|png|jpg|jpeg|gif|svg|ico)$/i.test(req.path);
-        if (isBestand) {
-            res.setHeader('Cache-Control', 'no-cache');
-        } else { 
-            res.setHeader('cache-Control', 'no-store');
-        }
-    next()
-    })
-
-app.use(express.urlencoded({ extended: false, limit: '10kb' }));
-app.use(express.json({ limit: '10kb'}));
-
+app.use(express.urlencoded({ extended: false}));
 app.use(session({
-    name: 'sessie',
-    secret: crypto.randomBytes(32).toString('hex'),
+    secret: 'veranderd naar iets willekeurig',
     resave: false,
     saveUninitialized: false,
-    cookie: {httpOnly: true, sameSite: 'strict', maxAge: 30*60*1000}
+    cookie: {httpOnly: true, sameSite: 'lax', maxAge: 30 * 60 * 1000 }
 }));
+app.use(express.static(path.join(__dirname, 'openbaar')));
 
-app.get('/api/csrf', (req,res) => {
-    if (!req.session.csrfToken) {
-        req.session.csrfToken = crypto.randomBytes(32).toString('hex');
-    }
-    res.json({ token: req.session.csrfToken});
-});
-
-app.use((req, res, next) => {
-    if (req.method !== 'POST') return next();
-    const token = req.get('X-CSRF-Token') || (req.body && req.body._csrf);
-    if (!token || token !== req.session.csrfToken) {
-        return stuurFout(req, res, 403, 'Ongeldig CSRF-token. Herlaad de pagina en probeer het opnieuw.');
-    }
-    next();
-});
-app.use(express.static(path.join(__dirname, 'openbaar'), {cacheControl: false, redirect: false}));
-app.use(express.static(path.join(__dirname, '..', '..', 'website', 'Frontend'), {cacheControl: false, redirect: false }));
-
-const view = (name) => (req, res) =>
-    res.sendFile(path.join(__dirname, 'beveiligd', name), {cacheControl: false});
+const view = (name) => (req, res) => res.sendFile(path.join(__dirname, 'beveiligd', name));
 
 const BEDRIJF_EMAIL = 'refheru@sorteercentrum.com';
-const CONTACT_FILE = path.join(__dirname, 'contactbericht.json');
+const CONTACTFILE = path.join(__dirname, 'contactbericht.json');
 const UPLOAD_MAP = path.join(__dirname, 'contact_uploads');
 
 const upload = multer ({
@@ -98,13 +40,13 @@ const upload = multer ({
 });
 
 let transporterBelofte = null;
-const haalTransporter = () => {
+const haaltTransporter = () => {
     if (!transporterBelofte) {
-        transporterBelofte = nodemailer.createTestAccount().then(account =>
+        transporterBelofte = nodemailer.createTestAccount.then(account =>
             nodemailer.createTransport({
                 host: account.smtp.host,
                 port: account.smtp.port,
-                secure: account.smtp.secure,
+                secure: account.smtp.port,
                 auth: {user: account.user, pass: account.pass}
             })
         ).catch(err => {
@@ -179,23 +121,22 @@ const needPending = (req, res, next) =>
     req.session.pendingUser ? next() : res.redirect('/login.html');
 
 app.get('/2fa', needPending, view('verify.html'));
-const needNietGekoppeld = (req, res, next) => {
-    const user = loadUsers()[req.session.pendingUser];
-    if (!user) return res.redirect('/login.html');
-    if(user.totpSecret) return res.redirect('/2fa');
-    next()
-};
-
-app.get('/2fa/setup', needPending, needNietGekoppeld, view('setup.html'));
+app.get('/2fa/setup', needPending, view('setup.html'));
 
 app.get('/api/2fa/qr', needPending, async (req, res) => {
-    const user = loadUsers()[req.session.pendingUser];
-    if (!user || user.totpSecret) {
-        return res.status(403).json({ ok:false, error: 'Authenticator is gekoppeld.'});
-    } 
     req.session.tempSerect = authenticator.generateSecret();
     const otpath = authenticator.keyuri(req.session.pendingUser, 'Dashboard', req.session.tempSerect);
-    res.json({ qr: await QRCode.toDataURL(otpath), secret: req.session.tempSerect});
+    res.json({ qr: await QRCode.toDataURL(otpath), secret: req.session.tempSerect });
+});
+
+app.get('/2fa/reset', needPending, (req, res) => {
+    const users = loadUsers();
+    const name = req.session.pendingUser;
+    if (users[name]) {
+        users[name].totpSecret = null;
+        saveUsers(users);
+    }
+    res.redirect('/2fa/setup');
 });
 
 app.post('/2fa/verify', needPending, (req, res) => {
@@ -212,8 +153,10 @@ app.post('/2fa/verify', needPending, (req, res) => {
     }
     
     const token = String(req.body.code || '').replace(/\s/g, '');
+    const secret = req.session.tempSerect || user.totpSecret;
     const isSetup = !user.totpSecret;
-    const secret = isSetup ? req.session.tempSerect : user.totpSecret
+    
+    console.log('Verwacht secret:', secret, 'Ontvangen token:', token);
 
     if (!secret || !authenticator.check(token, secret)) {
         const back = isSetup ? '/2fa/setup' : '/2fa';
@@ -237,7 +180,7 @@ const needAuth = (req, res, next) =>
 app.get('/dashboard', needAuth, view('dashboard bestellingen.html'));
 app.get('/efficientie', needAuth, view('dashboard efficiëntie.html'));
 
-const PY = 'http://145.93.112.58:8000';
+const PY = 'http://145.93.112.60:8000';
 const KLEUREN = {1: 'Rood', 2: 'Blauw', 3: 'Groen' };
 const GEWICHTEN = {1: 15, 2: 25, 3: 50,};
 
@@ -284,9 +227,8 @@ app.get('/api/bestellingen', needAuth, async (req, res) => {
     } catch {
         res.status(502).json({ error: 'Python-server niet bereikbaar' });
     }
-
-});app.post('/api/bestellingen', needAuth, async (req, res) => {
-
+});
+app.post('/api/bestellingen', needAuth, express.json(), async (req, res) => {
     const kleur = Number(req.body.kleur), gewicht = Number(req.body.gewicht);
     if (![1, 2, 3].includes(kleur) || ![1, 2, 3].includes(gewicht)) {
         return res.status(400).json({ error: 'kleur en gewicht moeten 1, 2 of 3 zijn' });
@@ -331,7 +273,12 @@ app.post('/logout', (req, res) => req.session.destroy(() => res.redirect('/login
 
 app.get('/', (req, res) => res.redirect('/login.html'));
 
-fetch(`${PY}/events?kanalen=factory`).then(async (r) => {
+app.post('/logout', (req, res) => req.session.destroy(() => res.redirect('/login.html')));
+
+app.get('/', (req, res) => res.redirect('/login.html'));
+
+
+fetch('http://145.93.112.60:8000/events?kanalen=factory').then(async (r) => {
     const reader = r.body.getReader();
     const decoder = new TextDecoder();
     let tekst = '';
@@ -350,7 +297,3 @@ fetch(`${PY}/events?kanalen=factory`).then(async (r) => {
 }).catch((err) => console.log('Stream fout:', err.message, err.cause));
 
 app.listen(3000, () => console.log('Open http://localhost:3000'));
-
-app.use((req, res) => {
-    res.status(404).send('Pagina niet gevonden.');
-});
