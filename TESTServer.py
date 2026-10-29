@@ -81,6 +81,7 @@ class Order(BaseModel):
     InWareHouse: bool
     Shipping: bool
     Done: bool
+    WareHouseID: int
 
 factorystatistics = ""
 
@@ -95,6 +96,7 @@ bestellingen = [
         WeightSorted=False,
         Shipping=False,
         InWareHouse=False,
+        WareHouseID=None,
     )
 ]
 
@@ -107,7 +109,7 @@ def orders_gewijzigd():
 
 def connectDB():
     db = mysql.connector.connect(
-        host="145.93.120.47",
+        host="127.0.0.1",
         port=3306,
         user="root",
         password="welkom",
@@ -188,12 +190,14 @@ async def ListBestelling():
         Shipping,
         Done,
         Weight,
+        WareHouseID,
     ) in enumerate(rows, start=1):
         print(
             f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
             f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
             f"{InWareHouse!s:<12} {Shipping!s:<10} "
             f"{Done!s:<6} {Weight!s:>8}"
+            f"{WareHouseID!s:<12}"
         )
     DisconnectDB(cursor, db)
     bestellingen = PuteverythingInList()
@@ -201,43 +205,80 @@ async def ListBestelling():
 
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
-    cursor, db = connectDB()
+    if(CheckWarehouseEmpty()):
+        
+        cursor, db = connectDB()
 
-    nieuwe_bestelling = Order(
-        Color=NieuwKleur,
-        Weight=NieuwGewicht,
-        ColorSorted=False,
-        IDPackage=random.randrange(1, 99999),
-        Done=False,
-        WeightSorted=False,
-        Shipping=False,
-        InWareHouse=False,
-    )
-    bestellingen.append(nieuwe_bestelling)
+        nieuwe_bestelling = Order(
+            Color=NieuwKleur,
+            Weight=NieuwGewicht,
+            ColorSorted=False,
+            IDPackage=random.randrange(1, 99999),
+            Done=False,
+            WeightSorted=False,
+            Shipping=False,
+            InWareHouse=False,
+            WareHouseID=None,
+        )
+        bestellingen.append(nieuwe_bestelling)
 
-    cursor.execute(
-        """INSERT INTO weights
-        (IDPackage, Color, ColorSorted, WeightSorted,
-            InWareHouse, Shipping, Done, Weight)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)""",
-        (
-            0,
-            nieuwe_bestelling.Color,
-            nieuwe_bestelling.ColorSorted,
-            nieuwe_bestelling.WeightSorted,
-            nieuwe_bestelling.InWareHouse,
-            nieuwe_bestelling.Shipping,
-            nieuwe_bestelling.Done,
-            nieuwe_bestelling.Weight,
-        ),
-    )
-    db.commit()
+        cursor.execute(
+            """INSERT INTO weights
+            (IDPackage, Color, ColorSorted, WeightSorted,
+                InWareHouse, Shipping, Done, Weight, WarehouseID)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+            (
+                0,
+                nieuwe_bestelling.Color,
+                nieuwe_bestelling.ColorSorted,
+                nieuwe_bestelling.WeightSorted,
+                nieuwe_bestelling.InWareHouse,
+                nieuwe_bestelling.Shipping,
+                nieuwe_bestelling.Done,
+                nieuwe_bestelling.Weight,
+                nieuwe_bestelling.WareHouseID,
+            ),
+        )
+        db.commit()
 
-    DisconnectDB(cursor, db)
+        DisconnectDB(cursor, db)
+    else:
+        CheckFirstAvailable(NieuwKleur, NieuwGewicht)
+        cursor, db = connectDB()
+        nieuwe_bestelling = Order(
+                    Color=NieuwKleur,
+                    Weight=NieuwGewicht,
+                    ColorSorted=True,
+                    IDPackage=0,
+                    Done=False,
+                    WeightSorted=True,
+                    Shipping=False,
+                    InWareHouse=False,
+                    WareHouseID=None,
+                )
+        cursor.execute(
+            """INSERT INTO weights
+            (IDPackage, Color, ColorSorted, WeightSorted,
+                InWareHouse, Shipping, Done, Weight, WarehouseID)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+            (
+                nieuwe_bestelling.IDPackage,
+                nieuwe_bestelling.Color,
+                nieuwe_bestelling.ColorSorted,
+                nieuwe_bestelling.WeightSorted,
+                nieuwe_bestelling.InWareHouse,
+                nieuwe_bestelling.Shipping,
+                nieuwe_bestelling.Done,
+                nieuwe_bestelling.Weight,
+                nieuwe_bestelling.WareHouseID,
+            ),
+        )
+        db.commit()
+        DisconnectDB(cursor, db)
     return bestellingen
 
 @app.post("/ChangeValue")
-async def ColorSet(IDNumber: int, BoolChange: str):
+async def ChangeValue(IDNumber: int, BoolChange: str):
     toegestaan = {"WeightSorted", "ColorSorted", "InWareHouse", "Shipping", "Done"}
     if BoolChange not in toegestaan:
         return "invalid option"
@@ -268,6 +309,81 @@ async def RemoveBestelling(IDNumber: int):
     db.commit()
     DisconnectDB(cursor, db)
     return bestellingen
+
+@app.post("/AddWarehouse")
+async def AddToWarehouse(NewColor: int, NewWeight: int):
+    cursor, db = connectDB()
+    
+    nieuwe_bestelling = Order(
+        Color=NewColor,
+        Weight=NewWeight,
+        ColorSorted=True,
+        IDPackage=None,
+        Done=False,
+        WeightSorted=False,
+        Shipping=False,
+        InWareHouse=True,
+        WareHouseID=0
+    )
+    cursor.execute(
+        """INSERT INTO Warehouse
+        (IDPackage, Color, ColorSorted, WeightSorted,
+            InWareHouse, Shipping, Done, Weight, WarehouseID)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+        (
+            nieuwe_bestelling.IDPackage,
+            nieuwe_bestelling.Color,
+            nieuwe_bestelling.ColorSorted,
+            nieuwe_bestelling.WeightSorted,
+            nieuwe_bestelling.InWareHouse,
+            nieuwe_bestelling.Shipping,
+            nieuwe_bestelling.Done,
+            nieuwe_bestelling.Weight,
+            nieuwe_bestelling.WareHouseID,
+        ),
+    )
+    db.commit()
+    
+    DisconnectDB(cursor, db)
+    return 
+
+async def CheckFirstAvailable(Color, Weight):
+    cursor, db = connectDB()
+    cursor.execute(
+        """SELECT *
+        FROM Warehouse w
+        WHERE Color = %s AND Weight LIKE %s AND w.IDPackage IS NULL
+        ORDER BY w.WarehouseID ASC
+        LIMIT 1;""",
+        (
+            Color,
+            Weight,
+        )
+    )
+    result = cursor.fetchone()
+    if result is None:
+        return False
+    else:
+        WarehouseID = result[0]
+        return WarehouseID
+
+
+async def CheckWarehouseEmpty(WarehouseID: int):
+    cursor, db = connectDB()
+    cursor.execute(
+        """SELECT * FROM Warehouse
+        WHERE WareHouseID = %s""",
+        (
+            WarehouseID,
+        )
+    )
+    result = cursor.fetchone()
+    if result is None:
+        WarehouseEmpty = False
+    if result is not None:
+        WarehouseEmpty = True
+    DisconnectDB(cursor, db)
+    return WarehouseEmpty
 
 # ---------- fabrieksdata: direct uit het geheugen, geen HTTP-hop ----------
 @app.get("/factory")
@@ -418,7 +534,7 @@ def start_API():
 @app.get("/REMOVE")
 def DeleteDatabase():
     connection = mysql.connector.connect(
-        host="145.93.120.47",
+        host="127.0.0.1",
         port=3306,
         user="root",
         password="welkom",
@@ -428,6 +544,7 @@ def DeleteDatabase():
     try:
         with connection.cursor() as cursor:
             cursor.execute("TRUNCATE TABLE weights")
+            cursor.execute("TRUNCATE TABLE Warehouse")
         return {"deleted": True}
     finally:
         connection.close()
@@ -435,7 +552,6 @@ def DeleteDatabase():
 
 start_API()
 if __name__ == "__main__":
-    # API in een achtergrondthread, FlexSim op de hoofdthread (zoals je oude script).
     # 0.0.0.0 = luistert op alle IP's van deze pc (nu 145.93.112.57), dus IP-wissels maken niet uit.
     # Draait er al een instantie? Dan niet nog een FlexSim starten.
     with socket.socket() as _s:
