@@ -9,7 +9,10 @@
 
     <nav>
         <a href="/dashboard">Bestellingen</a>
-        <form action="/logout" method="post"><button type="submit">Uitloggen</button></form>
+        <form action="/logout" method="post">
+            <input type="hidden" name="_csrf" value="">
+            <button type="submit">Uitloggen</button>
+        </form>
     </nav>
 
     <h1> Efficiëntie dashboard</h1>
@@ -31,6 +34,13 @@
             <span id="onderbenut-pct"></span>
             Minus benut
          </div>
+    </div>
+
+    <div class="box">
+        <h2>Benutting per onderdeel</h2>
+        <svg id="grafiek" width="600" height="250" xmlns="http://www.w3.org/2000/svg"></svg>
+        <br>
+        <button id="grafiek-opslaan">Grafiek opslaan</button>
     </div>
 
     <div class="box">
