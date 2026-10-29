@@ -215,33 +215,46 @@ function toonMelding(tekst) {
     }
 }
 
+function maakCel(tekst) {
+    var td = document.createElement("td");
+    td.textContent = tekst;
+    return td;
+}
+
 function toonMachineTabel() {
     var tbody = document.getElementById("machinetabel");
     if (!tbody) return;
-    var html = "";
-
+    tbody.innerHTML ="";
     for (var i = 0; i < resultaten.length; i++) {
         var o = resultaten[i];
 
-        for (var j = 0; j < o.machines.length; j++) {
+        for (var j= 0; j < o.machines.length; j++) {
             var m = o.machines[j];
             var breedte = m.benutting !== null ? m.benutting : 0;
+            var rij = document.createElement("tr");
+            rij.appendChild(maakCel(o.nr + ". " + o.naam));
+            rij.appendChild(maakCel(m.naam));
+            rij.appendChild(maakCel(m.in));
+            rij.appendChild(maakCel(m.uit));
+            rij.appendChild(maakCel(m.nuAanwezig));
+            rij.appendChild(maakCel(m.gemTijd));
 
-            html += "<tr>";
-            html += "<td>" + o.nr + ". " + o.naam + "</td>";
-            html += "<td>" + m.naam + "</td>";
-            html += "<td>" + m.in + "</td>";
-            html += "<td>" + m.uit + "</td>";
-            html += "<td>" + m.nuAanwezig + "</td>";
-            html += "<td>" + m.gemTijd + "</td>";
-            html += "<td><span class='badge " + kleurKlasse(m.benutting) + "'>" + alsProcent(m.benutting) + "</span>";
-            html += "<div style='background:#eeeeee; height:8px;'>";
-            html += "<div class='" + kleurKlasse(m.benutting) + "' style='width:" + breedte + "%; height:8px;'></div>";
-            html += "</div></td>";
-            html += "</tr>";
+            var cel = document.createElement("td");
+            var badge = document.createElement("span");
+            badge.className = "badge " + kleurKlasse(m.benutting);
+            badge.textContent = alsProcent(m.benutting);
+            var spoor = document.createElement("div");
+            spoor.className = "spoor";
+            var vul = document.createElement("div");
+            vul.className = "vul " + kleurKlasse(m.benutting);
+            vul.style.width = breedte + "%"
+            spoor.appendChild(vul);
+            cel.appendChild(badge);
+            cel.appendChild(spoor);
+            rij.appendChild(cel);
+            tbody.appendChild(rij);
         }
     }
-    tbody.innerHTML = html;
 }
 
 function toonBlokken() {
@@ -277,17 +290,62 @@ function toonBlokken() {
     toonMelding("");
 }
 
+var HEX = { groen: "#03FC00", geel: "#FCF800", rood: "#F54242", "": "#7D7D7D" };
+
+function toonGrafiek() {
+    var svg = document.getElementById("grafiek");
+    var stuk = 540 / resultaten.length;
+    var html = "";
+    for (var i = 0; i < resultaten.length; i++) {
+        var o = resultaten[i];
+        var h = (o.benutting !== null ? o.benutting : 0) / 100 * 180;
+        var x = 40 + i * stuk;
+        html += '<rect fill="' + HEX[kleurKlasse(o.benutting)] + '" x="' + x + '" y="' + (210 - h) +
+                '" width="' + (stuk - 4) + '" height="' + h + '"/>' +
+                '<text x="' + (x + stuk / 2) + '" y="230" text-anchor="middle" font-size="10">' + o.nr + '</text>' +
+                '<text x="' + (x + stuk / 2) + '" y="' + (205 - h) + '" text-anchor="middle" font-size="9">' +
+                alsProcent(o.benutting) + '</text>';
+    }
+    svg.innerHTML = html;
+}
+
+function slaGrafiekOp(svgId, naam) {
+    var svg = document.getElementById(svgId);
+    var tekst = new XMLSerializer().serializeToString(svg);
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([tekst], { type: "image/svg+xml" }));
+    a.download = naam + ".svg";
+    a.click();
+}
+
+document.getElementById("grafiek-opslaan").addEventListener("click", function () {
+    slaGrafiekOp("grafiek", "benutting-per-onderdeel");
+});
+
 function ververs() {
     haalData()
         .then(function (lijst) {
             resultaten = berekenAlles(lijst);
             toonBlokken();
             toonMachineTabel();
+            toonGrafiek();
         })
         .catch(function (fout) {
             toonMelding("Gegevens ophalen mislukt: " + fout.message);
         });
 }
+
+fetch("/api/csrf")
+    .then(function (response) {return response.json(); })
+    .then(function (data) {
+        var velden = document.querySelectorAll('input[name="_csrf"]');
+        for (var i = 0; i < velden.length; i++) {
+            velden[i].value = data.token;
+        }
+    });
+
+ververs();
+setInterval(ververs, VERVERS_MS);
 
 ververs();
 setInterval(ververs, VERVERS_MS);
