@@ -81,7 +81,7 @@ class Order(BaseModel):
     InWareHouse: bool
     Shipping: bool
     Done: bool
-    WareHouseID: int
+    WareHouseID: int | None = None
 
 factorystatistics = ""
 
