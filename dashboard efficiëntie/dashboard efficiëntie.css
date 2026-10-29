@@ -22,10 +22,10 @@ nav a {
     padding: 8px 14px;
     background: #ffffff;
     color: #222;
-    text-align: none;
+    text-decoration: none;
 }
 
-nav.a.actief {
+nav a.actief {
     background-color: #0006FF;
     color: #ffffff;
 }
@@ -119,7 +119,7 @@ button {
  
 .rood   { background-color: var(--rood); }
 .groen  { background-color: var(--groen); }
-.oranje { background-color: var(--geel); }
+.geel { background-color: var(--geel); }
 .geen   { background-color: var(--grijs); }
  
 .badge {
@@ -172,4 +172,8 @@ td .spoor {
   .rij {
     display: block;
   }
+}
+
+#grafiek {
+  border: 1px solid #cccccc;
 }
