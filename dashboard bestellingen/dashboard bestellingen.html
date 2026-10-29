@@ -5,13 +5,40 @@
   <title>Bestellingen dashboard</title>
   <link rel="stylesheet" href="/dashboard%20bestellingen.css">
 </head>
-  <body>
+<body>
+
+    <nav>
+        <a href="/efficientie">Efficiëntie</a>
+        <form action="/logout" method="post">
+          <input type="hidden" name="_csrf" value="">
+          <button type="submit">Uitloggen</button>
+        </form>
+    </nav>
 
   <h1>Bestellingen dashboard</h1>
 
-  <p style="text-align:center;">
-    <button onclick="nieuweBestelling()">Nieuwe bestelling</button>
-  </p>
+  <div class="box nieuwe-bestelling">
+    <h2>Nieuwe bestelling maken</h2>
+
+    <label for="kies-product">Product</label>
+    <select id="kies-product">
+      <option value="" selected disabled></option>
+      <option value="1">Rood</option>
+      <option value="2">Blauw</option>
+      <option value="3">Groen</option>
+    </select>
+
+    <label for="kies-gewicht">Gewicht</label>
+    <select id="kies-gewicht">
+      <option value="" selected disabled></option>
+      <option value="1">15 kg</option>
+      <option value="2">25 kg</option>
+      <option value="3">50 kg</option>
+    </select>
+
+    <button id="nieuwe-bestelling">Bestelling toevoegen</button>
+    <span id="bestel-melding"></span>
+  </div>
 
   <div class="blokken">
     <div class="blok">
@@ -30,7 +57,16 @@
 
   <div class="box">
     <h2>Hoeveel bestellingen zijn er nog over?</h2>
-    <svg id="grafiek" width="600" height="250" style="border:1px solid #cccccc;"></svg>
+    <svg id="grafiek" width="600" height="250" xmlns="http://www.w3.org/2000/svg"></svg>
+    <br>
+    <button id="grafiek-opslaan">Grafiek opslaan</button>
+  </div>
+
+  <div class="box">
+    <h2>Openstaande bestellingen in de tijd</h2>
+    <svg id="lijngrafiek" width="600" height="250" xmlns="http://www.w3.org/2000/svg"></svg>
+    <br>
+    <button id="lijn-opslaan">Grafiek opslaan</button>
   </div>
 
   <div class="box">
