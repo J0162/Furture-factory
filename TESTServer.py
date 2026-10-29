@@ -115,7 +115,7 @@ def connectDB():
         password="welkom",
         database="Packages",
     )
-    cursor = db.cursor()
+    cursor = db.cursor(buffered=True)   # buffered: fetchone() laat geen ongelezen rijen achter
     return cursor, db
 
 
@@ -205,7 +205,8 @@ async def ListBestelling():
 
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
-    if(CheckWarehouseEmpty()):
+    Check = await CheckWarehouseEmpty()
+    if(Check):
         
         cursor, db = connectDB()
 
@@ -213,7 +214,7 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
             Color=NieuwKleur,
             Weight=NieuwGewicht,
             ColorSorted=False,
-            IDPackage=random.randrange(1, 99999),
+            IDPackage=0,
             Done=False,
             WeightSorted=False,
             Shipping=False,
@@ -243,7 +244,7 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
         DisconnectDB(cursor, db)
     else:
-        CheckFirstAvailable(NieuwKleur, NieuwGewicht)
+        await CheckFirstAvailable(NieuwKleur, NieuwGewicht)
         cursor, db = connectDB()
         nieuwe_bestelling = Order(
                     Color=NieuwKleur,
@@ -275,6 +276,8 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
         )
         db.commit()
         DisconnectDB(cursor, db)
+    PuteverythingInList()   # lijst opnieuw uit DB, met de echte IDPackage
+    orders_gewijzigd()      # dashboard (/events) bijwerken
     return bestellingen
 
 @app.post("/ChangeValue")
@@ -304,7 +307,7 @@ async def RemoveBestelling(IDNumber: int):
     cursor.execute(
         """
         DELETE FROM weights WHERE IDPACKAGE = %s;""",
-        (IDNumber),
+        (IDNumber,),
     )
     db.commit()
     DisconnectDB(cursor, db)
@@ -361,25 +364,18 @@ async def CheckFirstAvailable(Color, Weight):
         )
     )
     result = cursor.fetchone()
+    DisconnectDB(cursor, db)
     if result is None:
         return False
-    else:
-        WarehouseID = result[0]
-        return WarehouseID
+    return result[0]
 
 
 async def CheckWarehouseEmpty():
     cursor, db = connectDB()
-    cursor.execute(
-        """SELECT * FROM Warehouse"""
-    )
+    cursor.execute("SELECT 1 FROM Warehouse LIMIT 1")
     result = cursor.fetchone()
-    if result is None:
-        WarehouseEmpty = False
-    if result is not None:
-        WarehouseEmpty = True
     DisconnectDB(cursor, db)
-    return WarehouseEmpty
+    return result is None   # True = warehouse is leeg
 
 # ---------- fabrieksdata: direct uit het geheugen, geen HTTP-hop ----------
 @app.get("/factory")
@@ -409,6 +405,7 @@ async def Statistics():
         Shipping,
         Done,
         Weight,
+        WarehouseID,
     ) in enumerate(rows, start=1):
         #print(
         #    f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
@@ -420,7 +417,7 @@ async def Statistics():
             f"{nr:>3}  {IDPackage!s:<12} {Color!s:<15} "
             f"{ColorSorted!s:<15} {WeightSorted!s:<15} "
             f"{InWareHouse!s:<12} {Shipping!s:<10} "
-            f"{Done!s:<6} {Weight!s:>8}"
+            f"{Done!s:<6} {Weight!s:>8} {WarehouseID!s:<12}\n"
         )
     DisconnectDB(cursor, db)
     bestellingen = PuteverythingInList()
