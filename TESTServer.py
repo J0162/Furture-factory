@@ -108,12 +108,13 @@ def orders_gewijzigd():
     orders_versie += 1
 
 DB_CONFIG = dict(
-    host="127.0.0.1",
+    host="145.93.120.51",
     port=3306,
     user="root",
     password="welkom",
     database="Packages",
     use_pure=False,      # snelle C-versie; use_pure=True duurde >8 s per verbinding
+    autocommit=True,
 )
 
 _pool = None
@@ -221,8 +222,10 @@ async def ListBestelling():
 
 @app.post("/NewBestelling")
 async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
+    print("maak bestelling")
     Check = await CheckWarehouseEmpty()
     if(Check):
+        print("warehuis leeg")
         
         cursor, db = connectDB()
 
@@ -260,55 +263,95 @@ async def AddBestelling(NieuwKleur: int, NieuwGewicht: int):
 
         DisconnectDB(cursor, db)
     else:
+        print("warehuis vol")
         ID = await CheckFirstAvailable(NieuwKleur, NieuwGewicht)
-        cursor, db = connectDB()
-        nieuwe_bestelling = Order(
-                    Color=NieuwKleur,
-                    Weight=NieuwGewicht,
-                    ColorSorted=True,
-                    IDPackage=0,
-                    Done=False,
-                    WeightSorted=True,
-                    Shipping=False,
-                    InWareHouse=False,
-                    WareHouseID=ID,
+
+        if ID is False:
+            cursor, db = connectDB()
+            
+            nieuwe_bestelling = Order(
+                Color=NieuwKleur,
+                Weight=NieuwGewicht,
+                ColorSorted=False,
+                IDPackage=0,
+                Done=False,
+                WeightSorted=False,
+                Shipping=False,
+                InWareHouse=False,
+                WareHouseID=None,
                 )
-        cursor.execute(
-            """INSERT INTO weights
-            (IDPackage, Color, ColorSorted, WeightSorted,
+            bestellingen.append(nieuwe_bestelling)
+            
+            cursor.execute(
+                """INSERT INTO weights
+                (IDPackage, Color, ColorSorted, WeightSorted,
+                    InWareHouse, Shipping, Done, Weight, WarehouseID)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+                (
+                    0,
+                    nieuwe_bestelling.Color,
+                    nieuwe_bestelling.ColorSorted,
+                    nieuwe_bestelling.WeightSorted,
+                    nieuwe_bestelling.InWareHouse,
+                    nieuwe_bestelling.Shipping,
+                    nieuwe_bestelling.Done,
+                    nieuwe_bestelling.Weight,
+                    nieuwe_bestelling.WareHouseID,
+                ),
+            )
+            db.commit()
+            
+            DisconnectDB(cursor, db)
+            return bestellingen
+        else:
+            cursor, db = connectDB()
+
+            nieuwe_bestelling = Order(
+                Color=NieuwKleur,
+                Weight=NieuwGewicht,
+                ColorSorted=True,
+                IDPackage=0,
+                Done=False,
+                WeightSorted=True,
+                Shipping=False,
+                InWareHouse=False,
+                WareHouseID=ID,
+            )
+            cursor.execute(
+                """
+                INSERT INTO weights
+                (Color, ColorSorted, WeightSorted,
                 InWareHouse, Shipping, Done, Weight, WarehouseID)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)""",
-            (
-                nieuwe_bestelling.IDPackage,
-                nieuwe_bestelling.Color,
-                nieuwe_bestelling.ColorSorted,
-                nieuwe_bestelling.WeightSorted,
-                nieuwe_bestelling.InWareHouse,
-                nieuwe_bestelling.Shipping,
-                nieuwe_bestelling.Done,
-                nieuwe_bestelling.Weight,
-                nieuwe_bestelling.WareHouseID,
-            ),
-        )
-        db.commit()
-        cursor.execute(
-                """SELECT *
-                FROM weights w
-                ORDER BY w.IDPackage DESC
-                LIMIT 1;""",
-                
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                """,
+                (
+                    nieuwe_bestelling.Color,
+                    nieuwe_bestelling.ColorSorted,
+                    nieuwe_bestelling.WeightSorted,
+                    nieuwe_bestelling.InWareHouse,
+                    nieuwe_bestelling.Shipping,
+                    nieuwe_bestelling.Done,
+                    nieuwe_bestelling.Weight,
+                    nieuwe_bestelling.WareHouseID,
+                ),
             )
-        result = cursor.fetchone()
-        cursor.execute(
-            """UPDATE Warehouse AS w
-            SET IDPackage = %s
-            WHERE w.WarehouseID = %s""",
-            (
-                result,
-                ID,
+            # Get the automatically generated IDPackage
+            IDPackage = cursor.lastrowid
+
+            # Update the warehouse with the new package ID
+            cursor.execute(
+                """
+                UPDATE Warehouse
+                SET IDPackage = %s
+                WHERE WarehouseID = %s
+                """,
+                (
+                    IDPackage,
+                    ID,
+                ),
             )
-        )
-        DisconnectDB(cursor, db)
+            db.commit()
+            DisconnectDB(cursor, db)
     PuteverythingInList()   # lijst opnieuw uit DB, met de echte IDPackage
     orders_gewijzigd()      # dashboard (/events) bijwerken
     return bestellingen
@@ -386,16 +429,11 @@ async def AddToWarehouse(NewColor: int, NewWeight: int):
 async def CheckFirstAvailable(Color, Weight):
     cursor, db = connectDB()
     cursor.execute(
-        """SELECT *
-        FROM Warehouse w
-        WHERE Color = %s AND Weight LIKE %s AND w.IDPackage IS NULL
-        ORDER BY w.WarehouseID ASC
-        LIMIT 1;""",
-        (
-            Color,
-            Weight,
-        )
-    )
+       """SELECT WarehouseID FROM Warehouse
+          WHERE Color = %s AND Weight = %s AND IDPackage IS NULL
+          ORDER BY WarehouseID LIMIT 1""",
+       (Color, Weight),
+   )
     result = cursor.fetchone()
     DisconnectDB(cursor, db)
     if result is None:
