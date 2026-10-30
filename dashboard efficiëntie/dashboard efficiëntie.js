@@ -278,7 +278,7 @@ function toonBlokken() {
         zetTekst("knelpunt-pct", "");
         zetTekst("onderbenut", "-");
         zetTekst("onderbenut-pct", "");
-        toonMelding("FlexSim heeft nog geen gegevens doorgegeven.");
+        toonMelding("FlexSim heeft geen gegevens doorgegeven.");
         return;
     }
 
@@ -310,12 +310,84 @@ function toonGrafiek() {
 }
 
 function slaGrafiekOp(svgId, naam) {
-    var svg = document.getElementById(svgId);
-    var tekst = new XMLSerializer().serializeToString(svg);
-    var a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([tekst], { type: "image/svg+xml" }));
-    a.download = naam + ".svg";
-    a.click();
+  var svg = document.getElementById(svgId);
+  var titel = svg.parentElement.querySelector("h2").textContent;
+  var datum = new Date().toLocaleString("nl-NL");
+
+  var canvas = document.createElement("canvas");
+  canvas.width = 1684;
+  canvas.height = 1190;
+  var ctx = canvas.getContext("2d");
+
+  var plaatje = new Image();
+  var svgTekst = new XMLSerializer().serializeToString(svg);
+  plaatje.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgTekst);
+
+  plaatje.onload = function () {
+    ctx.fillStyle = "white";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "black";
+    ctx.font = "bold 48px Arial";
+    ctx.fillText(titel, 80, 130);
+
+    ctx.font = "26px Arial";
+    ctx.fillText("Opgeslagen op " + datum, 80, 180);
+
+    ctx.drawImage(plaatje, 80, 230, 1524, 635);
+
+    ctx.font = "24px Arial";
+    ctx.fillText("Bron: " + document.title + ", gegevens van de fabriek, opgehaald op " + datum, 80, 1110);
+
+    var jpeg = canvas.toDataURL("image/jpeg");
+    var pdf = maakPdf(jpeg, canvas.width, canvas.height);
+
+    var link = document.createElement("a");
+    link.href = URL.createObjectURL(new Blob([pdf], { type: "application/pdf" }));
+    link.download = naam + ".pdf";
+    link.click();
+  };
+}
+
+function maakPdf(jpeg, breedte, hoogte) {
+  var bytes = atob(jpeg.split(",")[1]);
+  var hex = "";
+  for (var i = 0; i < bytes.length; i++) {
+    var code = bytes.charCodeAt(i).toString(16);
+    if (code.length === 1) {
+      code = "0" + code;
+    }
+    hex = hex + code;
+  }
+  hex = hex + ">"
+
+  var tekenen = "q 842 0 0 595 0 0 cm /Plaatje Do Q";
+
+  var objecten = [
+    "<< /Type /Catalog /Pages 2 0 R >>",
+    "<< /Type /Pages /Kids [3 0 R] /Count 1 >>",
+    "<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /XObject << /Plaatje 4 0 R >> >> /Contents 5 0 R >>",
+    "<< /Type /XObject /Subtype /Image /Width " + breedte + " /Height " + hoogte +
+      " /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter [/ASCIIHexDecode /DCTDecode] /Length " + hex.length +
+      " >>\nstream\n" + hex + "\nendstream",
+    "<< /Length " + tekenen.length + " >>\nstream\n" + tekenen + "\nendstream"
+  ];
+
+  var pdf = "%PDF-1.4\n";
+  var plekken = [];
+  for (var j = 0; j < objecten.length; j++) {
+    plekken.push(pdf.length);
+    pdf = pdf + (j + 1) + " 0 obj\n" + objecten[j] + "\nendobj\n";
+  }
+
+  var startInhoud = pdf.length;
+  pdf = pdf + "xref\n0 6\n0000000000 65535 f \n";
+  for (var k = 0; k < plekken.length; k++) {
+    pdf = pdf + String(plekken[k]).padStart(10, "0") + " 00000 n \n";
+  }
+  pdf = pdf + "trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n" + startInhoud + "\n%%EOF";
+
+  return pdf;
 }
 
 document.getElementById("grafiek-opslaan").addEventListener("click", function () {
@@ -343,9 +415,6 @@ fetch("/api/csrf")
             velden[i].value = data.token;
         }
     });
-
-ververs();
-setInterval(ververs, VERVERS_MS);
 
 ververs();
 setInterval(ververs, VERVERS_MS);
