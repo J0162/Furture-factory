@@ -77,7 +77,7 @@ class Order(BaseModel):
     Weight: int
     WeightSorted: bool
     ColorSorted: bool
-    IDPackage: int
+    IDPackage: int | None = None
     InWareHouse: bool
     Shipping: bool
     Done: bool
@@ -108,7 +108,7 @@ def orders_gewijzigd():
     orders_versie += 1
 
 DB_CONFIG = dict(
-    host="145.93.120.51",
+    host="145.93.120.28",
     port=3306,
     user="root",
     password="welkom",
@@ -125,7 +125,7 @@ def _get_pool():
     if _pool is None:
         from mysql.connector import pooling
         t0 = time.perf_counter()
-        _pool = pooling.MySQLConnectionPool(pool_name="ff", pool_size=3,
+        _pool = pooling.MySQLConnectionPool(pool_name="ff", pool_size=32,
                                             pool_reset_session=False, **DB_CONFIG)
         print(f"[db] verbindingspool klaar in {time.perf_counter()-t0:.2f} s", flush=True)
     return _pool
@@ -611,7 +611,7 @@ def DeleteDatabase():
 
 start_API()
 if __name__ == "__main__":
-    # 0.0.0.0 = luistert op alle IP's van deze pc (nu 145.93.112.57), dus IP-wissels maken niet uit.
+    # 0.0.0.0 = luistert op alle IP's van deze pc (nu 145.93.112.39), dus IP-wissels maken niet uit.
     # Draait er al een instantie? Dan niet nog een FlexSim starten.
     with socket.socket() as _s:
         if _s.connect_ex(("127.0.0.1", 8000)) == 0:
@@ -627,7 +627,7 @@ if __name__ == "__main__":
             break
         time.sleep(0.1)
     if server.started:
-        print("[api] bereikbaar op http://145.93.112.57:8000  (machines: /machines)", flush=True)
+        print("[api] bereikbaar op http://145.93.112.39:8000  (machines: /machines)", flush=True)
         zelftest()
     else:
         print("[api] FOUT: de API is niet gestart (zie melding hierboven).", flush=True)
